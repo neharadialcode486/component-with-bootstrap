@@ -22,7 +22,7 @@ color: #3C278D !important;
     max-width: 786px !important;
 }
 
-.accordion {
+.first-accordion{
     max-width: 834px !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -48,6 +48,19 @@ color: #3C278D !important;
 .borders{
     border: 1px solid #00000066 !important;
     max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.max-w-557{
+    max-width: 557px;
+}
+.accordion-owl{
+max-width: 529px !important;
+margin-right: auto !important;
+}
+.border-small{
+    border: 1px solid #00000066 !important;
+    max-width: 481px;
     margin-left: auto;
     margin-right: auto;
 }
