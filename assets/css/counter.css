@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .font-inter{
@@ -36,4 +37,36 @@ color: #0E0F13;
 
 .gap-xl{
     gap: 50px !important;
+}
+
+.amzon-box-3{
+    max-width: 356px;
+}
+
+.text-darkgreen{
+    color: #076787;
+}
+.fs-xxl{
+    font-size: 60px;
+}
+.platfrom-heading{
+    line-height: 110%;
+    font-size: 40px;
+}
+.bg-lightgreen{
+    background-color: #85B6A6;
+}
+
+.bg-offGreen{
+    background: #82B2C2;
+}
+
+.bg-darkGreen{
+    background: #076787;
+}
+
+.plaform-card{
+    width: 267px;
+    height: 207px;
+    border-radius: 4px;
 }

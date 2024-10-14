@@ -5,24 +5,52 @@ $(window).scroll(function () {
     $(window).scrollTop() >
       $("#amzon-counter").offset().top - window.innerHeight
   ) {
-    
+    // Iterate over each .count element
     $(".amzon-count").each(function () {
       const $this = $(this);
-      // Initialize the counter
-      $this.prop("amzon-counter", 0).animate(
-        { Counter: parseInt($this.data("amzon-count").replace(/,/g, ""), 10) },
+      $this.prop("Counter", 0).animate(
+        { Counter: $this.data("count") },
         {
           duration: 2000,
           easing: "swing",
           step: function (now) {
-            $this.text(Math.floor(now).toLocaleString()); 
+            $this.text(Math.floor(now).toLocaleString());
           },
           complete: function () {
-            $this.text(Math.floor(this.Counter).toLocaleString()); 
+            $this.text(Math.floor(this.Counter).toLocaleString());
           },
         }
       );
     });
     counted = true;
+  }
+});
+
+// counter-2
+let countedTwo = false;
+$(window).scroll(function () {
+  if (
+    !countedTwo &&
+    $(window).scrollTop() >
+      $("#platform-counter").offset().top - window.innerHeight
+  ) {
+    // Iterate over each .count element
+    $(".platform-count").each(function () {
+      const $this = $(this);
+      $this.prop("Counter", 0).animate(
+        { Counter: $this.data("count") },
+        {
+          duration: 2000,
+          easing: "swing",
+          step: function (now) {
+            $this.text(Math.floor(now).toLocaleString());
+          },
+          complete: function () {
+            $this.text(Math.floor(this.Counter).toLocaleString());
+          },
+        }
+      );
+    });
+    countedTwo = true;
   }
 });
