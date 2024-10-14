@@ -40,3 +40,14 @@ color: #3C278D !important;
 .accordion-button:focus{
     box-shadow: none !important;
 }
+.accordion-item{
+    border: 1px solid #3C278D !important;
+    border-radius: 16px !important;
+    margin-top: 16px !important;
+}
+.borders{
+    border: 1px solid #00000066 !important;
+    max-width: 786px;
+    margin-left: auto;
+    margin-right: auto;
+}
