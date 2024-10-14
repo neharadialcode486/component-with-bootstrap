@@ -20,3 +20,18 @@ color: #3C278D !important;
 .accordion-body{
     max-width: 786px !important;
 }
+.accordion {
+    max-width: 834px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent !important;
+    border: none !important;
+}
+.accordion-button{
+    background: transparent !important;
+}
+.accordion-button:focus{
+    box-shadow: none !important;
+}
