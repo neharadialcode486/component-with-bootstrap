@@ -4,15 +4,54 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/assets/css/navtabs.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
     <!-----------navtabs-one------------->
-    <section class="">
+    <section class="bg-black min-vh-100 d-flex align-items-center justify-content-center flex-column">
         <div class="container">
-            
+            <div class="d-flex align-items-center justify-content-center mt-4">
+                <button class="text-white bg-transparent py-2 px-4 rounded-5 nos-button">Nos formations</button>
+            </div>
+            <div class="d-flex align-items-center justify-content-center gap-4 nav-btns mt-4">
+                <button class="py-3 px-4 border text-white bg-transparent rounded-2" onclick="showContent('beginner')">Néophyte</button>
+                <button class="py-3 px-4 border-none text-white bg-transparent rounded-2" onclick="showContent('profitable')">Rentable</button>
+                <button class="py-3 px-4 border-none text-white bg-transparent rounded-2" onclick="showContent('experienced')">Expérimenté</button>
+                <button class="py-3 px-4 border-none text-white bg-transparent rounded-2" onclick="showContent('smart')">Malin</button>
+                <button class="py-3 px-4 border-none text-white bg-transparent rounded-2" onclick="showContent('independent')">Indépendant</button>
+            </div>
+            <div class="row mt-5 d-flex justify-content-center">
+                <div class="col-lg-4 col-12">
+                    <img src="/assets/images/png/navtabs-img.png" alt="img" class="w-100">
+                </div>
+                <div class="col-lg-6 col-12" id="content-area">
+                    <h2 class="text-white mt-4" id="content-title">Investisseur néophyte</h2>
+                    <div class="nos-button nos-box">
+                        <p class="accordion-box-text"  id="content-text">Dans ce module dédié aux débutants, on passe en revue les principes de bases de ce marché avec de nombreuses vidéos sur le bitcoin, les stratégies d'investissement les plus efficaces et la psychologie à adopter pour réussir.
+L'objectif est d'Acquérir les bases pour bien débuter en Investissement !</p>
+                    </div>
+                    <div class="accordion-box">
+                        <div class="accordion" id="accordionExample">
+  <div class="accordion-item my-4">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex veniam dolorum debitis eum voluptates ipsum ut, sunt aliquam quam rerum minus sapiente!
+      </div>
+    </div>
+  </div>
+</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="/assets/js/navtabs.js"></script>
   </body>
 </html>
