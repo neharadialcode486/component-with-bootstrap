@@ -80,6 +80,12 @@ margin-right: auto !important;
     font-size: 20px !important;
 }
 
+.owl-img{
+    max-width: 570px !important;
+}
+.accordion-button:not(.collapsed){
+font-weight: 600 !important;
+}
 /* -------------responsive------------------ */
 @media (max-width:576px) {
     .fs-lg{
