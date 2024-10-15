@@ -1,3 +1,9 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+ .font-inter{
+font-family: "Inter", sans-serif;
+ }
+
  .bg-lightPink{
     background-color:#FFDEDD;
 }
@@ -25,6 +31,14 @@ line-height: 120%;
 
 .btn{
     max-width: 122px;
+}
+
+.timer{
+    font-size: 17px;
+}
+
+.polygon{
+    transform: translateY(0.9px);
 }
 
 /* ----------responsive------------ */
