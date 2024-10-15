@@ -22,7 +22,18 @@ const contentData = {
 };
 
 function showContent(level) {
-  const content = contentData[level];
-  document.getElementById("content-title").textContent = content.title;
-  document.getElementById("content-text").textContent = content.text;
+
+    const content = contentData[level];
+    document.getElementById("content-title").textContent = content.title;
+    document.getElementById("content-text").textContent = content.text;
+
+   
+    const buttons = document.querySelectorAll('.nav-btns button');
+    buttons.forEach(button => {
+        button.classList.remove('active-button');
+    });
+
+   
+    const activeButton = document.querySelector(`button[onclick="showContent('${level}')"]`);
+    activeButton.classList.add('active-button');
 }

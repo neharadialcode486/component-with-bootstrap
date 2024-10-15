@@ -1,7 +1,25 @@
-.nos-button{
-border: 1px solid !important;
-  border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
+.nos-button {
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-color: transparent !important; 
+    border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%) !important;
+    border-image-slice: 1 !important;
+    border-image-outset: 0 !important; 
+    border-radius: 16px !important; 
+    padding: 10px; 
 }
+
+.accordion-item {
+    border-width: 2px !important;
+    border-style: solid !important; 
+    border-color: transparent !important; 
+    border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%) !important;
+    border-image-slice: 1 !important;
+    border-image-outset: 0 !important; 
+    border-radius: 16px !important; 
+}
+
+
 .border-none{
     border: none;
 }
@@ -21,21 +39,12 @@ border: 1px solid !important;
 }
 
 .accordion-button{
-    border: 1px solid !important;
-    background-color: black !important;
-  border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
-  border: none !important;
+ background-color: black !important;
   color: white !important;
-
 }
 
 .accordion-button:focus{
 box-shadow: none !important;
-}
-
-.accordion-item{
-    border: 1px solid !important;
-    border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
 }
 
 .accordion-button::after{
@@ -50,6 +59,16 @@ box-shadow: none !important;
     background: black !important;
      color:#BEC4D0 !important;
 }
+
+     .active-button {
+            border-width: 2px;
+            border-style: solid;
+            border-color: transparent;
+            border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
+            border-image-slice: 1;
+            border-image-outset: 0;
+            border-radius: 16px; /* Adjust as needed */
+        }
 
 /* ---------------responisve------------------ */
 @media (max-width:1024px) {
