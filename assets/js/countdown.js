@@ -1,3 +1,4 @@
+// countdown
 function startCountdown(duration) {
   let timer = duration,
     hours,
