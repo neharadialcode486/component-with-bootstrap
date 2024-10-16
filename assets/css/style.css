@@ -1,3 +1,4 @@
+/* ==========first pricing table=========== */
 .max-w-1140{
     max-width: 1140px;
 }
@@ -5,8 +6,8 @@
     margin-left: auto;
     margin-right: auto;
 }
-.max-w-267{
-    max-width: 267px;
+.min-w-267{
+    min-width: 267px;
 }
 .bg-yellow{
     background: #EBA15B;
@@ -16,6 +17,18 @@
 }
 .text-yellow{
     color:#EBA15B ;
+}
+.text-sm{
+    font-size: 16px;
+}
+.text-md{
+    font-size: 32px;
+}
+.text-xl{
+    font-size: 48px;
+}
+.font-weight-normal{
+    font-weight: 400;
 }
 .tab-btn{
     max-width: 293px;
@@ -28,4 +41,15 @@
 }
 .shadow-custom-xl{
     box-shadow: 0px 4px 13.2px 0px #7D7D7D33;
+}
+/* ===========responsive */
+@media (max-width:1024px) {
+    .text-xl{
+        font-size: 40px;
+    }
+}
+@media (max-width:1024px) {
+    .text-xl{
+        font-size: 35px;
+    }
 }

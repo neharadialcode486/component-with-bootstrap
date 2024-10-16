@@ -1,3 +1,4 @@
+// =============first pricing table============
 const monthlyTab = document.getElementById('monthlyTab');
 const fourMonthsTab = document.getElementById('fourMonthsTab');
 const monthlyContent = document.getElementById('monthlyContent');
