@@ -105,6 +105,9 @@
   color: white !important;
   border: 0;
 }
+.nav {
+  padding: 7.5px 26px;
+}
 .rounded-pill {
   border-radius: 52px !important;
 }
