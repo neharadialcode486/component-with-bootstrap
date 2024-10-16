@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.bg-img {
+  background-image: url(/assets/image/webp/sec-1-bg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.main-heading {
+  font-size: 48px;
+}
+
+.sec-text {
+  max-width: 817px;
+  color: #4A4A4A;
+}
+
+.pushable {
+  background: #231754;
+  cursor: pointer;
+}
+
+.front {
+  border: 2px solid transparent;
+  padding: 9px 52px;
+  font-size: 1.25rem;
+  background: #3C278D;
+  transform: translateY(-4px);
+  transition: all 400ms linear;
+}
+
+.front:hover {
+  background: white;
+  color: #231754 !important;
+  border: 2px solid #231754;
+
+}
+
+.pushable:active .front {
+  transform: translateY(0px);
+  transition: all 0ms linear;
+}
+
+@media (max-width:992px) {
+  .main-heading {
+    font-size: 36px;
+  }
+
+}
+
+@media (max-width:576px) {
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .front {
+    padding: 7px 38px;
+  }
+
+}
