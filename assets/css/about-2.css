@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.multi-color-img {
+    max-width: 558px;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.img-parent {
+    max-width: 558px;
+}
+
+.multi-color-img:hover {
+    scale: 1.1;
+}
+
+.main-heading {
+    font-size: 48px;
+}
+
+.sec-text {
+    max-width: 496px;
+    color: #4A4A4A;
+}
+
+
+.button {
+    background: #090909;
+    cursor: pointer;
+}
+
+.front-btn {
+    border: 2px solid transparent;
+    padding: 9px 52px;
+    font-size: 1.25rem;
+    background: #3C278D;
+    transform: translateY(-6px);
+    transition: all 400ms linear;
+}
+
+.front-btn:hover {
+    background: white;
+    color: #231754 !important;
+    border: 2px solid #231754;
+
+}
+
+.button:active .front-btn {
+    transform: translateY(0px);
+    transition: all 0ms linear;
+}
+
+
+@media (max-width:1200px) {
+    .xl-mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-heading {
+        margin-top: 60px;
+    }
+
+    .img-parent {
+        margin-top: 60px;
+    }
+
+    .button {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width:992px) {
+    .main-heading {
+        font-size: 36px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .main-heading {
+        font-size: 28px;
+        margin-top: 36px;
+    }
+
+}
