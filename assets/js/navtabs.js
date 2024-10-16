@@ -42,22 +42,34 @@ function showContent(level) {
 // second-tabs
 
 // Tab 2
-const secondTab = document.querySelectorAll('.shop-nav-btn');
-const contentsTwo = document.querySelectorAll('.tabsInfoTwo');
+// Select all tab buttons using Bootstrap's button class
+const tabButtons = document.querySelectorAll('.btn[data-target]');
+const contents = document.querySelectorAll('.tabsInfoTwo');
 
-secondTab.forEach(tab => {
-    tab.addEventListener('click', () => {
-        const isActiveTab = document.querySelector('.shop-nav-btn.active');
-        if (isActiveTab) {
-                isActiveTab.classList.remove('active', 'bg-orange', 'text-white', 'font-bold');
-            isActiveTab.classList.add('font-bold'); }
-        contentsTwo.forEach(content => content.classList.add('d-none'));     
-        tab.classList.add('active', 'bg-orange', 'text-white', 'font-bold');
-        tab.classList.remove('font-bold',);
-        
-        const target = tab.getAttribute('data-target');
-        const targetContent = document.getElementById(target);
-        targetContent && targetContent.classList.remove('d-none');
+// Add click event listeners to each tab button
+tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        // Remove 'active' class from currently active tab button
+        const activeButton = document.querySelector('.btn.active');
+        if (activeButton) {
+            activeButton.classList.remove('active');
+            activeButton.classList.remove('bg-orange',);
+            activeButton.classList.add('text-black'); // Assuming default text color is black
+        }
+
+        // Hide all tab contents
+        contents.forEach(content => content.classList.add('d-none'));
+
+        // Activate the clicked tab button
+        button.classList.add('active','text-black','bg-orange');
+        button.classList.remove('text-black');
+
+        // Get the target content ID and show it
+        const targetId = button.getAttribute('data-target');
+        const targetContent = document.getElementById(targetId);
+        if (targetContent) {
+            targetContent.classList.remove('d-none');
+        }
     });
 });
 
