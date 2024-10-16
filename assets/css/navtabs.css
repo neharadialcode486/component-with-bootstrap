@@ -1,28 +1,19 @@
-.nos-button {
-    border-width: 2px !important;
-    border-style: solid !important;
-    border-color: transparent !important; 
-    border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%) !important;
-    border-image-slice: 1 !important;
-    border-image-outset: 0 !important; 
-    border-radius: 16px !important; 
-    padding: 10px; 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.font-inter{
+font-family: "Inter", sans-serif;
 }
 
-.accordion-item {
-    border-width: 2px !important;
-    border-style: solid !important; 
-    border-color: transparent !important; 
-    border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%) !important;
-    border-image-slice: 1 !important;
-    border-image-outset: 0 !important; 
-    border-radius: 16px !important; 
+.accordion-item{
+    
+      background-color: transparent !important;
+      border: 1px solid #272834 !important;
 }
-
 
 .border-none{
     border: none;
 }
+
 .accordion-box-text{
     color:#BEC4D0;
 }
@@ -34,12 +25,12 @@
 }
 
 .accordion-button:not(.collapsed){
-    background: black !important;
+   
     box-shadow: none !important;
 }
 
 .accordion-button{
- background-color: black !important;
+background: transparent !important;
   color: white !important;
 }
 
@@ -60,19 +51,50 @@ box-shadow: none !important;
      color:#BEC4D0 !important;
 }
 
-     .active-button {
-            border-width: 2px;
-            border-style: solid;
-            border-color: transparent;
-            border-image-source: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
-            border-image-slice: 1;
-            border-image-outset: 0;
-            border-radius: 16px; /* Adjust as needed */
-        }
+.active-button{
+    position: relative;
+    border: none;
+}
 
-/* ---------------responisve------------------ */
-@media (max-width:1024px) {
+.active-button::before{
+      content: "";
+    position: absolute;
+    inset: 0;
+            border-radius: 16px;
+  border: 2px solid transparent;
+   background: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; 
+          mask-composite: exclude;
+            
+}
+.nos-button{
+position: relative; 
+border: none; 
+                                
+}
+.nos-button::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+  border-radius: 16px;
+  border: 2px solid transparent;
+   background: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; 
+          mask-composite: exclude;
+             padding: 10px;                                
+}
+
+
+/* ---------------responsive------------------ */
+@media (max-width:768px) {
     .nav-btns{
-        overflow: scroll !important;
+        overflow: auto !important;
+        
     }
 }
