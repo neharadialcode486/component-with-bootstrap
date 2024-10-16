@@ -8,7 +8,12 @@ p{
 .max-w-1140 {
     max-width: 1140px;
 }
-
+.try-for-free-btn{
+    background: white;
+    border: 1px solid #EBA15B;
+    padding: 14px 24px;
+    color: #EBA15B;
+}
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -16,6 +21,9 @@ p{
 
 .min-w-267 {
     min-width: 267px;
+}
+.w-267 {
+    width: 267px;
 }
 
 .bg-orange {
