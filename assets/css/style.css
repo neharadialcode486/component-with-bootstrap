@@ -45,6 +45,9 @@ p{
 .font-weight-normal {
     font-weight: 400;
 }
+.font-weight-bold {
+    font-weight: 700;
+}
 
 .tab-btn {
     max-width: 293px;
@@ -117,6 +120,31 @@ p{
 
 .bg-grey{
     background: #ECECEC;
+}
+/* =============pricing table 3==== */
+.w-248{
+    width: 255px;
+}
+.w-396{
+    width: 396px;
+}
+.w-317{
+    width: 317px;
+}
+.w-1005{
+    width: 1005px;
+}
+.h-24{
+    height: 24px;
+}
+.table-top{
+    transform: translate(64.65%,4px);
+}
+.table-bottom{
+    transform: translate(64.65%,-4px);
+}
+.max-w-511{
+    max-width:511px;
 }
 /* ===========responsive */
 @media (max-width:1024px) {
