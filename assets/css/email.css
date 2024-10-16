@@ -49,5 +49,119 @@ color: #000000;
 }
 
 .form-two-input{
+    width: 100%;
     max-width: 425px !important;
+    border: 1px solid #00000070;
+    border-radius: 12px;
+    padding: 11px 12px 11px 12px;
+    outline: none;
 }
+
+.white-card{
+    box-shadow: 5px 7px 19px -5px #00000026;
+    max-width: 492px;
+    background:#FFFFFF;
+    border-radius: 12px;
+    width: 100%;
+}   
+
+.send-btn{
+max-width: 109px;
+margin-right: auto;
+padding: 12px 24px 12px 24px;
+gap: 8px;
+border-radius: 12px;
+color: #ffffff;
+background: #3C278D;
+margin-bottom: 46px;
+margin-top: 36px;
+margin-left: 33px;
+}
+
+.fs-1xl{
+    font-size: 36px;
+    
+}
+
+.second-form-text{
+    color: #000000B2;
+    max-width: 441px;
+    line-height: 150%;
+
+}
+
+.get-btn{
+    padding: 14px 24px 14px 24px;
+    color: #ffffff;
+background: #3C278D;
+border: none;
+border-radius: 12px;
+}
+
+.mt-xxl{
+    margin-top: 52px;
+}
+
+.third-heading-max-w{
+    max-width: 439px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third-input-text{
+      outline: none;
+    border: 1px solid #0000007D;
+    background: transparent;
+    color: #000000B2;
+    border-radius: 12px;
+   
+}
+.third-input-textarea{
+     width: 100%;
+     max-width: 606px;
+     
+}
+
+.form-three{
+    max-width: 606px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.third-form-name-w{
+    width: 291px !important;
+}
+
+.third-form-btn{
+    padding: 13px 36px 13px 44px;
+       color: #ffffff;
+background: #3C278D;
+border: none;
+border-radius: 12px;
+}
+
+.common-border-br{
+      border: 1px solid #0000007D;
+      border-radius: 12px;
+}
+
+.number-input{
+    border: none;
+    width: 100%;
+    outline: none;
+
+}
+/* ------------------------responsive------------------- */
+ @media (max-width:768px) {
+.send-btn{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mt-xxl{
+    font-size: 35px;
+}
+.fs-2xl{
+    font-size: 30px;
+}
+    
+} 
