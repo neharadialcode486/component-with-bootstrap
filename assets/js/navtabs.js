@@ -37,3 +37,50 @@ function showContent(level) {
     const activeButton = document.querySelector(`button[onclick="showContent('${level}')"]`);
     activeButton.classList.add('active-button');
 }
+
+
+// second-tabs
+
+// Tab 2
+const secondTab = document.querySelectorAll('.shop-nav-btn');
+const contentsTwo = document.querySelectorAll('.tabsInfoTwo');
+
+secondTab.forEach(tab => {
+    tab.addEventListener('click', () => {
+        const isActiveTab = document.querySelector('.shop-nav-btn.active');
+        if (isActiveTab) {
+                isActiveTab.classList.remove('active', 'bg-orange', 'text-white', 'font-bold');
+            isActiveTab.classList.add('font-bold'); }
+        contentsTwo.forEach(content => content.classList.add('d-none'));     
+        tab.classList.add('active', 'bg-orange', 'text-white', 'font-bold');
+        tab.classList.remove('font-bold',);
+        
+        const target = tab.getAttribute('data-target');
+        const targetContent = document.getElementById(target);
+        targetContent && targetContent.classList.remove('d-none');
+    });
+});
+
+// Tab 2 swiper
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".swiper", {
+ loop: true,
+ slidesPerView: 1,
+ spaceBetween: 10,
+ pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+ },
+ breakpoints: {
+     640: {
+         slidesPerView: 1,
+     },
+     768: {
+         slidesPerView: 2,
+     },
+     1024: {
+         slidesPerView: 3,
+     },
+ },
+});
+});

@@ -90,6 +90,116 @@ border: none;
              padding: 10px;                                
 }
 
+/* -------second-navtabs------------ */
+.shop-text{
+line-height: 150%;
+max-width: 695px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.shop-tabs-heading{
+    color: #242021;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+.shop-nav-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 52px;
+    border: none;
+}
+
+.orange-points{
+    width: 26px;
+height: 10px;
+border-radius: 91px;
+border: 0.5px;
+border: 0.5px solid #DA6015;
+}
+
+.shop-btn-box{
+border: 1px solid #0E0F1366;
+border-radius: 200px;
+padding: 10px;
+max-width: 722px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.shop-img-slider{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-max-w{
+max-width: 364px;
+}
+.bg-orange{
+background-color: #DA6015;
+}
+/* .shop-nav-btn.active {
+    background-color: #DA6015; 
+    color: white; 
+}
+
+.slider {
+    height: 5px;
+    background-color: #DA6015; 
+    border-radius: 5px;
+    transition: width 0.3s;
+    position: relative;
+    margin-top: 20px;
+    width: 0;
+}
+
+.active-slider {
+    width: 100%;
+} */
+
+
+.tab-button.active {
+    background-color: #DA6015 !important; /* Active button color */
+    color: white; /* Active button text color */
+}
+
+.tab-content {
+    margin-top: 20px; /* Spacing above the image slider */
+}
+
+.swiper {
+    height: 300px; /* Adjust height as necessary */
+}
+
+.img-fluid {
+    max-height: 100%; /* Ensure images fit */
+}
+
+.swiper-pagination-bullet {
+            opacity: 1;
+            width: 26px;
+            height: 10px;
+            border: 1px solid #DA6015;
+            background-color: transparent;
+            border-radius: 91px;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: #DA6015;
+        }
+
+        .swiper-pagination {
+            bottom: 0px !important;
+        }
 
 /* ---------------responsive------------------ */
 @media (max-width:768px) {
