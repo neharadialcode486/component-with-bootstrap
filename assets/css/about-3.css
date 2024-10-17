@@ -39,3 +39,15 @@
   border:2px solid #A2AF7A;
   color: #A2AF7A;
 }
+@media (max-width:992px) {
+  .main-heading{
+    font-size: 36px;
+
+  }
+}
+@media (max-width:576px) {
+  .main-heading{
+    font-size: 28px;
+    margin-top: 40px;
+  }
+}
