@@ -3,7 +3,7 @@ const monthlyTab = document.getElementById('monthlyTab');
 const fourMonthsTab = document.getElementById('fourMonthsTab');
 const monthlyContent = document.getElementById('monthlyContent');
 const fourMonthsContent = document.getElementById('fourMonthsContent');
-
+// monthly tab
 monthlyTab.addEventListener('click', () => {
   monthlyTab.classList.add('bg-orange', 'text-white');
   monthlyTab.classList.remove('bg-white', 'text-orange');
@@ -12,7 +12,7 @@ monthlyTab.addEventListener('click', () => {
   monthlyContent.classList.remove('d-none');
   fourMonthsContent.classList.add('d-none');
 });
-
+// four month tab
 fourMonthsTab.addEventListener('click', () => {
   fourMonthsTab.classList.add('bg-orange', 'text-white');
   fourMonthsTab.classList.remove('bg-white', 'text-black');
