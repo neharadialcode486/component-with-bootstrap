@@ -47,23 +47,21 @@
 }
 
 .roadmap-small-img {
-    width: 60px;
+    width: 40px;
+    padding-top: 40px;
 }
 
 .small-roadmap {
     padding: 0px 80px 48px;
 }
 
-.content-one-spacing {
-    padding-top: 40px;
-}
-
-.content-two-spacing {
-    padding-top: 80px;
+.content-spacing {
+    padding-top: 45px;
 }
 
 .roadmap-main-heading {
     font-size: 40px;
+    line-height: 120%;
 }
 
 @media (max-width:1279.98px) {
@@ -83,6 +81,6 @@
 
 @media (max-width:575.98px) {
     .small-roadmap {
-        padding: 0px 20px 48px;
+        padding: 0px 20px 63px;
     }
 }
