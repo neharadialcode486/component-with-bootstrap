@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.roadmap-section {
+  padding-top: 48px;
+  padding-bottom: 85px;
+}
+
+.roadmap-description {
+  max-width: 934px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.roadmap-line {
+  width: 2px;
+  height: 100%;
+  background-image: url("../images/webp/roadmap-line.webp");
+  left: 50%;
+  top: 0;
+}
+
+.step-circle {
+  height: 71px;
+  width: 71px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+.small {
+  max-width: 429px;
+  font-size: 16px;
+  padding-top: 8px;
+}
+.step-number {
+  font-size: 48px;
+  color: #3c278d;
+}
+
+.step-line {
+  width: 85px;
+  border-bottom: 1px solid black;
+}
+
+.step-circle-small {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.step-number-small {
+  font-size: 32px;
+  color: #3c278d;
+}
+
+.step-line-small {
+  width: 40px;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 767.98px) {
+  .roadmap-line {
+    left: 22px;
+  }
+}
