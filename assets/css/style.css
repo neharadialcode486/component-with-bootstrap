@@ -32,6 +32,14 @@ p {
     margin-right: auto;
 }
 
+.px-sm{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.leading-150{
+    line-height: 150%;
+}
+
 .border-orange {
     border-top: 1px solid #FBECDE;
 }
@@ -129,7 +137,7 @@ p, .month {
 }
 
 .tab-btn {
-    max-width: 293px;
+    max-width: 286px;
     border: 1px solid black;
 }
 
@@ -239,11 +247,11 @@ p, .month {
 }
 
 .table-top {
-    transform: translate(64.65%, 4px);
+    transform: translate(64.48%, 4px);
 }
 
 .table-bottom {
-    transform: translate(64.65%, -4px);
+    transform: translate(64.48%, -4px);
 }
 
 .max-w-511 {
