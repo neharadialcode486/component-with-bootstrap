@@ -35,10 +35,8 @@
 
 .front-btn {
     border: 2px solid transparent;
-    padding: 9px 52px;
-    font-size: 1.25rem;
+    padding: 10px 55px;
     background: #3C278D;
-    transform: translateY(-6px);
     transition: all 400ms linear;
 }
 
@@ -48,12 +46,6 @@
     border: 2px solid #231754;
 
 }
-
-.button:active .front-btn {
-    transform: translateY(0px);
-    transition: all 0ms linear;
-}
-
 
 @media (max-width:1200px) {
     .xl-mx-auto {
