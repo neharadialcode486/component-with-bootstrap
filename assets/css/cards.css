@@ -3,7 +3,27 @@
 .font-text{
     font-family: "Inter", sans-serif;
 }
-.container{
+/* .container{
     max-width: 1140px !important;
+} */
+
+.fs-4xl{
+    font-size: 56px;
+    line-height: 119%;
 }
 
+.text-base{
+    font-size: 16px;
+}
+.light-black{
+    color: #000000B2;
+
+}
+.text-xl{
+font-size: 20px;
+line-height: 24.2px;
+}
+
+.text-purple{
+    color:#3C278D;
+}
