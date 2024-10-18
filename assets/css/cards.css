@@ -1,29 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.font-text{
-    font-family: "Inter", sans-serif;
+.font-text {
+  font-family: "Inter", sans-serif;
 }
 /* .container{
     max-width: 1140px !important;
 } */
 
-.fs-4xl{
-    font-size: 56px;
-    line-height: 119%;
+.fs-4xl {
+  font-size: 56px;
+  line-height: 119%;
 }
 
-.text-base{
-    font-size: 16px;
+.text-base {
+  font-size: 16px;
 }
-.light-black{
-    color: #000000B2;
+.light-black {
+  color: #000000b2;
+}
+.text-xl {
+  font-size: 20px;
+  line-height: 24.2px;
+}
 
+.text-purple {
+  color: #3c278d;
 }
-.text-xl{
-font-size: 20px;
-line-height: 24.2px;
+/* ----section-two-card---- */
+
+.max-w-558 {
+  max-width: 558px;
+}
+.min-w-56 {
+  min-width: 56px;
+}
+.h-56 {
+  height: 56px;
 }
 
-.text-purple{
-    color:#3C278D;
+.card-two-heading {
+  font-size: 24px;
+  line-height: 120%;
+  color: #6c6354;
+}
+
+.card-two-text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #6c6354;
+  opacity: 70%;
+}
+
+.max-w-997 {
+  max-width: 997px;
+}
+
+.card-heading-text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #6c6354;
+  line-height: 150%;
+}
+
+.border-success {
+  transition: all ease-in 300ms linear !important;
+  border: 1px solid #4f756666 !important;
+  box-shadow: 0px 0px 10px 7px #00000017;
+}
+.border-success:hover {
+  border: 1px solid #4f7566 !important;
+}
+
+.digital-heading {
+  font-size: 48px;
+  line-height: 120%;
+  color: #6c6354;
+}
+
+.eighth-box {
+  border: 1px solid #e2d2a9;
+  width: 236px;
+  border-radius: 123px;
+  background: #f8f0d5;
+}
+
+.eighth-box-text{
+  font-size: 14px;
+  line-height: 150%;
+  color: #6C6354;
+}
+/* ------------responsive-------------- */
+@media (max-width:1024PX) {
+    .digital-heading{
+        font-size: 40PX;
+    }
+    .max-lg-flex-wrap{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:768px) {
+    .digital-heading{
+        font-size: 30px;
+    }
+    .card-two-heading{
+        font-size: 20px;
+    }
+    .max-md-xl{
+        width: 76px;
+
+    }
 }
