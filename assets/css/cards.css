@@ -89,6 +89,19 @@
   line-height: 150%;
   color: #6C6354;
 }
+/* -------third-section-cards--------- */
+.bg-darkBLue{
+    background-color: #113053;
+}
+.max-w-640{
+    max-width: 640px;
+}
+.third-card-heading{
+font-size: 48px;
+line-height: 120%;
+color: #242021;
+
+}
 /* ------------responsive-------------- */
 @media (max-width:1024PX) {
     .digital-heading{
@@ -96,6 +109,9 @@
     }
     .max-lg-flex-wrap{
         flex-wrap: wrap;
+    }
+    .third-card-heading{
+        font-size: 40px;
     }
 }
 @media (max-width:768px) {
@@ -107,6 +123,8 @@
     }
     .max-md-xl{
         width: 76px;
-
+    }
+    .third-card-heading{
+        font-size: 30px;
     }
 }
