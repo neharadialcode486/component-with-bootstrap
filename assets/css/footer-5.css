@@ -22,3 +22,14 @@ footer{
 .light-gray{
     color: #A0A6B0;
 }
+
+.bg-color{
+    background: #151619;
+}
+.common-hover:hover{
+    color: white;
+    cursor: pointer;
+}
+.transitions{
+    transition: all 300ms linear;
+}

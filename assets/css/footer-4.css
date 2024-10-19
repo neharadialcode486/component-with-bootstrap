@@ -34,16 +34,32 @@
 .left-layer{
     top: 25%;
     left: 0;
+    pointer-events: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
 }
 .right-layer{
     bottom: 25%;
     right: 0;
+    pointer-events: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 .left-ellips{
     top:30%;
-    left: 15%;
+    left: 5%;
+    pointer-events: none;
 }
 .right-ellips{
     top:45%;
     right: 15%;
+    pointer-events: none;
+}
+.common-hover:hover{
+    color: #EB0055;
+    cursor: pointer;
+}
+.transitions{
+    transition: all 300ms linear;
 }
