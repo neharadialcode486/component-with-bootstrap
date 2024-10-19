@@ -12,7 +12,7 @@
     background-image: url('../images/png/hero-6-bg-img.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100%;
+    background-size: center;
 }
 
 .hero-content {
@@ -38,7 +38,7 @@
 }
 
 .hero-btn {
-    padding: 14px 24px;
+    padding: 11.5px 29px;
     background-color: #46AD47;
     color: black;
     border-radius: 12px;
