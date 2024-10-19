@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
 .heading-roadmap {
-  font-size: 3rem; /* Equivalent to text-3xl */
-  line-height: 1.5; /* Customize as needed */
+  font-size: 56px;
+  line-height: 1.5;
 }
 
 .paragraph-roadmap {
   max-width: 934px;
-  padding: 0 1rem; /* Responsive padding */
+  padding: 0 1rem;
+  color: #000000b2;
 }
 
 .img-roadmap {

@@ -11,6 +11,7 @@ body {
   max-width: 934px;
   padding-left: 16px;
   padding-right: 16px;
+  color: #000000b2;
 }
 
 .roadmap-line {
@@ -20,7 +21,9 @@ body {
   left: 50%;
   top: 0;
 }
-
+.roadmap-line-head {
+  font-size: 24px;
+}
 .step-circle {
   height: 71px;
   width: 71px;
@@ -31,6 +34,7 @@ body {
   max-width: 429px;
   font-size: 16px;
   padding-top: 8px;
+  color: #000000b2;
 }
 .step-number {
   font-size: 48px;
