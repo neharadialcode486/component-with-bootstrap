@@ -18,7 +18,22 @@ p {
 .max-w-1140 {
     max-width: 1140px;
 }
-
+.py-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.px-30{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.py-14{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.px-27{
+    padding-left: 27px;
+    padding-right: 27px;
+}
 .try-for-free-btn {
     background: white;
     border: 1px solid #EBA15B;
@@ -137,7 +152,7 @@ p, .month {
 }
 
 .tab-btn {
-    max-width: 286px;
+    max-width: 293px;
     border: 1px solid black;
 }
 
@@ -195,8 +210,12 @@ p, .month {
 }
 
 .py-6 {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.py-140{
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .border-r {
@@ -247,11 +266,11 @@ p, .month {
 }
 
 .table-top {
-    transform: translate(64.48%, 4px);
+    transform: translate(64.65%, 5px);
 }
 
 .table-bottom {
-    transform: translate(64.48%, -4px);
+    transform: translate(64.65%, -5px);
 }
 
 .max-w-511 {
