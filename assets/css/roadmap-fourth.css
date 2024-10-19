@@ -1,9 +1,14 @@
-/* Roadmap Section Styling */
-.roadmap-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
 }
-
+.roadmap-section {
+  padding: 163px 0 !important;
+  max-width: 1920px;
+}
+.heading {
+  font-size: 48px;
+}
 .men-image {
   z-index: 1;
   width: 100%;
@@ -49,7 +54,13 @@
   height: 1477px;
   width: 10px;
 }
-
+.roadmap-year {
+  font-size: 40px;
+  text-align: start;
+}
+.roadmap-text {
+  font-size: 16px;
+}
 .roadmap-block {
   padding-left: 70px;
   background-repeat: no-repeat;
@@ -62,55 +73,168 @@
   background-size: cover;
   background-image: url("../images/webp/question-one.webp");
   top: 0;
-  left: -40px;
+  left: -50px;
   background-position: center;
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
   z-index: 10;
 }
-
+.roadmap-block-2 {
+  padding-top: 91px;
+}
 .roadmap-block-2::after {
   background-image: url("../images/webp/question-two.webp");
   position: absolute;
   content: "";
   background-size: cover;
-  top: 0;
-  left: -40px;
+  top: 92px;
+  left: -50px;
   background-position: center;
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
   z-index: 10;
 }
-
+.roadmap-block-3 {
+  padding-top: 130px;
+}
 .roadmap-block-3::after {
   background-image: url("../images/webp/question-three.webp");
   position: absolute;
   content: "";
   background-size: cover;
-  top: 0;
-  left: -40px;
+  top: 128px;
+  left: -50px;
   background-position: center;
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
   z-index: 10;
 }
-
+.roadmap-block-4 {
+  padding-top: 150px;
+}
 .roadmap-block-4::after {
   background-image: url("../images/webp/question-four.webp");
   position: absolute;
   content: "";
   background-size: cover;
-  top: 0;
-  left: -40px;
+  top: 143px;
+  left: -50px;
   background-position: center;
-  width: 56px;
-  height: 56px;
+  width: 70px;
+  height: 70px;
   z-index: 10;
 }
 
 .rocket-image {
-  top: 20px;
-  left: 10px;
+  top: 40px;
+  left: -35px;
   width: 43px;
   height: 134px;
+  z-index: 10;
+}
+@media (max-width: 1024px) {
+  .roadmap-block-1::after {
+    width: 56px;
+    height: 56px;
+    left: -40px;
+  }
+  .roadmap-block-2::after {
+    width: 56px;
+    height: 56px;
+    left: -40px;
+  }
+  .roadmap-block-3::after {
+    width: 56px;
+    height: 56px;
+    left: -40px;
+  }
+  .roadmap-block-4::after {
+    width: 56px;
+    height: 56px;
+    left: -40px;
+  }
+}
+@media (max-width: 991.98px) {
+  .roadmap-content::after {
+    top: 0;
+    left: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: 0;
+    height: 1760px;
+    width: 10px;
+  }
+  .roadmap-block-1::after {
+    left: -10px;
+  }
+  .roadmap-block-2 {
+    padding-top: 60px;
+  }
+  .roadmap-block-2::after {
+    left: -10px;
+    top: 60px;
+  }
+  .roadmap-block-3 {
+    padding-top: 100px;
+  }
+  .roadmap-block-3::after {
+    left: -10px;
+    top: 100px;
+  }
+  .roadmap-block-4 {
+    padding-top: 110px;
+  }
+  .roadmap-block-4::after {
+    left: -10px;
+    top: 110px;
+  }
+  .rocket-image {
+    top: 25px;
+    left: -5px;
+    width: 43px;
+    height: 134px;
+    z-index: 10;
+  }
+  .roadmap-year {
+    font-size: 30px;
+  }
+  .heading {
+    font-size: 40px;
+  }
+}
+@media (max-width: 515px) {
+  .roadmap-content::after {
+    left: 20px;
+    height: 1740px;
+  }
+  .roadmap-block-1::after {
+    left: 0px;
+  }
+
+  .roadmap-block-2::after {
+    left: 0px;
+  }
+
+  .roadmap-block-3::after {
+    left: 0px;
+  }
+
+  .roadmap-block-4::after {
+    left: 0px;
+  }
+  .roadmap-year {
+    font-size: 26px;
+  }
+  .roadmap-text {
+    font-size: 14px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 424px) {
+  .roadmap-content::after {
+    left: 20px;
+    height: 1900px;
+  }
 }
