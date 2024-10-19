@@ -79,6 +79,7 @@
 }
 .cardTwo-border-success:hover {
   border: 1px solid #4f7566 !important;
+    box-shadow: none !important;
 }
 
 .digital-heading {
@@ -99,6 +100,7 @@
   line-height: 150%;
   color: #6C6354;
 }
+
 /* -------third-section-cards--------- */
 .bg-darkBLue{
     background-color: #113053;
