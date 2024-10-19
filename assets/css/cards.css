@@ -167,7 +167,10 @@ border-color:#FF00CC ;
    transition: all 300ms linear;
    border-radius: 22px;
 }
-
+.py-14{
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
 /* ------------responsive-------------- */
 @media (max-width:1024PX) {
     .digital-heading{
