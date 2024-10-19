@@ -6,12 +6,19 @@
 /* .container{
     max-width: 1140px !important;
 } */
-
+.max-w-267{
+  max-width: 267px;
+}
 .fs-4xl {
   font-size: 56px;
   line-height: 119%;
 }
-
+.rounded-lg{
+  border-radius: 12px !important;
+}
+.max-w-252{
+  max-width: 252px !important;
+}
 .text-base {
   font-size: 16px;
 }
@@ -25,6 +32,9 @@
 
 .text-purple {
   color: #3c278d;
+}
+.card-bg-lightGray{
+  background: #1E1E1E14 !important;
 }
 /* ----section-two-card---- */
 
@@ -62,12 +72,12 @@
   line-height: 150%;
 }
 
-.border-success {
-  transition: all ease-in 300ms linear !important;
+.cardTwo-border-success {
+  transition: all 300ms linear !important;
   border: 1px solid #4f756666 !important;
   box-shadow: 0px 0px 10px 7px #00000017;
 }
-.border-success:hover {
+.cardTwo-border-success:hover {
   border: 1px solid #4f7566 !important;
 }
 
