@@ -1,0 +1,116 @@
+/* Roadmap Section Styling */
+.roadmap-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.men-image {
+  z-index: 1;
+  width: 100%;
+  max-width: 130px;
+  right: 30px;
+  top: 318px;
+}
+
+.left-ellipse {
+  bottom: 0;
+  max-width: 550px;
+}
+
+.stone-image {
+  left: 0;
+  bottom: 160px;
+  max-width: 889px;
+  height: 277px;
+}
+
+.right-ellips {
+  top: 208px;
+  right: 0;
+  max-width: 690px;
+  height: 602px;
+  width: 100%;
+}
+
+/* Roadmap Content Blocks */
+.roadmap-content {
+  max-width: 1056px;
+}
+.roadmap-content::after {
+  position: absolute;
+  content: "";
+  background-image: url(../images/webp/roadmap-line-image.webp);
+  background-size: cover;
+  top: 0;
+  left: -20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: 0;
+  height: 1477px;
+  width: 10px;
+}
+
+.roadmap-block {
+  padding-left: 70px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.roadmap-block-1::after {
+  position: absolute;
+  content: "";
+  background-size: cover;
+  background-image: url("../images/webp/question-one.webp");
+  top: 0;
+  left: -40px;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  z-index: 10;
+}
+
+.roadmap-block-2::after {
+  background-image: url("../images/webp/question-two.webp");
+  position: absolute;
+  content: "";
+  background-size: cover;
+  top: 0;
+  left: -40px;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  z-index: 10;
+}
+
+.roadmap-block-3::after {
+  background-image: url("../images/webp/question-three.webp");
+  position: absolute;
+  content: "";
+  background-size: cover;
+  top: 0;
+  left: -40px;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  z-index: 10;
+}
+
+.roadmap-block-4::after {
+  background-image: url("../images/webp/question-four.webp");
+  position: absolute;
+  content: "";
+  background-size: cover;
+  top: 0;
+  left: -40px;
+  background-position: center;
+  width: 56px;
+  height: 56px;
+  z-index: 10;
+}
+
+.rocket-image {
+  top: 20px;
+  left: 10px;
+  width: 43px;
+  height: 134px;
+}
