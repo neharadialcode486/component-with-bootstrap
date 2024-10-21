@@ -97,4 +97,8 @@ font-weight: 600 !important;
     .fs-lg{
         font-size: 18px !important;
     }
+    
+     .fs-2xl{
+        font-size: 28px !important;
+    }
 }
