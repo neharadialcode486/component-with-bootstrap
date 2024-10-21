@@ -1,12 +1,13 @@
-let counted = false;
+// counter-2
+let countedTwo = false;
 $(window).scroll(function () {
   if (
-    !counted &&
+    !countedTwo &&
     $(window).scrollTop() >
-      $("#amzon-counter").offset().top - window.innerHeight
+      $("#platform-counter").offset().top - window.innerHeight
   ) {
     // Iterate over each .count element
-    $(".amzon-count").each(function () {
+    $(".platform-count").each(function () {
       const $this = $(this);
       $this.prop("Counter", 0).animate(
         { Counter: $this.data("count") },
@@ -22,7 +23,6 @@ $(window).scroll(function () {
         }
       );
     });
-    counted = true;
+    countedTwo = true;
   }
 });
-
