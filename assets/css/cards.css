@@ -43,6 +43,10 @@
 }
 
 /* ----section-two-card---- */
+.my-xxl{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 
 .max-w-558 {
   max-width: 558px;
@@ -218,6 +222,11 @@ border-color:#FF00CC ;
 }
 
 @media (max-width:768px) {
+
+  .my-xxl{
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
     .digital-heading{
         font-size: 30px;
     }
@@ -248,6 +257,11 @@ border-color:#FF00CC ;
 }
 
 @media (max-width:576px) {
+  
+  .my-xxl{
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   .flex-col{
     flex-direction: column;
   }
