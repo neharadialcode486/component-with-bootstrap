@@ -87,11 +87,14 @@ margin-right: auto !important;
 font-weight: 600 !important;
 }
 /* -------------responsive------------------ */
-@media (max-width:576px) {
-    .fs-lg{
-        font-size: 18px !important;
-    }
+@media (max-width:1024px) {
     .fs-2xl{
         font-size: 38px !important;
+    }
+}
+
+@media (max-width:768px) {
+    .fs-lg{
+        font-size: 18px !important;
     }
 }
