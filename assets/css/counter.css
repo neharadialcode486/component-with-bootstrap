@@ -32,15 +32,21 @@ color: #0E0F13;
 }
 
 .light-orange-border{
-    border: 1px solid #FF8C0033
+    border: 1px solid #FF8C0033;
+    transition: all linear 300ms;
 }
 
+.light-orange-border:hover{
+    border: 1px solid #FF8C00;
+    backdrop-filter: blur(10px);
+
+}
 .gap-xl{
     gap: 50px !important;
 }
 
 .amzon-box-3{
-    max-width: 356px;
+    min-width: 356px;
 }
 
 .text-darkgreen{
@@ -69,4 +75,41 @@ color: #0E0F13;
     width: 267px;
     height: 207px;
     border-radius: 4px;
+}
+
+.amzon-box-2{
+    min-width: 322px;
+}
+.amzon-box{
+    min-width: 308px;
+}
+
+/*  */
+ @media (max-width:1024px) {
+    .amzon-counter-heading{
+        font-size: 30px !important;
+    }
+    .amzon-card-data{
+        font-size: 30px;
+    }
+ }
+ @media (max-width:768px) {
+.amzon-counter-heading{
+    font-size: 25px !important;
+}    
+.amzon-card-data{
+    font-size: 25px;
+}
+.brand-icon{
+    width: 78px;
+}
+.amzon-box-3{
+    min-width: 308px;
+}
+.amzon-box-2{
+    min-width: 308px;
+}
+.gap-xl{
+    gap:20px !important;
+}
 }
