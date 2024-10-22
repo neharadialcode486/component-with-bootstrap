@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "accordion-5213d"
-  }
+    "default": "accordion-5213d",
+    "yes": "nav-tabs"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
