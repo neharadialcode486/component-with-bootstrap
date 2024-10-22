@@ -47,6 +47,7 @@ line-height: 120%;
 .fs-xl{
     font-size: 55px;
 }
+
 .timer{
     font-size: 17px;
 }
@@ -56,7 +57,9 @@ line-height: 120%;
 }
 
 /* ----------responsive------------ */
+
 @media (max-width:1024px) {
+
     .heading-text-parent{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -72,10 +75,13 @@ line-height: 120%;
     font-size: 45px;
 }
 }
+
 @media (max-width:768px) {
+
     .count-down-heading{
         font-size: 24px;
     }
+
     .fs-xl{
         font-size: 35px;
     }
