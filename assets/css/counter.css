@@ -39,8 +39,8 @@ color: #0E0F13;
 .light-orange-border:hover{
     border: 1px solid #FF8C00;
     backdrop-filter: blur(10px);
-
 }
+
 .gap-xl{
     gap: 50px !important;
 }
@@ -52,13 +52,16 @@ color: #0E0F13;
 .text-darkgreen{
     color: #076787;
 }
+
 .fs-xxl{
     font-size: 60px;
 }
+
 .platfrom-heading{
     line-height: 110%;
     font-size: 40px;
 }
+
 .bg-lightgreen{
     background-color: #85B6A6;
 }
@@ -71,8 +74,12 @@ color: #0E0F13;
     background: #076787;
 }
 
+.mt-xxl{
+margin-top: 56px;
+}
+
 .plaform-card{
-    width: 267px;
+    width: 268px;
     height: 207px;
     border-radius: 4px;
 }
@@ -80,36 +87,72 @@ color: #0E0F13;
 .amzon-box-2{
     min-width: 322px;
 }
+
 .amzon-box{
     min-width: 308px;
 }
 
-/*  */
+/* ---------------responsive------------ */
+
  @media (max-width:1024px) {
+
     .amzon-counter-heading{
         font-size: 30px !important;
     }
+
     .amzon-card-data{
         font-size: 30px;
     }
+
+    .mt-xxl{
+        margin-top: 36px;
+    }
+
+    .platfrom-heading{
+        font-size: 30px;
+    }
+
+    .fs-xxl{
+        font-size: 55px;
+    }
  }
+
  @media (max-width:768px) {
+
 .amzon-counter-heading{
     font-size: 25px !important;
 }    
+
 .amzon-card-data{
     font-size: 25px;
 }
+
 .brand-icon{
     width: 78px;
 }
+
 .amzon-box-3{
     min-width: 308px;
 }
+
 .amzon-box-2{
     min-width: 308px;
 }
+
 .gap-xl{
     gap:20px !important;
 }
+
+.mt-xxl{
+    margin-top: 26px;
+}
+
+.platfrom-heading{
+    font-size: 24px;
+}
+
+.fs-xxl{
+    font-size: 45px;
+}
+
 }
