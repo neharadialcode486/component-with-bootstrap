@@ -15,20 +15,40 @@ p {
 }
 
 /* ==========first pricing table=========== */
-.max-w-1140 {
-    max-width: 1140px;
+.w-1140 {
+    width: 1140px;
 }
 .py-10{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.p-10{
+    padding: 10px;
+}
+.py-sm{
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+.py-md{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .px-30{
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 33px;
+    padding-right: 33px;
 }
 .py-14{
     padding-top: 14px;
     padding-bottom: 14px;
+}
+.mb-sm{
+    margin-bottom: 40px !important;
+}
+.mt-sm{
+    margin-top: 40px !important;
+}
+.mt-md{
+    margin-top: 30px;
 }
 .px-27{
     padding-left: 27px;
@@ -37,8 +57,10 @@ p {
 .try-for-free-btn {
     background: white;
     border: 1px solid #EBA15B;
-    padding: 14px 24px;
+    padding: 13px 24px;
     color: #EBA15B;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 52px;
 }
 
@@ -57,6 +79,9 @@ p {
 
 .border-orange {
     border-top: 1px solid #FBECDE;
+}
+.border-orange-b {
+    border-bottom: 1px solid #FBECDE;
 }
 
 .monthly-card {
@@ -128,8 +153,16 @@ p, .month {
 }
 
 .text-sm {
-    font-size: 16px;
+    font-size: 14px;
 }
+.text-lg{
+    font: 16px;
+}
+.py-7{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 .text-md {
     font-size: 32px;
@@ -137,6 +170,8 @@ p, .month {
 
 .text-xl {
     font-size: 48px;
+}.text-3xl{
+    font-size: 20px;
 }
 
 .font-weight-normal {
@@ -152,12 +187,16 @@ p, .month {
 }
 
 .tab-btn {
-    max-width: 293px;
+    max-width: 296px;
     border: 1px solid black;
+    gap: 10px;
 }
 
 .pb-sm {
     padding-bottom: 155px;
+}
+.pb-md{
+    padding-bottom: 40px;
 }
 
 .max-w-300 {
@@ -182,7 +221,7 @@ p, .month {
 }
 
 .text-2xl {
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .w-310 {
@@ -210,8 +249,8 @@ p, .month {
 }
 
 .py-6 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 .py-140{
     padding-top: 140px;
@@ -224,6 +263,9 @@ p, .month {
 
 .border-b {
     border-bottom: 1px solid #0000001A
+}
+.border-off-white{
+    border: 1px solid #00000033;
 }
 
 .rounded-t {
@@ -246,7 +288,7 @@ p, .month {
 
 /* =============pricing table 3==== */
 .w-248 {
-    width: 255px;
+    width: 248px;
 }
 
 .w-396 {
@@ -264,13 +306,20 @@ p, .month {
 .h-24 {
     height: 24px;
 }
+.pricing-three-py{
+    padding-top: 178px;
+    padding-bottom: 157px;
+}
+.mb-md{
+    margin-bottom: 56px;
+}
 
 .table-top {
-    transform: translate(64.65%, 5px);
+    transform: translate(62.8%, 4px);
 }
 
 .table-bottom {
-    transform: translate(64.65%, -5px);
+    transform: translate(62.8%, -4px);
 }
 
 .max-w-511 {
