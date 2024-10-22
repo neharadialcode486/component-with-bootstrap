@@ -17,6 +17,13 @@
   max-width: 439px;
 }
 
+.max-w-1139{
+  max-width: 1139px !important;
+}
+
+.mb-1xl{
+  margin-bottom: 31px;
+}
 .label-text {
   font-size: 16px;
   font-weight: 500;
@@ -25,8 +32,12 @@
   color: #000000;
 }
 
+.h-3xl{
+  height: 130px !important;
+}
+
 .input-bg {
-  background: #8a8a8a2b;
+  background: #8a8a8a2b !important;
   border-radius: 12px;
 }
 
@@ -176,6 +187,9 @@
   color: #3c278d;
 }
 
+.h-2xl{
+  height: 52px;
+}
 /* ------------------------responsive------------------- */
 @media (max-width: 768px) {
   .send-btn {
@@ -195,5 +209,9 @@
   .send-btn {
     margin-top: 23px;
     margin-bottom: 23px;
+  }
+
+  .mb-1xl{
+    margin-bottom: 20px;
   }
 }
