@@ -5,6 +5,14 @@ p {
 .font-inter {
     font-family: "Inter", sans-serif;
 }
+.scroll-w-0{
+    scrollbar-width: 0px !important;
+    overscroll-behavior-x: contain !important;
+}
+::-webkit-scrollbar{
+    width: 0 !important;
+    background: transparent;
+}
 
 .opacity-70 {
     opacity: 70%;
@@ -96,7 +104,7 @@ p {
 
 .monthly-card:hover p {
     opacity: 100%;
-    color: white;
+    color: white !important;
 }
 
 .monthly-card:hover {
@@ -154,11 +162,11 @@ p, .month {
 .text-14{
     font-size: 14px;
 }
-.text-sm {
+.text-16 {
     font-size: 16px !important;
 }
 .text-lg{
-    font: 16px !important;
+    font: 16px;
 }
 .py-7{
     padding-top: 20px;
@@ -171,7 +179,7 @@ p, .month {
 }
 
 .text-xl {
-    font-size: 48px;
+    font-size: 48px !important;
 }.text-3xl{
     font-size: 20px;
 }
@@ -292,6 +300,10 @@ p, .month {
 .w-248 {
     width: 248px;
 }
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 .w-396 {
     width: 396px;
@@ -309,7 +321,7 @@ p, .month {
     height: 24px;
 }
 .pricing-three-py{
-    padding-top: 178px;
+    padding-top: 183px;
     padding-bottom: 157px;
 }
 .mb-md{
