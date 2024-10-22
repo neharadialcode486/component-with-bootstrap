@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "pricing1-bootstrap"
-  }
+    "default": "pricing1-bootstrap",
+    "yes": "pricing1-bootstrap"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
