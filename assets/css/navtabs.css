@@ -107,6 +107,7 @@
 }
 .nav {
   padding: 7.5px 26px;
+  border: none;
 }
 .rounded-pill {
   border-radius: 52px !important;
