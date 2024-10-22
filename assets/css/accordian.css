@@ -86,6 +86,14 @@ margin-right: auto !important;
 .accordion-button:not(.collapsed){
 font-weight: 600 !important;
 }
+
+.h-xl{
+    height: 68px !important;
+}
+.accordion-button::after{
+    background-image: url(/assets/images/svg/arrow.svg) !important;
+}
+
 /* -------------responsive------------------ */
 @media (max-width:1024px) {
     .fs-2xl{
