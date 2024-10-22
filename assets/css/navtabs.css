@@ -54,27 +54,37 @@ box-shadow: none !important;
 .active-button{
     position: relative;
     border: none;
+    background-color: #151619 !important;
 }
 
 .active-button::before{
-      content: "";
-    position: absolute;
-    inset: 0;
-            border-radius: 16px;
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
   border: 2px solid transparent;
-   background: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
+  background: linear-gradient(81.75deg, #18FF9E 0%, #1EA56C 126.43%);
   -webkit-mask: 
      linear-gradient(#fff 0 0) padding-box, 
      linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor; 
-          mask-composite: exclude;
+    mask-composite: exclude;
+    width: 143px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 54px;
             
 }
 .nos-button{
 position: relative; 
 border: none; 
-                                
+ background:#151619 !important;                               
 }
+
 .nos-button::before{
     content: "";
     position: absolute;
