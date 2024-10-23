@@ -51,6 +51,12 @@
     bottom: 2%;
     left: 2%;
 }
+.vehical-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0%;
+}
 
 @media (max-width:992px) {
     .hero-heading {
@@ -62,6 +68,7 @@
     }
     .vehical-img{
         width: 100%;
+        position: relative;
     }
 }
 

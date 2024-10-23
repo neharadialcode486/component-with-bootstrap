@@ -9,7 +9,7 @@
 }
 
 .heading {
-    line-height: 120%;
+    line-height: 150%;
     font-size: 58px;
     color: black;
     margin-top: 96px;
@@ -43,7 +43,7 @@
 }
 
 .hero-leaves {
-    max-width: 1140px;
+    min-width: 1140px;
 }
 .mb-19{
     margin-bottom: 19px;
@@ -58,6 +58,9 @@
         p {
             font-size: 14px;
         }
+    }
+    .hero-leaves {
+        min-width: unset;
     }
 }
 
