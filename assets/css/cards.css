@@ -29,9 +29,21 @@
   color: #000000b2;
 }
 
+.w-lg-2xl{
+  width: 122px !important;
+}
+
 .text-xl {
   font-size: 20px;
   line-height: 24.2px;
+}
+
+.pt-1xl{
+  padding-top: 20px;
+}
+
+.p-sm-xl{
+  padding: 12px !important;
 }
 
 .text-purple {
@@ -256,7 +268,7 @@ border-color:#FF00CC ;
     }
 
     .max-md-xl{
-        width: 76px;
+        width: 76px !important;
     }
 
     .third-card-heading{
