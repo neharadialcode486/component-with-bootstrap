@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "counter-205f5"
-  }
+    "default": "counter-205f5",
+    "yes": "counter-205f5"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
