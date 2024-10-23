@@ -1,7 +1,7 @@
 {
   "projects": {
     "default": "accordion-5213d",
-    "yes": "nav-tabs"
+    "yes": "accordion-5213d"
   },
   "targets": {},
   "etags": {},
