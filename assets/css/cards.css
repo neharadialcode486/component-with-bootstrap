@@ -133,6 +133,10 @@
   color: #6C6354;
 }
 
+.opacity-70{
+  opacity: 70% !important;
+}
+
 /* -------third-section-cards--------- */
 
 .bg-darkBLue{
