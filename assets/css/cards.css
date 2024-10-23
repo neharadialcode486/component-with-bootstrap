@@ -218,6 +218,7 @@ border-color:#FF00CC ;
   min-width: unset;
 }
 }
+
 @media (max-width:1024PX) {
     .digital-heading{
         font-size: 40PX;
