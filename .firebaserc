@@ -1,7 +1,7 @@
 {
   "projects": {
     "default": "botstrap-form",
-    "yes": "tailwind-cards"
+    "yes": "botstrap-form"
   },
   "targets": {},
   "etags": {},
