@@ -3,13 +3,16 @@
 * {
   font-family: "Inter", sans-serif;
 }
-
+.container{
+  max-width: 1140px !important;
+}
 .main-heading {
   max-width: 545px;
   font-size: 48px;
   color: #6C6354;
-  line-height: 120% !important;
+  line-height: 100% !important;
   font-weight: 600;
+
 }
 
 .sec-img {
@@ -28,9 +31,9 @@
   font-size: 18px;
   border: 2px solid transparent;
   color: #FFFFFF;
-  padding: 14px 24px; 
+  padding: 11px 16px; 
   transition: all 400ms linear;
-  width: 165px;
+  width: 134px;
   text-align: center;
   border-radius: 12px;
 }

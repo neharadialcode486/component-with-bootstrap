@@ -6,6 +6,9 @@
 section{
     max-width: 1920px;
 }
+.container{
+    max-width: 1180px !important;
+}
 
 .main-heading {
     max-width: 550px;
