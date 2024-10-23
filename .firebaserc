@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "button-hover"
-  }
+    "default": "button-hover",
+    "yes": "button-hover"
+  },
+  "targets": {},
+  "etags": {}
 }
