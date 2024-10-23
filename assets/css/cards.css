@@ -42,6 +42,9 @@
   background: #1E1E1E14 !important;
 }
 
+.pointer-event{
+  pointer-events: none;
+}
 /* ----section-two-card---- */
 .my-xxl{
   margin-top: 60px;
