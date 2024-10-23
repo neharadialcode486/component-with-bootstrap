@@ -88,8 +88,12 @@
   opacity: 70%;
 }
 
-.max-w-997 {
-  max-width: 997px;
+.max-w-863 {
+  max-width: 863px;
+}
+
+.mt-1xl{
+  margin-top: 2.5rem;
 }
 
 .card-heading-text {
@@ -118,13 +122,13 @@
 
 .eighth-box {
   border: 1px solid #e2d2a9;
-  width: 236px;
+  width: 246px;
   border-radius: 123px;
   background: #f8f0d5;
 }
 
 .eighth-box-text{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 150%;
   color: #6C6354;
 }
