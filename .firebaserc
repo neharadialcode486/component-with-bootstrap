@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "botstrap-form"
-  }
+    "default": "botstrap-form",
+    "yes": "tailwind-cards"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
