@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "button-hover",
-    "yes": "button-hover"
+    "yes": "button-hover",
+    "firebase deploy": "button-hover"
   },
   "targets": {},
   "etags": {}
