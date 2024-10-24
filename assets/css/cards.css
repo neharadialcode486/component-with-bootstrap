@@ -288,7 +288,7 @@ border-color:#FF00CC ;
 .h-xxl{
   height: 100%;
 }
-.my-xxl{
+.first-section-my-xxl{
   margin-top: 36px;
   margin-bottom: 36px;
 }
@@ -381,7 +381,6 @@ border-color:#FF00CC ;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 
     .max-md-xl{
         width: 80px !important;
