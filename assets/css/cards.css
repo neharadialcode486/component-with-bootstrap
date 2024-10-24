@@ -21,6 +21,10 @@
   max-width: 252px !important;
 }
 
+.max-w-6xl{
+  max-width: 1116px !important;
+}
+
 .text-base {
   font-size: 16px;
 }
@@ -57,6 +61,7 @@
 .pointer-event{
   pointer-events: none;
 }
+
 /* ----section-two-card---- */
 .my-xxl{
   margin-top: 60px;
@@ -135,6 +140,10 @@
 
 .opacity-70{
   opacity: 70% !important;
+}
+
+.h-xxl{
+  height: 277px;
 }
 
 /* -------third-section-cards--------- */
@@ -240,6 +249,9 @@ border-color:#FF00CC ;
     .xl-min-w-unset{
   min-width: unset;
 }
+.h-xxl{
+  height: 100%;
+}
 }
 
 @media (max-width:1024PX) {
@@ -258,7 +270,10 @@ border-color:#FF00CC ;
     .first-section-heading{
       font-size: 42px;
     }
-  
+  .max-sm-my-1xl{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 }
 
 @media (max-width:768px) {
