@@ -141,11 +141,19 @@
   color: #6c6354;
 }
 
+.max-w-9xl{
+  max-width: 934px;
+}
+
 .eighth-box {
   border: 1px solid #e2d2a9;
   width: fit-content;
   border-radius: 123px;
   background: #f8f0d5;
+}
+
+.tracking-sm{
+  letter-spacing: 0.4px;
 }
 
 .eighth-box-text{
