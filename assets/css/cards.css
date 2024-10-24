@@ -149,7 +149,7 @@
 }
 
 .max-w-9xl{
-  max-width: 934px;
+  max-width: 933px;
 }
 
 .eighth-box {
@@ -350,12 +350,17 @@ border-color:#FF00CC ;
   margin-top: 24px;
   margin-bottom: 24px;
 }
+
 }
 
 @media (max-width:576px) {
 
+.first-section-cards-hight-2xl{
+  height: 300px;
+}
+
   .sm-mt-xl{
-    margin-top: 24px;
+    margin-top: 24px !important;
   }
   
   .my-xxl{
@@ -377,7 +382,7 @@ border-color:#FF00CC ;
   .first-section-heading{
     font-size: 28px;
   }
-  .my-xxl{
+  .first-section-my-xxl{
   margin-top: 20px;
   margin-bottom: 20px;
 }
