@@ -88,11 +88,19 @@
     .hero-heading {
         font-size: 56px;
     }
+
+    .hero-2-top-first-img , .hero-top-left-2-img {
+        width: 75%;
+    }
 }
 
 @media (max-width:768px) {
     .hero-sub-heading {
         font-size: 24px;
+    }
+
+    .hero-2-top-first-img , .hero-top-left-2-img {
+        width: 50%;
     }
 
     .hero-heading {
@@ -108,7 +116,8 @@
     .hero-text-info {
         font-size: 12px;
     }
-    .hero-heading{
+
+    .hero-heading {
         font-size: 48px;
     }
 }

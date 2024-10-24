@@ -52,6 +52,7 @@
     }
     .hero-text-info{
         font-size: 14px;
+        max-width: 100%;
     }
 }
 @media (max-width:768px) {
@@ -61,12 +62,16 @@
     }
     .hero-subheading{
         font-size: 24px;
+        padding-top: 24px;
     }
     .hero-text-info{
         font-size: 12px;
     }
     .btn-div{
         margin-top: 24px;
+    }
+    .hero-btn{
+        padding: 9px 50px;
     }
 }
 @media (max-width:576px) {

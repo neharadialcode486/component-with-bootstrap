@@ -49,6 +49,12 @@
     margin-bottom: 19px;
 }
 
+@media (max-width:1024px) {
+    .hero-leaves {
+        min-width: unset;
+    }
+ 
+}
 @media (max-width:992px) {
     .heading {
         font-size: 48px;
@@ -58,9 +64,6 @@
         p {
             font-size: 14px;
         }
-    }
-    .hero-leaves {
-        min-width: unset;
     }
 }
 
@@ -77,11 +80,17 @@
 @media (max-width:576px) {
     .heading {
         font-size: 38px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0 !important;
     }
 
     .text-info {
         p {
             font-size: 12px;
         }
+    }
+    .hero-btn{
+        margin-bottom: 30px;
     }
 }

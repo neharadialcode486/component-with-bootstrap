@@ -78,9 +78,13 @@
     transform: translateX(-50%);
 }
 
+.colors-heading {
+    text-align: right;
+}
+
 @media (max-width:992px) {
     .hero-heading {
-        font-size: 112px;
+        font-size: 96px;
     }
 
     .hero-text-info {
@@ -88,20 +92,25 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .hero-heading {
-        font-size: 96px;
+        font-size: 72px;
     }
 
     .box {
         margin-top: 30px;
     }
+
+    .colors-heading {
+        text-align: start;
+    }
 }
 
 @media (max-width:576px) {
     .hero-heading {
-        font-size: 72px;
+        font-size: 60px;
     }
+
 
     .hero-text-info {
         font-size: 14px;
