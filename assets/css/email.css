@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-.font-text {
+.font-inter {
   font-family: "Inter", sans-serif;
 }
 
@@ -38,6 +38,10 @@
 .input-bg {
   background: #8a8a8a2b !important;
   border-radius: 12px;
+}
+
+.max-w-4xl{
+  min-width: 146px !important;
 }
 
 .name-max-w {
@@ -139,6 +143,10 @@
 .third-input-textarea {
   width: 100%;
   max-width: 606px;
+}
+
+.max-w-xxl{
+  max-width: 441px;
 }
 
 .form-three {
