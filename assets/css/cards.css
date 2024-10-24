@@ -131,10 +131,15 @@
   opacity: 70%;
 }
 
+.second-section-my-xxl{
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
 .cardTwo-border-success {
   transition: all 300ms linear !important;
   border: 1px solid #4f756666 !important;
-  box-shadow: 0px 0px 10px 7px #00000017;
+  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.09) !important;
 }
 
 .cardTwo-border-success:hover {
@@ -164,7 +169,7 @@
 }
 
 .eighth-box-text{
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: #6C6354;
 }
@@ -175,6 +180,11 @@
 
 .h-xxl{
   height: 277px;
+}
+
+.max-my-xxl{
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
 
 /* -------third-section-cards--------- */
@@ -248,6 +258,12 @@ border-color:#FF00CC ;
   background-color: transparent;
   transition: all 300ms linear;
   line-height: 150%;
+  min-width: 131px;
+}
+
+.px-xl{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .fourth-card-btn:hover{
@@ -270,10 +286,34 @@ border-color:#FF00CC ;
   padding-bottom: 14px !important;
 }
 
+.my-4xl{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 
 /* ------------responsive-------------- */
 
 @media (max-width:1280px) {
+
+  .xl-w-full{
+    width: 100% !important;
+  }
+
+.my-4xl{
+ margin-top: 36px;
+ margin-bottom: 36px;
+}
+
+  .xl-max-w-3xl{
+    max-width: 415px;
+  }
+
+.max-my-xxl{
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
     .xl-flex-wrap{
       flex-wrap: wrap;
     }
@@ -315,9 +355,20 @@ border-color:#FF00CC ;
     margin-top: 24px;
     margin-bottom: 24px;
   }
+  
 }
 
 @media (max-width:768px) {
+
+.my-4xl{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+  .max-my-xxl{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 
   .my-xxl{
     margin-top: 45px;
@@ -359,6 +410,16 @@ border-color:#FF00CC ;
   height: 300px;
 }
 
+.sm-w-full{
+width: 100%;  
+}
+
+
+.second-section-my-xxl{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
   .sm-mt-xl{
     margin-top: 24px !important;
   }
@@ -390,5 +451,13 @@ border-color:#FF00CC ;
     .max-md-xl{
         width: 80px !important;
     }
+
+.mt-1xl{
+  margin-top: 1rem;
+}
+
+.sm-pt-xl{
+  padding-top: 12px !important;
+}
 
 }
