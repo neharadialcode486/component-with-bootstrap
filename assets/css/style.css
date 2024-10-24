@@ -18,6 +18,9 @@ p {
 .opacity-70 {
     opacity: 70%;
 }
+.border-b-0{
+    border-bottom: 0px !important;
+}
 
 .opacity-80 {
     opacity: 80%;
@@ -96,6 +99,9 @@ p {
 
 .leading-24 {
     line-height: 24px;
+}
+.leading-126 {
+    line-height: 126% !important;
 }
 .monthly-card:hover .border-orange{
     border-top: 1px solid #EFB47C !important;
@@ -255,6 +261,9 @@ p,
 /* =============pricing table 2==== */
 .table-2 td {
     border-left: 1px solid #00000033;
+}
+td{
+    border-collapse: collapse;
 }
 
 .shadow-custom3xl {
