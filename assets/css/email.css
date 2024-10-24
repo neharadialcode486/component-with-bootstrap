@@ -109,13 +109,22 @@ margin-top: 32px;
   border-radius: 12px;
   color: #ffffff;
   background: #3c278d;
-  margin-bottom: 46px;
+  margin-bottom: 44px;
   margin-top: 36px;
-  margin-left: 33px;
+  /* margin-left: 33px; */
 }
+
+/* .mx-3xl{
+  margin-left: 33px;
+  margin-right: 33px;
+} */
 
 .fs-1xl {
   font-size: 36px;
+}
+
+.input-box-border{
+  border: 1px solid #00000070 !important;
 }
 
 .mt-1xl{
@@ -136,7 +145,7 @@ margin-top: 32px;
   transition: all linear 300ms;
 }
 
-.mt-xxl {
+.mt-xxl{
   margin-top: 52px;
 }
 
@@ -213,17 +222,53 @@ margin-top: 32px;
 .h-1xl{
   height: 52px;
 }
-/* ------------------------responsive------------------- */
-@media (max-width: 768px) {
-  .send-btn {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
-  .mt-xxl {
+.leading-xl{
+  line-height: 119%;
+}
+
+/* ------------------------responsive------------------- */
+@media (max-width:1280px) {
+  .xl-mt-2xl{
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+  .second-form-heading{
     font-size: 35px;
   }
+
+  .my-3xl{
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+}
+
+@media (max-width:1024px) {
+   .send-btn {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 0 !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+ .xl-mt-2xl{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  /* .send-btn {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: 0 !important;
+  } */
+
+  /* .mt-xxl {
+    font-size: 35px;
+  } */
 
   .fs-2xl {
     font-size: 30px;
@@ -240,4 +285,14 @@ margin-top: 32px;
   .mt-1xl{
     margin-top: 20px !important;
   }
+  .mt-xxl{
+    margin-top: 12px;
+  }
+}
+
+@media (max-width:576px) {
+  .my-3xl{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 }
