@@ -66,6 +66,10 @@
 }
 
 
+.max-w-3xl{
+  max-width: 415px;
+}
+
 .pt-sm-xl{
   padding-top: 12px !important;
 }
@@ -139,7 +143,7 @@
 
 .eighth-box {
   border: 1px solid #e2d2a9;
-  width: 246px;
+  width: fit-content;
   border-radius: 123px;
   background: #f8f0d5;
 }
