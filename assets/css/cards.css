@@ -4,6 +4,9 @@
   font-family: "Inter", sans-serif;
 }
 
+/* .container{
+  max-width: 1140px !important;
+} */
 .max-w-267{
   max-width: 267px;
 }
@@ -162,6 +165,11 @@ line-height: 120%;
 color: #242021;
 }
 
+.rounded-bottom-1xl{
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
 /* --------------fourth-card-section---------- */
 
 .fourth-card-heading{
@@ -295,11 +303,11 @@ border-color:#FF00CC ;
     }
 
     .third-card-heading{
-        font-size: 30px;
+        font-size: 36px;
     }
 
     .fourth-card-heading{
-      font-size: 30px;
+      font-size: 36px;
     }
 
     .fourth-card-inner-heading{
