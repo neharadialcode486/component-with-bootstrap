@@ -35,6 +35,15 @@
   height: 130px !important;
 }
 
+.input-h-sm{
+  height: 48px !important;
+}
+
+.py-1xl{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
 .input-bg {
   background: #8a8a8a2b !important;
   border-radius: 12px;
@@ -58,6 +67,10 @@
 
 .input-h {
   height: 130px;
+}
+
+.mt-2xl{
+margin-top: 32px;
 }
 
 .send-btn {
