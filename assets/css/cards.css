@@ -7,8 +7,8 @@
 /* .container{
   max-width: 1140px !important;
 } */
-.max-w-267{
-  max-width: 267px;
+.min-w-267{
+  min-width: 267px;
 }
 
 .fs-4xl {
@@ -20,6 +20,10 @@
   border-radius: 12px !important;
 }
 
+.first-section-cards-hight-2xl{
+  height: 324px;
+}
+
 .max-w-252{
   max-width: 252px !important;
 }
@@ -28,6 +32,9 @@
   max-width: 1116px !important;
 }
 
+.pt-sm{
+  padding-top: 16px;
+}
 .text-base {
   font-size: 16px;
 }
@@ -49,9 +56,9 @@
   padding-top: 20px;
 }
 
-.p-sm-xl{
+/* .p-sm-xl{
   padding: 12px !important;
-}
+} */
 
 .text-purple {
   color: #3c278d;
@@ -281,6 +288,11 @@ border-color:#FF00CC ;
 .h-xxl{
   height: 100%;
 }
+.my-xxl{
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
 }
 
 @media (max-width:1024PX) {
@@ -319,10 +331,6 @@ border-color:#FF00CC ;
         font-size: 20px;
     }
 
-    .max-md-xl{
-        width: 76px !important;
-    }
-
     .third-card-heading{
         font-size: 36px;
     }
@@ -338,9 +346,17 @@ border-color:#FF00CC ;
     .first-section-heading{
       font-size: 32px;
     }
+    .my-xxl{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
 }
 
 @media (max-width:576px) {
+
+  .sm-mt-xl{
+    margin-top: 24px;
+  }
   
   .my-xxl{
     margin-top: 25px;
@@ -361,4 +377,14 @@ border-color:#FF00CC ;
   .first-section-heading{
     font-size: 28px;
   }
+  .my-xxl{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+    .max-md-xl{
+        width: 80px !important;
+    }
+
 }
