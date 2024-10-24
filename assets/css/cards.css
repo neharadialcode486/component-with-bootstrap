@@ -79,25 +79,25 @@
   min-width: 56px;
 }
 
-.h-xxl {
+.icon-box-h-1xl {
   height: 56px;
 }
 
 .card-two-heading {
   font-size: 24px;
   line-height: 120%;
-  color: #6c6354;
+  color: #6c6354 !important;
 }
 
 .card-two-text {
   font-size: 16px;
   line-height: 150%;
-  color: #6c6354;
+  color: #6c6354 !important;
   opacity: 70%;
 }
 
-.max-w-863 {
-  max-width: 863px;
+.max-w-788 {
+  max-width: 788px;
 }
 
 .mt-1xl{
@@ -162,7 +162,7 @@
 .third-card-heading{
 font-size: 48px;
 line-height: 120%;
-color: #242021;
+color: #242021 !important;
 }
 
 .rounded-bottom-1xl{
