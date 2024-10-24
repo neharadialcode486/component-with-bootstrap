@@ -5,8 +5,12 @@ p {
 .font-inter {
     font-family: "Inter", sans-serif;
 }
-.font-medium{
+
+.font-medium {
     font-weight: 500;
+}
+.text-offblack{
+    color: #1A1A1A !important;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -23,7 +27,8 @@ p {
 .opacity-70 {
     opacity: 70%;
 }
-.border-b-0{
+
+.border-b-0 {
     border-bottom: 0px !important;
 }
 
@@ -32,7 +37,7 @@ p {
 }
 
 /* ==========first pricing table=========== */
-.tab-card-parent{
+.tab-card-parent {
     width: 1140px;
 }
 
@@ -71,20 +76,22 @@ p {
 .leading-24 {
     line-height: 24px;
 }
+
 .leading-126 {
     line-height: 126% !important;
 }
-.monthly-card:hover .border-orange{
+
+.monthly-card:hover .border-orange {
     border-top: 1px solid #EFB47C !important;
 }
-.monthly-card:hover .border-orange-b{
+
+.monthly-card:hover .border-orange-b {
     border-bottom: 1px solid #EFB47C !important;
 }
 
 .border-orange {
     border-top: 1px solid #FBECDE;
 }
-
 
 .border-orange-b {
     border-bottom: 1px solid #FBECDE;
@@ -168,12 +175,15 @@ p,
 .text-lg {
     font-size: 16px;
 }
+
 .text-3xl {
     font-size: 20px;
 }
+
 .text-2xl {
     font-size: 24px;
 }
+
 .text-md {
     font-size: 32px;
 }
@@ -201,7 +211,7 @@ p,
 }
 
 .tab-btn-prnt {
-    width:fit-content;
+    width: fit-content;
     border: 1px solid black;
     gap: 10px;
     padding-top: 10px;
@@ -210,6 +220,7 @@ p,
     padding-right: 10px;
     border-radius: 52px;
 }
+
 .tab-btn {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -226,7 +237,7 @@ p,
     padding-bottom: 15px;
 }
 
-.tab-content{
+.tab-content {
     width: 300px;
 }
 
@@ -248,38 +259,34 @@ p,
 }
 
 
-.w-310 {
+.table-2-td-4 {
     width: 310px;
 }
 
-.w-300 {
+.table-2-td-2 {
     width: 300px;
 }
 
-.w-370 {
+.table-2-td-3 {
     width: 370px;
     padding-left: 24px;
 }
-.number{
+
+.number {
     width: 108px;
     padding-top: 18px;
     padding-bottom: 18px;
+    padding-left: 17px;
 }
 
 .table-2-td-1 {
     width: 108px;
 }
 
-.pl-4 {
-    padding-left: 16px;
-}
-
-
-
 .table-2-th {
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-left: 24px;
+    padding-left: 25px;
     padding-right: 0;
 }
 
@@ -287,7 +294,8 @@ p,
     padding-top: 140px;
     padding-bottom: 140px;
 }
-.table-two-td{
+
+.table-two-td {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
@@ -328,26 +336,47 @@ p,
     width: 248px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
 }
-
-.leading-18{
-    line-height: 18px !important;
-}
-
-.leading-20{
-    line-height: 20px !important;
-}
-
 .table-3-td-2 {
     width: 396px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
 }
 
 .table-3-td-3 {
     width: 317px;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+}
+.table-3-th-1 {
+    width: 248px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+.table-3-th-2 {
+    width: 396px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.table-3-th-3 {
+    width: 317px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.leading-18 {
+    line-height: 18px !important;
+}
+
+.leading-20 {
+    line-height: 20px !important;
 }
 
 .table-3 {
@@ -363,7 +392,7 @@ p,
     transform: translate(62.8%, 4px);
     height: 24px;
     width: 396px;
-    
+
 }
 
 .table-bottom {
@@ -383,27 +412,33 @@ p,
         padding-top: 64px;
         padding-bottom: 64px;
     }
+
     .table-2 {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
     .pricing-three-py {
         padding-top: 120px;
         padding-bottom: 120px;
     }
 }
+
 @media (max-width:768px) {
     .text-xl {
         font-size: 40px !important;
     }
+
     .pricing-table-one {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .table-2 {
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .pricing-three-py {
         padding-top: 70px;
         padding-bottom: 70px;
@@ -414,14 +449,17 @@ p,
     .text-xl {
         font-size: 30px !important;
     }
+
     .pricing-table-one {
         padding-top: 24px;
         padding-bottom: 24px;
     }
+
     .table-2 {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
     .pricing-three-py {
         padding-top: 40px;
         padding-bottom: 40px;
