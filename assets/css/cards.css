@@ -131,10 +131,10 @@
   opacity: 70%;
 }
 
-.second-section-my-xxl{
+/* .second-section-my-xxl{
   margin-top: 36px;
   margin-bottom: 36px;
-}
+} */
 
 .cardTwo-border-success {
   transition: all 300ms linear !important;
@@ -333,6 +333,11 @@ border-color:#FF00CC ;
   margin-bottom: 36px;
 }
 
+.second-section-my-xxl{
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
 }
 
 @media (max-width:1024PX) {
@@ -398,6 +403,12 @@ border-color:#FF00CC ;
       font-size: 32px;
     }
     .my-xxl{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+
+.second-section-my-xxl{
   margin-top: 24px;
   margin-bottom: 24px;
 }
