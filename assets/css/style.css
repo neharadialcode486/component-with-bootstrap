@@ -261,8 +261,8 @@ p {
 
 .number {
     width: 108px;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 17px;
 }
 
@@ -271,8 +271,8 @@ p {
 }
 
 .table-2-th {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 25px;
     padding-right: 0;
 }
@@ -321,40 +321,40 @@ p {
 /* =============pricing table 3==== */
 .table-3-td-1 {
     width: 248px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     padding-left: 24px;
 }
 .table-3-td-2 {
     width: 396px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     padding-left: 24px;
 }
 
 .table-3-td-3 {
     width: 317px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     padding-left: 24px;
 }
 .table-3-th-1 {
     width: 248px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     padding-left: 25px;
 }
 .table-3-th-2 {
     width: 396px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     padding-left: 25px;
 }
 
 .table-3-th-3 {
     width: 317px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 19px;
+    padding-bottom: 19px;
     padding-left: 25px;
 }
 
