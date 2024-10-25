@@ -7,28 +7,6 @@
 .container {
     max-width: 1140px;
 }
-
-.hero-content-div {
-    max-width: 538px;
-}
-
-.hero-sub-heading {
-    font-size: 32px;
-    line-height: 150%;
-}
-
-.hero-heading {
-    line-height: 150%;
-    font-size: 64px;
-    color: black;
-}
-
-.hero-text-info {
-    color: #4D4D4D;
-    font-size: 16px;
-    line-height: 150%;
-}
-
 .hero-btn {
     padding: 11px 56px;
     background-color: white;
@@ -42,6 +20,26 @@
 .hero-btn:hover {
     background-color: #3C278D;
     color: white;
+}
+
+.hero-2-content-div {
+    max-width: 538px;
+}
+
+.hero-2-sub-heading {
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.hero-2-heading {
+    line-height: 150%;
+    font-size: 64px;
+}
+
+.hero-2-text-info {
+    color: #4D4D4D;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .mt-30 {
@@ -75,49 +73,68 @@
 .bottom-6 {
     bottom: 6px;
 }
+.top-right-div{
+    right: 0;
+}
 
-@media (max-width:992px) {
-    .hero-sub-heading {
+@media (max-width: 992px) {
+    .hero-2-sub-heading {
         font-size: 28px;
     }
 
-    .hero-text-info {
+    .hero-2-text-info {
         font-size: 14px;
     }
 
-    .hero-heading {
+    .hero-2-heading {
         font-size: 56px;
-    }
-
-    .hero-2-top-first-img , .hero-top-left-2-img {
-        width: 75%;
     }
 }
 
-@media (max-width:768px) {
-    .hero-sub-heading {
+@media (max-width: 768px) {
+    .hero-2-sub-heading {
         font-size: 24px;
     }
 
-    .hero-2-top-first-img , .hero-top-left-2-img {
+    .hero-2-heading {
+        font-size: 52px;
+    }
+
+    .w-md-50 {
         width: 50%;
     }
 
-    .hero-heading {
-        font-size: 52px;
+    .top-right-div {
+        right: -16% !important;
+    }
+
+    .hero-top-right-2-img {
+        right: 70%;
+    }
+
+    .right-bottom-div {
+        right: -22%;
+    }
+
+    .hero-bottom-right-2-img {
+        right: 77%;
     }
 }
 
-@media (max-width:576px) {
-    .hero-sub-heading {
+@media (max-width: 576px) {
+    .hero-2-sub-heading {
         font-size: 20px;
     }
 
-    .hero-text-info {
+    .hero-2-text-info {
         font-size: 12px;
     }
 
-    .hero-heading {
+    .hero-2-heading {
         font-size: 48px;
+    }
+
+    .top-right-div {
+        right: -33% !important;
     }
 }
