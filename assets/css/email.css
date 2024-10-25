@@ -29,6 +29,7 @@
   font-weight: 500;
   text-align: left;
   color: #000000;
+  line-height: 157%;
 }
 
 .h-3xl {
@@ -117,9 +118,9 @@
   border-radius: 12px;
   color: #ffffff;
   background: #3c278d;
-  margin-bottom: 44px;
+  /* margin-bottom: 44px; */
   margin-top: 36px;
-  /* margin-left: 33px; */
+  margin-left: 15px;
 }
 
 /* .mx-3xl{
@@ -250,6 +251,9 @@
 
 /* ------------------------responsive------------------- */
 @media (max-width: 1280px) {
+  .xl-form-max-w-2xl{
+    max-width: 984px !important;
+  }
   .xl-mt-2xl {
     margin-top: 36px;
     margin-bottom: 36px;
@@ -268,7 +272,10 @@
   .send-btn {
     max-width: 100%;
     margin-right: auto;
-    margin-left: 0 !important;
+    
+  }
+  .mb-1xl{
+    margin-bottom: 30px;
   }
 }
 
@@ -294,7 +301,8 @@
 
   .send-btn {
     margin-top: 23px;
-    margin-bottom: 23px;
+    /* margin-bottom: 23px; */
+    margin-left: 12px;
   }
 
   .mb-1xl {
@@ -305,6 +313,9 @@
   }
   .mt-xxl {
     margin-top: 12px;
+  }
+  .xl-form-max-w-2xl{
+    max-width: 728px !important;
   }
 }
 
