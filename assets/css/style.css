@@ -74,6 +74,11 @@
 .w-70{
     width: 70%;
 }
+/* Header -1 */
+.header-1-nav{
+    min-height: 44px;
+    margin: 2px 0px;
+}
 /* herder-3 */
 .herder-3-logo{
     padding: 14px 24px;
