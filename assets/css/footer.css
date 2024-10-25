@@ -37,7 +37,8 @@
 .bg-icon {
     background-color: #3C278D;
     border-radius: 100%;
-    width: 34px;
+    width: 37px;
+    height: 34px;
 }
 
 .text-gray {
@@ -72,8 +73,7 @@
     border: 2px solid transparent;
     background: #3C278D;
     border-radius: 12px;
-    line-height: 121%;
-
+    line-height: 150%;
 }
 
 .transitions {

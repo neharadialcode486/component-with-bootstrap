@@ -32,11 +32,13 @@
 
 .about-text {
     margin-bottom: 40px;
+    max-width: 372px;
 }
 
-.fs-md{
+.fs-md {
     font-size: 24px;
 }
+
 .email {
     outline: none;
     background: none;
@@ -48,11 +50,14 @@
     border-radius: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
+    max-width: 252px;
+
 }
 
 .transitions {
     transition: all 400ms linear;
 }
+
 .mail-btn {
     width: 124px;
     height: 48px;
@@ -61,7 +66,9 @@
     border-radius: 12px;
     line-height: 121%;
     margin-left: -20px;
+    padding: 10px 20px;
 }
+
 .mail-btn:hover {
     background-color: #fff;
     color: #F7B103 !important;
@@ -71,6 +78,7 @@
 .leading-150 {
     line-height: 150%;
 }
+
 .bottom-line {
     width: 100%;
     height: 1px;
@@ -78,34 +86,37 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.common-hover:hover{
+
+.common-hover:hover {
     color: #F7B103;
     cursor: pointer;
 }
+
 @media (max-width:992px) {
-    .icons-link{
-        margin-bottom: 40px;
-        max-width: 174px;
-        margin-left: auto;
-        margin-right: auto;
+
+
+    .about-text {
+        max-width: 330px;
     }
-    .about-text{
-        max-width: 380px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .footer-logo{
-        margin-top: 40px;
-    }
-    .email-parnt{
+
+    .email-parnt {
         max-width: 375px;
         margin-left: auto;
         margin-right: auto;
     }
 }
+
 @media (max-width:768px) {
-    .mail-btn{
+
+    .mail-btn {
         margin-left: auto;
         margin-right: auto;
+    }
+    .mail{
+        max-width: 356px;
+        margin-bottom: 20px;
+    }
+    .icons-link{
+        max-width: 174px;
     }
 }

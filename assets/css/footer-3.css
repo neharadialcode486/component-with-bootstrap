@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,11 +8,13 @@
     text-decoration: none !important;
     font-family: "Inter", sans-serif !important;
 }
-footer{
+
+footer {
     max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .container {
     max-width: 1140px !important;
     width: 100% !important;
@@ -18,38 +22,60 @@ footer{
     padding-right: 12px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    margin-top: 79px;
 }
-.email{
+
+.email {
     max-width: 96px;
 }
-.footer-bg{
-   background-image: url(/assets/image/webp/bg-footer-3.webp);
-   background-repeat: no-repeat;
-   background-position: center;
+
+.footer-bg {
+    background-image: url(/assets/image/webp/bg-footer-3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.muted-gray{
+
+.muted-gray {
     color: #444949;
 }
-.about-text{
-    max-width: 400px;
+
+.about-text {
+    max-width: 420px;
 }
-.bottom-line{
+
+.links {
+    margin-bottom: 10px;
+}
+
+.leading-150 {
+    line-height: 150% !important;
+}
+
+.footer-links {
+    max-width: 174px;
+}
+
+.bottom-line {
     width: 100%;
     height: 1px;
     background: #CADBDC;
     margin-bottom: 15px;
 }
-.transitions{
+
+.transitions {
     transition: all 300ms linear;
 }
-.common-hover:hover{
+
+.common-hover:hover {
     color: #38ADB5;
 }
+
 @media (max-width:992px) {
-    .bg-cover{
+    .bg-cover {
         background-size: cover;
     }
-    .max-lg-top{
+
+    .max-lg-top {
         margin-top: 40px;
     }
 }
