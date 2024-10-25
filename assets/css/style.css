@@ -74,7 +74,10 @@
 .w-70{
     width: 70%;
 }
-
+/* herder-3 */
+.herder-3-logo{
+    padding: 14px 24px;
+}
 @media (max-width:992px) {
     nav{
         padding: 0px 20px;
