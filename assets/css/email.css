@@ -255,8 +255,8 @@
     max-width: 984px !important;
   }
   .xl-mt-2xl {
-    margin-top: 36px;
-    margin-bottom: 36px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
   .second-form-heading {
     font-size: 35px;
@@ -334,4 +334,37 @@
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
+  .mt-2xl{
+    margin-top: 16px;
+  }
+
+  .sm-mt-2xl{
+    margin-top: 16px;
+  }
+
+  .sm-center-text-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .sm-px-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .send-btn{
+margin-left: auto;
+margin-right: auto;
+   width: 204px !important;
+  }
+
+  .sm-mx-xl{
+    margin-left: 12px !important;
+    margin-right: 12px !important;
+  }
+
 }
