@@ -152,6 +152,17 @@
   border: none;
   border-radius: 12px;
   transition: all linear 300ms;
+  font-size: 16px;
+}
+
+.third-form-input-py-xl{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.third-form-input-px-1xl{
+padding-left: 16px;
+padding-right: 16px;
 }
 
 .mt-xxl {
@@ -233,6 +244,27 @@
   color: #3c278d;
 }
 
+.get-btn-mt-xl{
+  margin-top: 28px;
+}
+
+.third-form-send-btn{
+ border: none; 
+width:103px;
+padding: 12px 24px 12px 24px;
+border-radius: 12px;
+margin-top: 32px;
+margin-bottom: 46px; 
+color: #ffffff;
+background: #3c278d;
+}
+
+.third-form-send-btn:hover {
+  border: 1px solid #3c278d;
+  background-color: #ffffff;
+  color: #3c278d;
+}
+
 .h-1xl {
   height: 52px;
 }
@@ -248,6 +280,12 @@
 .min-w-1xl {
   min-width: 135px;
 }
+
+.third-form-input-h{
+  height: 46px;
+}
+
+
 
 /* ------------------------responsive------------------- */
 @media (max-width: 1280px) {
@@ -277,6 +315,15 @@
   .mb-1xl{
     margin-bottom: 30px;
   }
+
+  .md-mt-xl{
+  margin-top: 28px !important;
+}
+
+.gap-xl{
+  gap:1.5rem !important;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -365,6 +412,9 @@ margin-right: auto;
   .sm-mx-xl{
     margin-left: 12px !important;
     margin-right: 12px !important;
+  }
+  .third-form-send-btn{
+    margin-bottom: 20px !important;
   }
 
 }
