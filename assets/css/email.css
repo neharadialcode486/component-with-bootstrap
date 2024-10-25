@@ -17,11 +17,11 @@
   max-width: 439px;
 }
 
-.max-w-1139{
+.max-w-1139 {
   max-width: 1139px !important;
 }
 
-.mb-1xl{
+.mb-1xl {
   margin-bottom: 31px;
 }
 .label-text {
@@ -31,15 +31,15 @@
   color: #000000;
 }
 
-.h-3xl{
+.h-3xl {
   height: 130px !important;
 }
 
-.input-h-sm{
+.input-h-sm {
   height: 48px !important;
 }
 
-.py-1xl{
+.py-1xl {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -49,7 +49,7 @@
   border-radius: 12px;
 }
 
-.max-w-4xl{
+.max-w-4xl {
   min-width: 146px !important;
 }
 
@@ -65,12 +65,16 @@
   color: #000000b2;
 }
 
+.input-text::placeholder{
+    color: #000000b2 !important;
+}
+
 .input-h {
   height: 130px;
 }
 
-.mt-2xl{
-margin-top: 32px;
+.mt-2xl {
+  margin-top: 32px;
 }
 
 .send-btn {
@@ -101,6 +105,10 @@ margin-top: 32px;
   width: 100%;
 }
 
+.p-1xl {
+  padding: 12px;
+}
+
 .send-btn {
   max-width: 109px;
   margin-right: auto;
@@ -123,11 +131,11 @@ margin-top: 32px;
   font-size: 36px;
 }
 
-.input-box-border{
+.input-box-border {
   border: 1px solid #00000070 !important;
 }
 
-.mt-1xl{
+.mt-1xl {
   margin-top: 31px !important;
 }
 .second-form-text {
@@ -145,7 +153,7 @@ margin-top: 32px;
   transition: all linear 300ms;
 }
 
-.mt-xxl{
+.mt-xxl {
   margin-top: 52px;
 }
 
@@ -159,15 +167,20 @@ margin-top: 32px;
   outline: none;
   border: 1px solid #0000007d;
   background: transparent;
-  color: #000000b2;
+  color: #000000b2 !important;
   border-radius: 12px;
 }
+
+.third-input-text::placeholder {
+  color: #000000b2 !important;
+}
+
 .third-input-textarea {
   width: 100%;
   max-width: 606px;
 }
 
-.max-w-xxl{
+.max-w-xxl {
   max-width: 441px;
 }
 
@@ -182,7 +195,7 @@ margin-top: 32px;
 }
 
 .third-form-btn {
-  padding: 13px 36px 13px 44px;
+  padding: 12px 36px;
   color: #ffffff;
   background: #3c278d;
   border: none;
@@ -219,43 +232,48 @@ margin-top: 32px;
   color: #3c278d;
 }
 
-.h-1xl{
+.h-1xl {
   height: 52px;
 }
 
-.leading-xl{
+.leading-xl {
   line-height: 119%;
 }
 
+.min-h-xxl {
+  min-height: 107px;
+}
+
+.min-w-1xl {
+  min-width: 135px;
+}
+
 /* ------------------------responsive------------------- */
-@media (max-width:1280px) {
-  .xl-mt-2xl{
+@media (max-width: 1280px) {
+  .xl-mt-2xl {
     margin-top: 36px;
     margin-bottom: 36px;
   }
-  .second-form-heading{
+  .second-form-heading {
     font-size: 35px;
   }
 
-  .my-3xl{
-  margin-top: 36px;
-  margin-bottom: 36px;
+  .my-3xl {
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
 }
 
-}
-
-@media (max-width:1024px) {
-   .send-btn {
+@media (max-width: 1024px) {
+  .send-btn {
     max-width: 100%;
     margin-right: auto;
     margin-left: 0 !important;
   }
-
 }
 
 @media (max-width: 768px) {
-
- .xl-mt-2xl{
+  .xl-mt-2xl {
     margin-top: 24px;
     margin-bottom: 24px;
   }
@@ -279,20 +297,30 @@ margin-top: 32px;
     margin-bottom: 23px;
   }
 
-  .mb-1xl{
+  .mb-1xl {
     margin-bottom: 20px;
   }
-  .mt-1xl{
+  .mt-1xl {
     margin-top: 20px !important;
   }
-  .mt-xxl{
+  .mt-xxl {
     margin-top: 12px;
   }
 }
 
-@media (max-width:576px) {
-  .my-3xl{
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
+@media (max-width: 576px) {
+  .my-3xl {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .w-sm-100 {
+    width: 100%;
+  }
+  .third-form-name-w {
+    width: 100% !important;
+  }
+  .px-xl {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 }
