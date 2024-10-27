@@ -116,8 +116,8 @@
   opacity: 70%;
 }
 
-.max-w-788 {
-  max-width: 788px;
+.second-section-heading-text-max-w-xxl {
+  max-width: 831px;
 }
 
 .mt-1xl{
@@ -361,6 +361,7 @@ border-color:#FF00CC ;
     margin-bottom: 24px;
   }
   
+
 }
 
 @media (max-width:768px) {
@@ -416,6 +417,10 @@ border-color:#FF00CC ;
 }
 
 @media (max-width:576px) {
+
+  .fourth-card-heading{
+      font-size: 30px;
+    }
 
 .first-section-cards-hight-2xl{
   height: 300px;
