@@ -2,6 +2,10 @@
 body {
   font-family: "Inter", sans-serif;
 }
+.container {
+  margin-top: 61px;
+  max-width: 1180px;
+}
 .roadmap-section {
   padding-top: 48px;
   padding-bottom: 85px;
@@ -13,7 +17,19 @@ body {
   padding-right: 16px;
   color: #000000b2;
 }
-
+.heading {
+  padding-bottom: 16px;
+  line-height: 67.77px;
+}
+.row {
+  margin-top: 32px;
+}
+.timeline-text-r {
+  padding-left: 40px;
+}
+.timeline-text-l {
+  padding-right: 40px;
+}
 .roadmap-line {
   width: 2px;
   height: 100%;
@@ -23,6 +39,7 @@ body {
 }
 .roadmap-line-head {
   font-size: 24px;
+  line-height: 2rem;
 }
 .step-circle {
   height: 71px;
@@ -32,6 +49,12 @@ body {
 }
 .small {
   max-width: 429px;
+  font-size: 16px;
+  padding-top: 8px;
+  color: #000000b2;
+}
+.small-3 {
+  max-width: 448px;
   font-size: 16px;
   padding-top: 8px;
   color: #000000b2;
@@ -66,5 +89,9 @@ body {
 @media (max-width: 767.98px) {
   .roadmap-line {
     left: 22px;
+  }
+  .timeline-text-l {
+    padding-left: 40px;
+    padding-right: 0;
   }
 }
