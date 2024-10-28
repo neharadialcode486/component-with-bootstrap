@@ -395,10 +395,6 @@ p {
 
 /* ===========responsive */
 @media (max-width:1024px) {
-    .pricing-table-one {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
 
     .table-2 {
         padding-top: 100px;
