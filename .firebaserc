@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "countdown-5c23c"
-  }
+    "default": "countdown-5c23c",
+    "yes": "countdown-5c23c"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
