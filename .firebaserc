@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "nav-tabs"
-  }
+    "default": "nav-tabs",
+    "yes": "nav-tabs"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
