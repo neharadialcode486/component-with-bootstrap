@@ -9,17 +9,18 @@
 }
 .hero-btn {
     padding: 11px 56px;
-    background-color: white;
     border-radius: 12px;
-    color: #3C278D;
-    border: 1px solid #3C278D;
     transition: all 300ms linear;
     max-width: 164px;
+    border: 1px solid transparent;
+    background-color: #3C278D;
+    color: white;
 }
 
 .hero-btn:hover {
-    background-color: #3C278D;
-    color: white;
+    color: #3C278D;
+    border: 1px solid #3C278D;
+    background-color: white;
 }
 
 .hero-2-content-div {
