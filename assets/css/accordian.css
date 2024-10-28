@@ -8,6 +8,7 @@
     color:#1E1E1E;
 }
 
+
 .accordion-heading{
     max-width: 788px;
     margin-left: auto;
@@ -99,11 +100,21 @@ font-weight: 600 !important;
     padding: 16px 24px 16px 24px !important;
 }
 
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+
 /* -------------responsive------------------ */
 @media (max-width:1024px) {
     .fs-2xl{
         font-size: 38px !important;
     }
+    .center-box{
+    display: flex !important;
+    align-items: center !important;
+    justify-content:  center !important;
+    flex-direction: column !important;
+}
 }
 
 @media (max-width:768px) {
@@ -116,5 +127,11 @@ font-weight: 600 !important;
     }
     .accordion-button{
         padding: 12px 15px 12px 15px !important;
+    }
+}
+
+@media (max-width:576px) {
+      .fs-lg{
+        font-size: 16px !important;
     }
 }

@@ -1,7 +1,8 @@
 {
   "projects": {
     "default": "accordion-5213d",
-    "yes": "forms-9f924"
+    "yes": "accordion-5213d",
+    "yes ": "accordion-5213d"
   },
   "targets": {},
   "etags": {},
