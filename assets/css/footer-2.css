@@ -50,7 +50,7 @@
     border-radius: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
-    max-width: 252px;
+    max-width: 229px;
 
 }
 
@@ -93,12 +93,6 @@
 }
 
 @media (max-width:992px) {
-
-
-    .about-text {
-        max-width: 330px;
-    }
-
     .email-parnt {
         max-width: 375px;
         margin-left: auto;
