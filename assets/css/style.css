@@ -372,7 +372,7 @@ p {
 
 .pricing-three-py {
     padding-top: 184px;
-    padding-bottom: 157px;
+    padding-bottom: 130px;
 }
 
 .table-top {
@@ -450,6 +450,9 @@ p {
     .pricing-three-py {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+    .table-3-heading {
+        margin-bottom: 32px;
     }
     .heading-text {
         margin-bottom: 24px !important;
