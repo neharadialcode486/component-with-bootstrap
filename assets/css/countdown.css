@@ -57,7 +57,7 @@ line-height: 120%;
 }
 
 .btn-p-sm{
-    padding: 14px 20px 14px 20px !important;
+    padding: 11px 20px 11px 20px !important;
 }
 
 /* ----------responsive------------ */
@@ -82,8 +82,12 @@ line-height: 120%;
 
 @media (max-width:768px) {
 
+    .justify-center{
+        justify-content: center;
+    }
+
     .count-down-heading{
-        font-size: 24px;
+        text-align: center;
     }
 
     .fs-xl{
