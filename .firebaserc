@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "roadmap-bootstrap"
-  }
+    "default": "roadmap-bootstrap",
+    "yes": "roadmap-bootstrap"
+  },
+  "targets": {},
+  "etags": {}
 }
