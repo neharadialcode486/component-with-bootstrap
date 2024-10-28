@@ -38,10 +38,13 @@ section{
 .light-gray{
     color: #BEBBB8;
 }
+.px-book-btn{
+    padding: 10px 21px !important;
+}
 .services-btn{
     background: #FFF0CC;
     border: 2px solid #FFF0CC;
-    padding: 12px 24px;
+    padding: 10px 20px;
     transition: all 300ms linear;
 }
 .services-btn:hover{
@@ -60,11 +63,9 @@ section{
         position: unset !important;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 40px;
-        
     }
     .main-heading{
-        font-size: 34px;
+        font-size: 36px;
     }
     .col-xl-6{
         position: unset !important;

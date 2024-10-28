@@ -3,9 +3,11 @@
 * {
     font-family: "Inter", sans-serif;
 }
+
 .container{
     max-width: 1280px !important;
 }
+
 .multi-color-img {
     max-width: 558px;
     cursor: pointer;
@@ -30,7 +32,7 @@
 
 .sec-text {
     max-width: 496px;
-    color: #4A4A4A;
+    color: #1E1E1E;
     line-height: 150%;
 }
 
@@ -57,7 +59,7 @@
     }
 
     .main-heading {
-        margin-top: 60px;
+        margin-top: 36px;
     }
 
     .img-parent {

@@ -30,7 +30,7 @@
 .button {
   background: linear-gradient(98.04deg, #4F7566 3.36%, #A2AF7A 100%);
   font-size: 16px;
-  border: 2px solid transparent;
+  border: 2px solid white;
   padding: 12px 23px;
   transition: all 400ms linear;
   border-radius: 8px;
@@ -38,8 +38,18 @@
 
 .button:hover {
   background: white;
-  border-color: #A2AF7A;
-  color: #A2AF7A;
+  border-color: #4F7566;
+  color: #4F7566 !important;
+}
+
+@media (max-width:1140px) {
+  .container {
+    padding-left: 20px !important;
+    padding-left: 20px !important;
+  }
+  .sec-img{
+    margin-right: 8px;
+  }
 }
 
 @media (max-width:992px) {
