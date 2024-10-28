@@ -22,10 +22,6 @@
   color: #474747;
 }
 
-.pushable {
-  background: #231754;
-  cursor: pointer;
-}
 
 .front-btn {
   border: 2px solid transparent;
@@ -33,6 +29,7 @@
   font-size: 16px;
   background: #3C278D;
   transform: translateY(-4px);
+  border-radius: 12px;
   transition: all 400ms linear;
 }
 
@@ -41,11 +38,6 @@
   color: #231754 !important;
   border: 2px solid #231754;
 
-}
-
-.pushable:active .front {
-  transform: translateY(0px);
-  transition: all 0ms linear;
 }
 
 @media (max-width:992px) {
