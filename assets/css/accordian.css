@@ -23,7 +23,7 @@ color: #3C278D !important;
 
 .accordion-body{
     max-width: 786px !important;
-    
+    line-height: 150% !important;
 }
 
 .first-accordion{
