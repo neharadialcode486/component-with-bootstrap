@@ -53,8 +53,12 @@ color: #0E0F13;
     color: #076787;
 }
 
+.counter-two-text-fs{
+    font-size: 20px !important;
+}
+
 .fs-xxl{
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .platfrom-heading{
