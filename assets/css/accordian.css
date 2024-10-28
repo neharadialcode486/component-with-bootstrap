@@ -104,6 +104,10 @@ font-weight: 600 !important;
     box-shadow: none !important;
 }
 
+.accoordian-heading-fs-lg{
+    font-size: 20px !important;
+}
+
 /* -------------responsive------------------ */
 @media (max-width:1024px) {
     .fs-2xl{
