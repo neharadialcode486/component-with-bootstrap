@@ -22,6 +22,7 @@ color: #3C278D !important;
 
 .accordion-body{
     max-width: 786px !important;
+    
 }
 
 .first-accordion{
@@ -45,7 +46,7 @@ color: #3C278D !important;
 
 .accordion-item{
     border: 1px solid #3C278D !important;
-    border-radius: 16px !important;
+    border-radius: 12px !important;
     margin-top: 16px !important;
 }
 
@@ -73,11 +74,11 @@ margin-right: auto !important;
 }
 
 .fs-2xl{
-    font-size: 46px !important;
+    font-size: 48px !important;
 }
 
 .fs-lg{
-    font-size: 20px !important;
+    font-size: 16px !important;
 }
 
 .owl-img{
@@ -94,6 +95,10 @@ font-weight: 600 !important;
     background-image: url(/assets/images/svg/arrow.svg) !important;
 }
 
+.accordion-button{
+    padding: 16px 24px 16px 24px !important;
+}
+
 /* -------------responsive------------------ */
 @media (max-width:1024px) {
     .fs-2xl{
@@ -108,5 +113,8 @@ font-weight: 600 !important;
     
      .fs-2xl{
         font-size: 28px !important;
+    }
+    .accordion-button{
+        padding: 12px 15px 12px 15px !important;
     }
 }
