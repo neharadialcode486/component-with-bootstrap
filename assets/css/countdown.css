@@ -60,6 +60,10 @@ line-height: 120%;
     padding: 11px 20px 11px 20px !important;
 }
 
+.timer-gap-md{
+    gap: 1.25rem;
+}
+
 /* ----------responsive------------ */
 
 @media (max-width:1024px) {
@@ -79,20 +83,24 @@ line-height: 120%;
     padding-right: 19px;
 }
 
-.count-down-heading{
-    font-size: 38px;
-}
+
    
 .fs-xl{
-    font-size: 45px;
+    font-size: 48px;
 }
 }
 
-@media (max-width:768px) {
+@media (max-width:576px) {
 
  
+    .count-down-heading{
+    font-size: 24px;
+}
 
+.count-down-text{
+    font-size: 14px !important;
+}
     .fs-xl{
-        font-size: 35px;
+        font-size: 36px;
     }
 }
