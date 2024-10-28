@@ -64,6 +64,14 @@ line-height: 120%;
 
 @media (max-width:1024px) {
 
+   .justify-center{
+        justify-content: center;
+    }
+
+    .count-down-heading{
+        text-align: center;
+    }
+
     .heading-text-parent{
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -82,13 +90,7 @@ line-height: 120%;
 
 @media (max-width:768px) {
 
-    .justify-center{
-        justify-content: center;
-    }
-
-    .count-down-heading{
-        text-align: center;
-    }
+ 
 
     .fs-xl{
         font-size: 35px;
