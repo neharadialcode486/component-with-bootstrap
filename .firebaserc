@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "tab-bootstrap"
-  }
+    "default": "tab-bootstrap",
+    "y": "tab-bootstrap"
+  },
+  "targets": {},
+  "etags": {}
 }

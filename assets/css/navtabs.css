@@ -83,7 +83,17 @@
 }
 
 /* ==Tab 2 */
-
+.tab-2-heading {
+  font-size: 48px;
+}
+.btn {
+  line-height: 110%;
+  border-radius: 52px !important;
+}
+.tab-2-container {
+  padding: 96px 12px;
+  max-width: 1440px;
+}
 .swiper-pagination-bullet {
   opacity: 1;
   width: 26px;
@@ -96,7 +106,9 @@
 .swiper-pagination-bullet-active {
   background-color: #da6015;
 }
-
+.swiper {
+  padding-bottom: 48px !important;
+}
 .swiper-pagination {
   bottom: 0px !important;
 }
@@ -109,8 +121,9 @@
   padding: 7.5px 26px;
   border: none;
 }
-.rounded-pill {
+.tab-2-parent {
   border-radius: 52px !important;
+  margin-bottom: 40px;
 }
 .text-lg {
   font-size: 18px;
@@ -135,8 +148,29 @@
   width: 100%;
 }
 /* ---------------responsive------------------ */
-@media (max-width: 768px) {
+@media (max-width: 1024.99px) {
+  .tab-2-container {
+    padding: 60px 12px;
+  }
+}
+@media (max-width: 768.99px) {
   .nav-btns {
     overflow: auto !important;
+  }
+  .tab-2-container {
+    padding: 40px 12px;
+  }
+  .tab-2-heading {
+    font-size: 36px;
+    margin: 0;
+  }
+}
+@media (max-width: 576.99px) {
+  .tab-2-heading {
+    font-size: 30px;
+  }
+  .tab-2-pera {
+    font-size: 14px;
+    margin: 0;
   }
 }

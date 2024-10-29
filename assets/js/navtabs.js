@@ -39,32 +39,22 @@ function showContent(level) {
 }
 
 
-// second-tabs
-
 // Tab 2
-// Select all tab buttons using Bootstrap's button class
 const tabButtons = document.querySelectorAll('.btn[data-target]');
 const contents = document.querySelectorAll('.tabsInfoTwo');
-
-// Add click event listeners to each tab button
 tabButtons.forEach(button => {
     button.addEventListener('click', () => {
-        // Remove 'active' class from currently active tab button
         const activeButton = document.querySelector('.btn.active');
         if (activeButton) {
             activeButton.classList.remove('active');
             activeButton.classList.remove('bg-orange',);
-            activeButton.classList.add('text-black'); // Assuming default text color is black
+            activeButton.classList.add('text-black'); 
         }
-
-        // Hide all tab contents
         contents.forEach(content => content.classList.add('d-none'));
 
-        // Activate the clicked tab button
         button.classList.add('active','text-black','bg-orange');
         button.classList.remove('text-black');
 
-        // Get the target content ID and show it
         const targetId = button.getAttribute('data-target');
         const targetContent = document.getElementById(targetId);
         if (targetContent) {
@@ -78,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function () {
     var swiper = new Swiper(".swiper", {
  loop: true,
  slidesPerView: 1,
- spaceBetween: 10,
  pagination: {
      el: ".swiper-pagination",
      clickable: true,
