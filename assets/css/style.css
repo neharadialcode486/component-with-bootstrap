@@ -201,10 +201,10 @@ p {
     width: fit-content;
     border: 1px solid black;
     gap: 10px;
-    padding-top: 9.4px;
-    padding-bottom: 9.4px;
-    padding-left: 9.1px;
-    padding-right: 9.1px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+    padding-left: 9px;
+    padding-right: 9px;
     border-radius: 52px;
 }
 
