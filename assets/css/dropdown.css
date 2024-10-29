@@ -58,3 +58,22 @@
     min-height: 41px !important;
     background-color: #FFEEEF !important;
 }
+
+
+.second-dropdown-menu{
+    padding: 13px 16px 13px 16px !important;
+}
+
+.dropdown-menu-two-links{
+    min-width: 156px !important;
+}
+
+.second-dropdown-menu-height{
+    height: 39px !important;
+}
+
+.seond-dropdown-links{
+color: #858587 !important;
+font-size: 14px !important;
+font-weight: 400;
+}
