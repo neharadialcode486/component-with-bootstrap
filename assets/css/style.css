@@ -383,8 +383,8 @@ p {
 }
 
 .table-bottom {
-    transform: translate(62.8%, -4px);
-    height: 24px;
+    transform: translate(62.8%, 0);
+    height: 20px;
     width: 396px;
 }
 
