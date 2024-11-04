@@ -10,6 +10,8 @@
 
 .container {
     max-width: 1140px !important;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
 }
 
 .cursor-pointer {
@@ -17,15 +19,20 @@
 }
 
 .nav-logo {
-    padding: 12px 24px;
+
     background-color: #C5C2C2;
     color: #3C278D;
+}
+.header-logo{
+    padding: 14px 24px !important;
+    background-color: #C5C2C2 !important;
+    color: #3C278D !important;
 }
 
 .nav-click-btn {
     overflow: hidden;
-    width: 25px;
-    height: 25px;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 .nav-click-btn span {
@@ -75,18 +82,14 @@
     width: 70%;
 }
 /* Header -1 */
-.header-1-nav{
-    min-height: 44px;
-    margin: 2px 0px;
+.header-nav{
+    min-height: 48px;
 }
 /* herder-3 */
 .herder-3-logo{
     padding: 14px 24px;
 }
 @media (max-width:992px) {
-    nav{
-        padding: 0px 20px;
-    }
     .nav-links {
         position: fixed;
         width: 100%;
