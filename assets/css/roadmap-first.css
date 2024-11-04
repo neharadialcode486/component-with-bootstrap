@@ -20,6 +20,7 @@ body {
 .heading {
   padding-bottom: 16px;
   line-height: 67.77px;
+  font-size: 56px;
 }
 .row {
   margin-top: 32px;
@@ -85,13 +86,40 @@ body {
   width: 40px;
   border-bottom: 1px solid black;
 }
-
-@media (max-width: 767.98px) {
+@media (max-width: 992.98px) {
+.roadmap-section{
+  padding-bottom: 56px;
+} 
+.heading{
+  font-size: 48px;
+}
+}
+@media (max-width: 768.98px) {
+  .container{
+    margin-top: 48px;
+  }
   .roadmap-line {
     left: 22px;
   }
-  .timeline-text-l {
+    .timeline-text-l {
     padding-left: 40px;
     padding-right: 0;
   }
-}
+  .roadmap-section{
+    padding-bottom: 40px;
+    padding-top: 40px;
+  } 
+  }
+@media (max-width: 576.98px) {
+  .container{
+    margin-top: 36px;
+  }
+  .roadmap-section{
+    padding-bottom: 36px;
+    padding-top: 36px;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  }
+ 
