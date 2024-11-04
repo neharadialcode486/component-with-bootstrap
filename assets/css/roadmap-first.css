@@ -9,6 +9,8 @@ body {
 .roadmap-section {
   padding-top: 48px;
   padding-bottom: 85px;
+  padding-left: 8px;
+  padding-right: 16px;
 }
 
 .roadmap-description {
@@ -92,6 +94,7 @@ body {
 } 
 .heading{
   font-size: 48px;
+  line-height: 1;
 }
 }
 @media (max-width: 768.98px) {
@@ -120,6 +123,10 @@ body {
   }
   .heading{
     font-size: 30px;
+    line-height: 2.25rem;
+  }
+  .small , .small-3{
+    font-size: 14px;
   }
   }
  
