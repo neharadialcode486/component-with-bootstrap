@@ -33,7 +33,7 @@
 }
 
 .icon-gap {
-    gap: 14px;
+    gap: 16px;
 }
 
 .roadmap-heading {
@@ -48,13 +48,15 @@
 
 .roadmap-small-img {
     width: 40px;
-    padding-top: 40px;
+    padding-top: 32px;
 }
 
 .small-roadmap {
     padding: 0px 80px 48px;
 }
-
+.content-1{
+    padding-top: 36px;
+}
 .content-spacing {
     padding-top: 45px;
 }
