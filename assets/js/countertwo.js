@@ -1,12 +1,7 @@
-// counter-2
-let countedTwo = false;
-$(window).scroll(function () {
-  if (
-    !countedTwo &&
-    $(window).scrollTop() >
-      $("#platform-counter").offset().top - window.innerHeight
-  ) {
-    // Iterate over each .count element
+$(document).ready(function () {
+  // Function to start the counting animation
+  function startCounting() {
+    // Iterate over each .platform-count element
     $(".platform-count").each(function () {
       const $this = $(this);
       $this.prop("Counter", 0).animate(
@@ -23,6 +18,8 @@ $(window).scroll(function () {
         }
       );
     });
-    countedTwo = true;
   }
+
+  // Start the counting animation when the document is ready
+  startCounting();
 });

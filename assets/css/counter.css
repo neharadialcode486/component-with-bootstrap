@@ -89,7 +89,7 @@ margin-top: 56px;
 
 .plaform-card{
     width: 268px;
-    height: 207px;
+    /* max-height: 207px; */
     border-radius: 4px;
 }
 
@@ -115,12 +115,12 @@ margin-top: 56px;
 }
 
 .platform-box-py-1xl{
-    padding-top: 45.5px;
-    padding-bottom: 45.5px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .gap-xl{
-    gap: 28px;
+    gap: 28px !important;
 }
 
 .px-5xl{
@@ -129,8 +129,8 @@ margin-top: 56px;
 }
 
 .py-5xl{
-    padding-top: 52px;
-    padding-bottom: 52px;
+    padding-top: 51px;
+    padding-bottom: 51px;
 }
 
 
@@ -140,8 +140,8 @@ margin-top: 56px;
 }
 
 .py-3xxl{
-    padding-top: 38px;
-    padding-bottom: 38px;
+    padding-top:36.5px;
+    padding-bottom:35.5px;
 }
 
 .second-counter-bg{
@@ -169,6 +169,22 @@ margin-top: 56px;
     font-size: 60px;
 }
 
+.text-xl{
+    font-size: 20px;
+}
+
+.fs-2xl{
+    font-size: 50px;
+}
+
+.pt-2xl{
+    padding-top: 12px;
+}
+
+.mt-1xl{
+    margin-top: -14px !important;
+}
+
 /* ---------------responsive------------ */
 
  @media (max-width:1024px) {
@@ -189,11 +205,17 @@ margin-top: 56px;
         font-size: 30px;
     }
 
-    .fs-xxl{
-        font-size: 55px;
-    }
+   .fs-2xl{
+    font-size: 48px;
+}
     .text-6xl{
         font-size: 48px;
+    }
+    .card-size-3xl{
+        height: 207px;
+    }
+    .fs-4xl{
+        font-size: 36px;
     }
  }
 
@@ -231,16 +253,39 @@ margin-top: 56px;
     font-size: 24px;
 }
 
-
-
 .text-6xl{
     font-size: 36px;
 }
 
+.mt-6xl{
+    margin-top: 40px;
+}
+
+   .fs-2xl{
+    font-size: 40px;
+}
+
+ .fs-4xl{
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width:576px) {
+
+     .fs-4xl{
+        font-size: 24px;
+    }
+
     .text-6xl{
+    font-size: 30px;
+}
+
+.mt-6xl{
+    margin-top: 24px;
+}
+
+   .fs-2xl{
     font-size: 30px;
 }
 
