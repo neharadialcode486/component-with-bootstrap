@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "about-bootstrap"
-  }
+    "default": "about-bootstrap",
+    "/": "about-bootstrap"
+  },
+  "targets": {},
+  "etags": {}
 }
