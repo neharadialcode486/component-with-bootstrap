@@ -139,7 +139,7 @@
 .cardTwo-border-success {
   transition: all 300ms linear !important;
   border: 1px solid #4f756666 !important;
-  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.09) !important;
+  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.05) !important;
 }
 
 .cardTwo-border-success:hover {
@@ -249,6 +249,12 @@ font-size: 24px;
 border-color:#FF00CC;
 }
 
+.btn-border-pink{
+    border: 1px solid #FF00CC;
+  border-radius: 76px;
+  transition: all 300ms linear;
+}
+
 .min-w-558{
   min-width: 558px;
 }
@@ -271,7 +277,7 @@ border-color:#FF00CC;
   background-color: #FF00CC;
 }
 
-.max-w-1140{
+.max-w-5xl{
   max-width: 1140px !important;
 }
 
@@ -342,6 +348,20 @@ border-color:#FF00CC;
 }
 .max-lg-pt-sm-1xl{
   padding-top: 6px !important;
+}
+
+.forth-cards-mx-xl-2xl{
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.forth-cards-px-xl-1xl{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.max-w-5xl{
+  max-width: 984px !important;
 }
 
 }
@@ -415,15 +435,15 @@ border-color:#FF00CC;
 }
 
 
-.second-section-my-xxl{
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
+
 
 }
 
 @media (max-width:576px) {
-
+.forth-cards-mx-xl-2xl{
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
   .fourth-card-heading{
       font-size: 30px;
     }
@@ -436,6 +456,9 @@ border-color:#FF00CC;
 width: 100%;  
 }
 
+.max-sm-p-none{
+padding: 0 !important;
+}
 
 .second-section-my-xxl{
   margin-top: 24px;
