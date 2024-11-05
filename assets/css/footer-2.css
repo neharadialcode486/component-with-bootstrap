@@ -112,7 +112,7 @@
     fill:black ;
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .mail-btn{
         margin-left: 0;
     }
@@ -121,7 +121,6 @@
         padding-bottom: 32px;
     }
     .mail{
-        max-width: 356px;
         margin-bottom: 20px;
     }
 }

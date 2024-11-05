@@ -98,6 +98,10 @@ footer {
     .main-heading{
         font-size: 20px;
     }
+    .container{
+        margin-top: 48px !important;
+    }
+    
 }
 @media (max-width:640px) {
 
