@@ -5,6 +5,8 @@ body {
 .container {
   margin-top: 61px;
   max-width: 1180px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .roadmap-section {
   padding-top: 48px;
@@ -15,8 +17,8 @@ body {
 
 .roadmap-description {
   max-width: 934px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 12px;
+  padding-right: 12px;
   color: #000000b2;
 }
 .heading {
@@ -101,13 +103,6 @@ body {
   .container{
     margin-top: 48px;
   }
-  .roadmap-line {
-    left: 22px;
-  }
-    .timeline-text-l {
-    padding-left: 40px;
-    padding-right: 0;
-  }
   .roadmap-section{
     padding-bottom: 40px;
     padding-top: 40px;
@@ -116,6 +111,13 @@ body {
 @media (max-width: 576.98px) {
   .container{
     margin-top: 36px;
+  }
+  .roadmap-line {
+    left: 22px;
+  }
+    .timeline-text-l {
+    padding-left: 40px;
+    padding-right: 0;
   }
   .roadmap-section{
     padding-bottom: 36px;

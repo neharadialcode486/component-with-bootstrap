@@ -16,7 +16,7 @@ section {
 }
 
 .paragraph-roadmap {
-  max-width: 934px;
+  max-width: 938px;
   padding: 0 1rem;
   color: #000000b2;
   padding-left: 12px;
@@ -52,7 +52,7 @@ section {
 }
 .custom-card {
   border: 1px solid white;
-  border-radius: 1rem;
+  border-radius: 12px;
   transition: all 0.3s linear;
   max-width: 216px;
   height: 112px;
@@ -80,18 +80,19 @@ section {
   border-bottom-left-radius: 11px;
   border-bottom-right-radius: 11px;
   transition: all 300ms linear;
-}
+  }
 .custom-card:hover {
   border-color: #cbc3da;
+  overflow: hidden;
 }
 
 .custom-card:hover .custom-card-header {
-  background-color: #3c278dc2;
+  background-color: #6B5BA9;
   color: white;
 }
 
 .custom-card:hover .custom-card-body {
-  background-color: rgba(30, 30, 30, 0.12);
+  background-color: #EFEFEF;
 }
 
 .roadmap-item {
@@ -114,7 +115,7 @@ section {
 .mobile-bg-line::after {
   position: absolute;
   content: "";
-  height: 100%;
+  height: 83%;
   background-color: rgb(209 213 219);
   top: 7px;
   bottom: 0;
@@ -136,9 +137,11 @@ section {
     margin-left: 16px !important;
   }
   .container {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
+    max-width: 768px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 768.99px) {
