@@ -9,46 +9,54 @@
   </head>
   <body class="font-inter">
   
-    <section id="amzon-counter" class="min-vh-100 d-flex align-items-center justify-content-center flex-column my-lg-0 my-4">
-        <div class="container">
-        <h2 class="text-center amzon-counter-heading fw-bold mt-sm-1 mt-4">Clients trust us with their <span class="text-orange">Amazon strategy for a reason.</span></h2>
-        <div class="d-flex align-items-center justify-content-center gap-xl flex-wrap mt-xxl">
-            <div class="d-flex align-items-center gap-4 light-orange-border rounded-2 amzon-box">
-                <img src="/assets/images/svg/brand-icon.svg" alt="brand-icon" class="py-4 ps-4 brand-icon">
-                <div class="flex-column py-4 pe-4">
-                    <div class="d-flex">
-                <p class="fw-bold amzon-card-data text-light-black m-0 amzon-count" data-count="20">0</p>
-                <span class="fw-bold amzon-card-data text-light-black m-0">+</span>
-                </div>
-                <p class="fs-6 text-light-black fw-bold opacity-75 pt-2">BRANDS MANAGED</p>
-                </div>
+    <section class="min-vh-100 d-flex justify-content-center align-items-center py-24 max-lg:py-20 max-md:py-16">
+    <div class="container">
+      <div class="heading text-center">
+        <h1
+          class="amzon-counter-heading max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
+          Clients trust us with their <span class="text-orange">Amazon
+            strategy for a
+            reason.</span></h1>
+      </div>
+      <div id="counterOne"
+        class="d-flex flex-wrap gap-4xl max-lg:gap-9 max-md:gap-7 max-sm:gap-4 justify-content-center align-items-center first-card-section-mt-6xl">
+        <div
+          class="d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative w-3xxl max-md:w-[356px] gap-1xl hover:border-opacity-100 ease-linear duration-300 rounded-md">
+          <img class="pointer-events-none" src="./assets/images/svg/brand-icon.svg" alt="image">
+          <div class="d-flex flex-column">
+            <div class="d-flex">
+              <p class="fw-bold amzon-card-data count m-0" data-count="20">0</p>
+              <span class="fw-bold amzon-card-data ">+</span>
             </div>
-
-             <div class="d-flex align-items-center gap-4 light-orange-border rounded-2 amzon-box-2">
-                <img src="/assets/images/svg/language-icon.svg" alt="brand-icon" class="py-4 ps-4 brand-icon">
-                <div class="flex-column py-4 pe-4">
-                 <div class="d-flex"> 
-                    <span class="fw-bold amzon-card-data text-light-black m-0">0</span>  
-                <p class="fw-bold amzon-card-data text-light-black m-0 amzon-count" data-count="07">0</p>
-                </div>
-                <p class="fs-6 text-light-black fw-bold opacity-75 pt-2">LANGUAGES SPOKEN</p>
-                </div>
-            </div>
-
-             <div class="d-flex align-items-center gap-4 light-orange-border rounded-2 amzon-box-3">
-                <img src="/assets/images/svg/profit-icon.svg" alt="brand-icon" class="py-4 ps-4 brand-icon">
-                <div class="flex-column py-4 pe-4">
-                  <div class="d-flex">  
-                <span class="fw-bold amzon-card-data text-light-black m-0">$</span>
-                <p class="fw-bold amzon-card-data text-light-black m-0 amzon-count" data-count="100000">0</p>
-                <span class="fw-bold amzon-card-data text-light-black m-0">+</span>
-                </div>
-                <p class="fs-6 text-light-black fw-bold opacity-75 pt-2">GAINED IN PROFIT</p>
-                </div>
-            </div>
+            <p class="text-base fw-bold opacity-7xl m-0">BRANDS MANAGED</p>
+          </div>
         </div>
+        <div
+          class="d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative card-two-box-w-3xl max-md:w-[356px] gap-1xl hover:border-opacity-100 ease-linear duration-300 rounded-md">
+          <img class="pointer-events-none" src="./assets/images/svg/language-icon.svg" alt="image">
+          <div class="d-flex flex-column">
+            <div class="d-flex ">
+              <span class="fw-bold amzon-card-data m-0">0</span>
+              <p class="fw-bold amzon-card-data count m-0" data-count="7">0</p>
+            </div>
+            <p class="text-base fw-bold opacity-7xl m-0">LANGUAGES SPOKEN</p>
+          </div>
         </div>
-    </section>
+        <div
+          class="d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative card-two-box-w-4xl gap-1xl hover:border-opacity-100 ease-linear duration-300 rounded-md">
+          <img class="pointer-events-none" src="./assets/images/svg/profit-icon.svg" alt="image">
+          <div class="d-flex flex-column">
+            <div class="d-flex">
+              <span class="fw-bold amzon-card-data ">$</span>
+              <p class="fw-bold amzon-card-data count m-0" data-count="100000">0</p>
+              <span class="fw-bold amzon-card-data">+</span>
+            </div>
+            <p class="text-base fw-bold opacity-7xl d-flex grow m-0">GAINED IN PROFIT</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/assets/js/counter.js"></script>

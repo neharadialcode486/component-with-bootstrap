@@ -42,6 +42,19 @@ color: #0E0F13;
     backdrop-filter: blur(10px);
 }
 
+.w-3xxl{
+    width:308px
+}
+
+.card-two-box-w-3xl{
+    width: 322px;
+}
+
+.card-two-box-w-4xl{
+    width: 356px;
+}
+
+
 .gap-xl{
     gap: 50px !important;
 }
@@ -117,6 +130,28 @@ margin-top: 56px;
 .platform-box-py-1xl{
     padding-top: 36px;
     padding-bottom: 36px;
+}
+
+.first-card-section-mt-6xl{
+    margin-top: 60px;
+}
+
+.gap-1xl{
+    gap: 24px !important;
+}
+
+.gap-4xl{
+    gap: 48px;
+}
+
+.first-card-px-1xl{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.first-card-py-3xl{
+    padding-top: 27px;
+    padding-bottom: 27px;
 }
 
 .gap-xl{
