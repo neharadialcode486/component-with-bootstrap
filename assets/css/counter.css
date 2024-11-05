@@ -160,6 +160,10 @@ margin-top: 56px;
     font-size: 40px;
 }
 
+.mt-6xl{
+    margin-top: 60px;
+}
+
 /* ---------------responsive------------ */
 
  @media (max-width:1024px) {
