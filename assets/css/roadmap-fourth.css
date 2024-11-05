@@ -45,6 +45,7 @@ body {
 }
 .roadmap-content {
   max-width: 1032px;
+  margin-top: 94px;
 }
 .roadmap-content::after {
   position: absolute;
@@ -176,6 +177,9 @@ body {
     left: 6px;
     height: 1400px;
   }
+  .roadmap-content{
+    margin-top: 80px;
+  }
 }
 @media (max-width: 991.98px) {
   .roadmap-section{
@@ -236,6 +240,9 @@ body {
   .roadmap-block-3 {
     margin-top: 40px;
   }
+  .roadmap-content{
+    margin-top: 56px;
+  }
 }
 @media (max-width: 515px) {
   .roadmap-section{
@@ -290,6 +297,9 @@ body {
   }
   .roadmap-block-4{
     padding-top: 70px;
+  }
+  .roadmap-content{
+    margin-top: 40px;
   }
 }
 @media (max-width: 424px) {
