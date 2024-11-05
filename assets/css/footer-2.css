@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box !important;
     list-style: none !important;
     text-decoration: none !important;
@@ -25,6 +23,9 @@
 .light-gray {
     color: #BBBBBB;
 }
+.light-blue{
+    color: #77808B;
+}
 
 .icon-bg {
     background: #F7B103;
@@ -32,7 +33,7 @@
 
 .about-text {
     margin-bottom: 40px;
-    max-width: 380px;
+    max-width: 375px;
     line-height: 150%;
 
 }
@@ -47,16 +48,17 @@
 .email {
     outline: none;
     background: none;
-    padding-right: 50px;
+    padding-right: 15px;
 }
-
+.email::placeholder{
+    color: #77808B;
+}
 .mail {
     background: #FEF7E6;
     border-radius: 12px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 11px;
+    padding-bottom: 11px;
     max-width: 255px;
-
 }
 
 .transitions {
@@ -64,13 +66,13 @@
 }
 
 .mail-btn {
-    width: 124px;
-    height: 48px;
+    max-width: 124px;
+    max-height: 48px;
     border: 2px solid transparent;
     background: #F7B103;
     border-radius: 12px;
     margin-left: -20px;
-    padding: 10px 20px;
+    padding: 10px 21px;
 }
 
 .mail-btn:hover {
@@ -87,8 +89,8 @@
     width: 100%;
     height: 1px;
     background: #4B4B4B;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
 .common-hover:hover {
@@ -110,25 +112,16 @@
     fill:black ;
 }
 
-@media (max-width:992px) {
-    .email-parnt {
-        max-width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media (max-width:768px) {
-
-    .mail-btn {
-        margin-left: auto;
-        margin-right: auto;
+    .mail-btn{
+        margin-left: 0;
+    }
+    .top-bottom-space{
+        padding-top:32px;
+        padding-bottom: 32px;
     }
     .mail{
         max-width: 356px;
         margin-bottom: 20px;
-    }
-    .icons-link{
-        max-width: 174px;
     }
 }

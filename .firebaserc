@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "footer-bootstrap"
-  }
+    "default": "bootstrap-footer",
+    "y": "bootstrap-footer"
+  },
+  "targets": {},
+  "etags": {}
 }
