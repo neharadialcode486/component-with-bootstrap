@@ -337,6 +337,12 @@ border-color:#FF00CC;
   margin-top: 36px;
   margin-bottom: 36px;
 }
+.max-lg-pt-1xl{
+  padding-top: 18px !important;
+}
+.max-lg-pt-sm-1xl{
+  padding-top: 6px !important;
+}
 
 }
 
