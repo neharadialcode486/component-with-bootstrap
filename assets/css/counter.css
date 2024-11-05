@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 .font-inter{
     font-family: "Inter", sans-serif;
 }
@@ -164,6 +165,10 @@ margin-top: 56px;
     margin-top: 60px;
 }
 
+.text-6xl{
+    font-size: 60px;
+}
+
 /* ---------------responsive------------ */
 
  @media (max-width:1024px) {
@@ -186,6 +191,9 @@ margin-top: 56px;
 
     .fs-xxl{
         font-size: 55px;
+    }
+    .text-6xl{
+        font-size: 48px;
     }
  }
 
@@ -223,8 +231,17 @@ margin-top: 56px;
     font-size: 24px;
 }
 
-.fs-xxl{
-    font-size: 45px;
+
+
+.text-6xl{
+    font-size: 36px;
+}
+
+}
+
+@media (max-width:576px) {
+    .text-6xl{
+    font-size: 30px;
 }
 
 }
