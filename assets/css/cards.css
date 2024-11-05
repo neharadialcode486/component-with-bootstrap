@@ -47,6 +47,7 @@
   width: 122px !important;
 }
 
+
 .text-xl {
   font-size: 20px;
   line-height: 24.2px;
@@ -363,6 +364,12 @@ border-color:#FF00CC;
 .max-w-5xl{
   max-width: 984px !important;
 }
+
+.mx-xl{
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
 
 }
 
