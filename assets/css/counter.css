@@ -15,6 +15,17 @@ color: #0E0F13;
 
 }
 
+.platform-box-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.block-mt-1{
+    margin-top: -1px;
+}
+
 .h-xxl{
     height: 140px;
 }
@@ -137,8 +148,8 @@ margin-top: 56px;
 }
 
 .platform-box-py-1xl{
-    padding-top: 27.5px;
-    padding-bottom: 27.5px;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .first-card-section-mt-6xl{
@@ -173,8 +184,8 @@ margin-top: 56px;
 }
 
 .py-5xl{
-    padding-top: 51px;
-    padding-bottom: 51px;
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 
@@ -184,8 +195,8 @@ margin-top: 56px;
 }
 
 .py-3xxl{
-    padding-top:36.5px;
-    padding-bottom:35.5px;
+    padding-top:40.5px;
+    padding-bottom:40.5px;
 }
 
 .second-counter-bg{
@@ -229,6 +240,9 @@ margin-top: 56px;
     margin-top: -14px !important;
 }
 
+ .card-size-3xl{
+        height: 207px;
+    }
 /* ---------------responsive------------ */
 
  @media (max-width:1023.98px) {
@@ -262,9 +276,7 @@ margin-top: 56px;
     .text-6xl{
         font-size: 48px;
     }
-    .card-size-3xl{
-        height: 207px;
-    }
+   
     .fs-4xl{
         font-size: 36px;
     }
