@@ -122,11 +122,11 @@ line-height: 120%;
 }
 
 .pt-sm{
-    padding-top: 8.5px;
+    padding-top: 10px;
 }
 
 .line-height-2xl{
-    line-height: 1.5rem !important;
+    line-height: 1.5rem;
 }
 
 .headin-line-height{
@@ -203,6 +203,10 @@ line-height: 120%;
 }
 
 @media (max-width:767.98px) {
+
+    .line-height-2xl{
+    line-height: 1.25rem;
+}
 
     .max-md-text-sm{
         font-size: 14px;
