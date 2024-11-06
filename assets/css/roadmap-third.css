@@ -33,7 +33,7 @@
 }
 
 .icon-gap {
-    gap: 16px;
+    gap: 14px;
 }
 
 .roadmap-heading {
@@ -78,6 +78,9 @@
     .roadmap-para {
         font-size: 14px;
         padding-top: 12px;
+    }
+    .icon-gap{
+        gap: 16px;
     }
 }
 
