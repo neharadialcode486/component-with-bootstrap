@@ -35,8 +35,10 @@ line-height: 120%;
 }
 
 .btn{
-    max-width: 122px;
+    /* width: 100%;
+    max-width: 122px; */
     transition: all linear 300ms;
+    padding: 11.5px 21.24px;
 }
 
 .btn:hover{
@@ -54,10 +56,6 @@ line-height: 120%;
 
 .polygon{
     transform: translateY(0.9px);
-}
-
-.btn-p-sm{
-    padding: 11px 20px 11px 20px !important;
 }
 
 .timer-gap-md{
@@ -106,13 +104,13 @@ line-height: 120%;
 }
 
 .px-2xl{
-    padding-left: 21.24px;
-    padding-right: 21.24px;
+    padding-left: 21.24px !important;
+    padding-right: 21.24px !important;
 }
 
 .py-1xl{
-    padding-top: 11.5px;
-    padding-bottom: 11.5px;
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
 }
 
 .mt-10{
@@ -129,8 +127,14 @@ line-height: 120%;
 
 /* ----------responsive------------ */
 
-@media (max-width:1024px) {
 
+
+@media (max-width:1023.98px) {
+
+ 
+   .lg-flex-col{
+        flex-direction: column;
+    }
     .max-lg-text-5xl{
         font-size: 48px;
     }
