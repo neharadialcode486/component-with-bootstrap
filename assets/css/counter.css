@@ -270,6 +270,7 @@ margin-top: 56px;
 
  @media (max-width:768px) {
 
+
       .gap-4xl{
         gap: 28px;
     }
@@ -329,6 +330,10 @@ margin-top: 56px;
 }
 
 @media (max-width:576px) {
+
+       .card-size-3xl{
+        height: 170px;
+    }
 
         .gap-4xl{
         gap: 16px;
