@@ -240,6 +240,9 @@ p {
 .shadow-custom3xl {
     box-shadow: 0px 4px 13.2px 0px #7D7D7D33;
 }
+.pb-sm{
+    padding-bottom: 12px;
+}
 
 .bg-yellow {
     background: #E0A922;
@@ -268,6 +271,8 @@ p {
 
 .table-2-td-1 {
     width: 108px;
+    border-left: 1px solid #00000033 !important;
+
 }
 
 .table-2-th {
@@ -289,11 +294,11 @@ p {
 }
 
 .border-r {
-    border-right: 1px solid #0000001A
+    border-right: 1px solid #00000033;
 }
 
 .border-b {
-    border-bottom: 1px solid #0000001A
+    border-bottom: 1px solid #00000033;
 }
 
 .border-off-white {
