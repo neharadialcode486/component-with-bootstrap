@@ -92,7 +92,7 @@ p {
 .monthly-card {
     border: 1px solid #EFA7624D;
     border-radius: 12px;
-    transition: all linear 300ms;
+    transition: all ease-in-out 300ms;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 267px;
@@ -125,11 +125,11 @@ p {
 
 .white-tick {
     display: none;
-    transition: all linear 300ms;
+    transition: all ease-in-out 300ms;
 }
 
 .orange-tick, p, .month {
-    transition: all linear 300ms;
+    transition: all ease-in-out 300ms;
 }
 
 .contact-us-btn:hover {
@@ -139,7 +139,7 @@ p {
 
 .contact-us-btn {
     border: 1px solid #EBA15B !important;
-    transition: all linear 300ms;
+    transition: all ease-in-out 300ms;
     padding-top: 13.5px;
     padding-bottom: 13.5px;
     padding-left: 27px;
