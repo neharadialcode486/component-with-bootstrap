@@ -1,44 +1,80 @@
-const contentData = {
-  beginner: {
-    title: "Investisseur néophyte",
-    text: "Dans ce module dédié aux débutants, on passe en revue les principes de bases de ce marché avec de nombreuses vidéos sur le bitcoin, les stratégies d'investissement les plus efficaces et la psychologie à adopter pour réussir. L'objectif est d'Acquérir les bases pour bien débuter en Investissement !",
-  },
-  profitable: {
-    title: "Investisseur rentable",
-    text: "Ce module se concentre sur des stratégies pour maximiser vos gains. Vous apprendrez à analyser le marché et à développer une approche de trading durable.",
-  },
-  experienced: {
-    title: "Investisseur expérimenté",
-    text: "Destiné aux investisseurs avec un peu plus d'expérience, ce module explore des techniques avancées et des outils pour affiner vos stratégies.",
-  },
-  smart: {
-    title: "Investisseur malin",
-    text: "Apprenez à investir intelligemment en utilisant des outils et des stratégies qui maximisent votre retour sur investissement tout en minimisant le risque.",
-  },
-  independent: {
-    title: "Investisseur indépendant",
-    text: "Ce module vous guidera pour devenir un investisseur autonome, capable de prendre des décisions éclairées et stratégiques.",
-  },
-};
+// Tab 1
+const tabs = document.querySelectorAll(".tab");
+const content = document.querySelectorAll(".tabsInfo");
+const tabHeads = document.querySelectorAll(".tabHead");
 
-function showContent(level) {
+tabs.forEach((tab) => {
+  tab.addEventListener("click", () => {
+    const isActiveTab = document.querySelector(".tab.active");
+    if (isActiveTab) {
+      isActiveTab.classList.remove("active", "button-one");
+    }
+    const isActiveTabHead = document.querySelector(".tabHead.active");
+    if (isActiveTabHead) {
+      isActiveTabHead.classList.remove(
+        "active",
+        "light-green",
+        "bg-light-black"
+      );
+      isActiveTabHead.classList.add("text-white");
+    }
+    content.forEach((content) => content.classList.add("d-none"));
+    tab.classList.add("active", "button-one");
 
-    const content = contentData[level];
-    document.getElementById("content-title").textContent = content.title;
-    document.getElementById("content-text").textContent = content.text;
+    const tabHead = tab.querySelector(".tabHead");
+    tabHead.classList.add("active", "light-green", "bg-light-black");
+    tabHead.classList.remove("text-white");
+    const target = tab.getAttribute("data-target");
+    const targetContent = document.getElementById(target);
+    targetContent && targetContent.classList.remove("d-none");
+  });
+});
 
-   
-    const buttons = document.querySelectorAll('.nav-btns button');
-    buttons.forEach(button => {
-        button.classList.remove('active-button');
-    });
+// tab 1 Accordion
+const accordionItems = document.querySelectorAll(".accordionItem");
+accordionItems.forEach((item) => {
+  const header = item.querySelector(".accordionHeader");
+  const content = item.querySelector(".accordionInfo");
+  const icon = item.querySelector("img");
+  const heading = item.querySelector(".accordionHead");
 
-   
-    const activeButton = document.querySelector(`button[onclick="showContent('${level}')"]`);
-    activeButton.classList.add('active-button');
-}
+  header.addEventListener("click", () => {
+    const accordionActive = document.querySelector(".accordionItem.active");
 
+    if (accordionActive && accordionActive !== item) {
+      // Deactivate the currently active item
+      accordionActive.classList.remove("active");
+      accordionActive.querySelector(".accordionInfo").classList.add("d-none");
+      accordionActive.querySelector("img").src = "./assets/images/svg/add.svg";
+      accordionActive.classList.add("border-light-black");
+      accordionActive
+        .querySelector(".accordionHead")
+        .classList.remove("text-3xll", "fw-bold", "max-md-text-2xl");
+      accordionActive
+        .querySelector(".accordionHead")
+        .classList.add("text-lg", "fw-medium");
+      accordionActive.querySelector(".accordionHeader").classList.add("p-6");
+    }
+    item.classList.toggle("active");
+    content.classList.toggle("d-none");
+    icon.classList.toggle("rotate");
+    icon.classList.toggle("duration-one-sec");
 
+    if (item.classList.contains("active")) {
+      icon.src = "./assets/images/svg/minus.svg";
+      item.classList.remove("border-light-black");
+      header.classList.remove("p-6");
+      heading.classList.add("text-3xll", "fw-bold", "max-md-text-2xl");
+      heading.classList.remove("text-lg", "fw-medium");
+    } else {
+      icon.src = "./assets/images/svg/add.svg";
+      item.classList.add("border-light-black");
+      header.classList.add("p-6");
+      heading.classList.add("text-lg", "fw-medium");
+      heading.classList.remove("text-3xll", "fw-bold", "max-md-text-2xl");
+    }
+  });
+});
 // Tab 2
 const tabButtons = document.querySelectorAll('.btn[data-target]');
 const contents = document.querySelectorAll('.tabsInfoTwo');

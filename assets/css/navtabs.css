@@ -1,90 +1,190 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.font-inter {
-  font-family: "Inter", sans-serif;
+.font-inter{
+font-family: "Inter", sans-serif;
 }
 
-.accordion-item {
-  background-color: transparent !important;
+
+.bg-off-black{
+    background:#0B0B0F !important;
+}
+
+.container-pt-xxl{
+    padding-top:75px;
+}
+
+.text-sm{
+    font-size: 14px;
+}
+
+.nos-box-p{
+    padding: 2px !important;
+}
+
+.rotate{
+    rotate: 180deg;
+}
+
+.duration-one-sec{
+    animation-duration: 1ms;
+}
+
+.button-one{
+    background: linear-gradient(to right, #18FF9E, #1EA56C) !important;
+    transition: background 0.3s !important;
+}
+
+.button-one:hover {
+    background: linear-gradient(to left, #18FF9E, #1EA56C) !important;
+}
+
+.border-light-black{
   border: 1px solid #272834 !important;
 }
-
-.border-none {
-  border: none;
+.bg-light-black{
+    background:#151619 ;
 }
 
-.accordion-box-text {
-  color: #bec4d0;
+.light-green{
+    color:#18FF9E;
 }
 
-.nos-box {
-  padding: 24px;
-  border-radius: 16px;
-  background: #151619;
+.rounded-lg{
+    border-radius: 8px !important;
 }
 
-.accordion-button:not(.collapsed) {
-  box-shadow: none !important;
+.text-lg{
+    font-size: 18px !important;
+    line-height: 1.75rem;
 }
 
-.accordion-button {
-  background: transparent !important;
-  color: white !important;
+.p-sm{
+    padding: 1px !important;
 }
 
-.accordion-button:focus {
-  box-shadow: none !important;
+.rounded-full{
+    border-radius: 999px;
 }
 
-.accordion-button::after {
-  background-image: url(/assets/images/svg/add.svg) !important;
+.nos-btn-p{
+    padding: 8px 12px 9px 12px !important;
 }
 
-.accordion-button:not(.collapsed)::after {
-  background-image: url(/assets/images/svg/minus.svg) !important;
+.tab-heading-btn-p-md{
+    padding: 12px 24px 12px 24px !important;
 }
 
-.accordion-body {
-  background: black !important;
-  color: #bec4d0 !important;
+.w-5-12{
+width: 41.666667%;
 }
 
-.active-button {
-  position: relative;
-  border: none;
+.nav-tab-button-parent{
+  max-width: 779px;
+  gap: 20px;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  }
+
+.rounded-3xl{
+    border-radius: 24px !important;
 }
 
-.active-button::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 16px;
-  border: 2px solid transparent;
-  background: linear-gradient(81.75deg, #18ff9e 0%, #1ea56c 126.43%);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
+.gap-xxl{
+    gap: 48px;
 }
-.nos-button {
-  position: relative;
-  border: none;
+
+.max-w-500{
+    max-width: 500px;
 }
-.nos-button::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 16px;
-  border: 2px solid transparent;
-  background: linear-gradient(81.75deg, #18ff9e 0%, #1ea56c 126.43%);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  padding: 10px;
+
+/* .max-h-330{
+    max-height: 330px;
+} */
+
+.rounded-2xl{
+    border-radius: 16px !important;
+}
+
+.p-1xl{
+    padding: 24px !important;
+}
+
+.max-w-786{
+    max-width: 786px !important;
+}
+
+.text-base{
+    font-size: 16px;
+}
+
+.mt-md{
+    margin-top: 24px;
+}
+
+.max-w-652{
+    max-width: 652px;
+}
+
+.max-w-700{
+    max-width: 700px;
+}
+
+.gap-24{
+  gap: 24px;
+}
+.off-white-text{
+    color: #E2E7F0;
+}
+
+.gray-text{
+    color: #BEC4D0;
+
+}
+
+.content-parent-pt-xl{
+    padding-top: 40px;
+}
+
+.content-parent-pb-xxl{
+    padding-bottom: 70px;
+}
+
+.pr-md{
+    padding-right: 16px;
+}
+
+.mt-3xl{
+    margin-top: 32px;
+}
+
+.pl-xxl{
+    padding-left: 40px;
+}
+
+.traniastion-all{
+    transition: all linear 300ms !important;
+}
+
+.w-7-12{
+    width: 58.333333%;
+}
+
+.max-w-764{
+    max-width: 764px;
+}
+
+.cursor-pointer{
+    cursor:  pointer !important;
+}
+
+.text-3xll{
+    font-size: 32px;
 }
 
 /* ==Tab 2 */
 .tab-2-heading {
   font-size: 48px;
+  line-height: 120%;
 }
 .btn {
   line-height: 110%;
@@ -124,6 +224,7 @@
 .tab-2-parent {
   border-radius: 52px !important;
   margin-bottom: 40px;
+  gap: 8px;
 }
 .text-lg {
   font-size: 18px;
@@ -147,30 +248,120 @@
   max-width: 364px;
   width: 100%;
 }
+.heading-parent{
+  padding-bottom: 40px;
+}
 /* ---------------responsive------------------ */
-@media (max-width: 1024.99px) {
-  .tab-2-container {
-    padding: 60px 12px;
+@media (max-width:1280px) {
+  .max-xl-overflow-x-auto{
+      overflow-x: auto;
+  }
+  .max-xl-w-full{
+      width: 100%;
   }
 }
+@media (max-width: 1024.99px) {
+  .max-lg-d-flex{
+    display: flex !important;
+}
+.max-lg-w-full{
+    width: 100%;
+}
+
+.max-lg-d-flex-col{
+flex-direction: column !important;
+}
+
+.max-lg-jcc{
+justify-content: center;
+}
+
+.max-lg-aic{
+align-items: center;
+}
+
+.max-lg-pt{
+padding-top: 20px;
+}
+.tab-2-container {
+max-width: 984px;
+}
+.swiper-wrapper{
+  gap: 4px;
+}
+.nav-tab-button-parent{
+  min-width: 779px;
+
+  }
+  .pr-md{
+    padding-right: 0;
+}
+}
 @media (max-width: 768.99px) {
+  .max-md-px-xl{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.pl-xxl{
+padding-left:0;
+}
+.gap-xxl{
+gap: 24px;
+}
+.mt-3xl{
+margin-top: 12px;
+}
+
+.max-md-text-2xl{
+font-size: 24px;
+}
   .nav-btns {
     overflow: auto !important;
   }
   .tab-2-container {
-    padding: 40px 12px;
+    padding: 64px 12px;
+    max-width: 728px;
   }
   .tab-2-heading {
     font-size: 36px;
     margin: 0;
+    line-height: 2.5rem
   }
 }
 @media (max-width: 576.99px) {
   .tab-2-heading {
     font-size: 30px;
+    line-height: 2.25rem;
   }
   .tab-2-pera {
     font-size: 14px;
     margin: 0;
+    line-height: 1.25rem !important;
   }
+  .heading-parent{
+    padding-bottom: 16px;
+  }
+  .tab-2-container {
+    padding: 36px 12px;
+    }
+    .tab-2-btn1{
+      min-width: 105px !important;
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+    .tab-2-btn2{
+      min-width: 109px !important;
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+    .tab-2-btn3{
+      min-width: 95px !important;
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
+    .tab-2-btn4{
+      min-width: 112px !important;
+      font-size: 14px;
+      line-height: 1.25rem;
+    }
 }
