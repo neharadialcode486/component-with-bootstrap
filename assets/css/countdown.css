@@ -204,6 +204,10 @@ line-height: 120%;
 
 @media (max-width:767.98px) {
 
+    .max-md-text-sm{
+        font-size: 14px;
+    }
+
     .max-md-text-4xl{
         font-size: 36px;
     }
