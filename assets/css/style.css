@@ -462,4 +462,42 @@ p {
     .heading-text {
         margin-bottom: 24px !important;
     }
+    .table-3-td-1 {
+        width: 248px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+    }
+    .table-3-td-2 {
+        width: 396px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+    }
+    
+    .table-3-td-3 {
+        width: 312px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+    }
+    .table-3-th-1 {
+        width: 248px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+    }
+    .table-3-th-2 {
+        width: 396px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+    }
+    
+    .table-3-th-3 {
+        width: 312px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+    }
 }
