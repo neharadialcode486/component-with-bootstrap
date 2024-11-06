@@ -8,6 +8,9 @@
     color:#1E1E1E;
 }
 
+.p-2xl{
+    padding: 24px;
+}
 
 .accordion-heading{
     max-width: 788px;
@@ -89,15 +92,31 @@ margin-right: auto !important;
 font-weight: 600 !important;
 }
 
+.pt-1xxl{
+    padding-top: 20px !important;
+}
+
+.fs-base{
+    font-size: 16px;
+}
+
 .h-xl{
     height: 68px !important;
 }
 .accordion-button::after{
     background-image: url(/assets/images/svg/arrow.svg) !important;
+    transform: rotate(180deg);
+}
+.accordion-button:not(.collapsed)::after{
+    transform: rotate(0deg) !important;
 }
 
 .accordion-button{
-    padding: 16px 24px 16px 24px !important;
+    padding: 20px 24px 20px 24px !important;
+}
+
+.accordion-body{
+    padding: 20px 24px !important;
 }
 
 .accordion-button:not(.collapsed){
@@ -108,8 +127,26 @@ font-weight: 600 !important;
     font-size: 20px !important;
 }
 
+.line-height-xxl{
+        line-height:150%;
+}
+
 /* -------------responsive------------------ */
-@media (max-width:1024px) {
+
+@media (max-width:1280px) {
+    .pt-1xxl{
+    padding-top: 16px !important;
+}
+
+.max-xl-py-xxl{
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+
+}
+
+@media (max-width:1023.98px) {
     .fs-2xl{
         font-size: 38px !important;
     }
@@ -119,23 +156,60 @@ font-weight: 600 !important;
     justify-content:  center !important;
     flex-direction: column !important;
 }
+
+
+
 }
 
-@media (max-width:768px) {
+@media (max-width:767.98px) {
+
+    .max-xl-py-xxl{
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
     .fs-lg{
         font-size: 18px !important;
     }
     
      .fs-2xl{
-        font-size: 28px !important;
+        font-size: 30px !important;
     }
     .accordion-button{
         padding: 12px 15px 12px 15px !important;
     }
+
+    .accordion-heading{
+        font-size: 14px !important;
+    }
+
+    .fs-base-md{
+    font-size: 16px !important;
 }
 
-@media (max-width:576px) {
+}
+
+@media (max-width:575.98px) {
+
+    .p-2xl{
+    padding: 16px;
+}
+
+        .max-xl-py-xxl{
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.accordion-body{
+    padding: 20px 12px !important;
+}
+
       .fs-lg{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
+
+    .h-xl{
+        height: 100% !important;
+    }
+
 }
