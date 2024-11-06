@@ -16,14 +16,18 @@ color: #0E0F13;
 }
 
 .h-xxl{
-    height: 127.6px;
+    height: 140px;
+}
+
+.first-card-text-color{
+    color:#0E0F13;
 }
 
 .amzon-counter-heading{
     font-size: 40px;
     max-width: 662px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
     line-height: 120%;
 }
 
@@ -39,6 +43,7 @@ color: #0E0F13;
 .light-orange-border{
     border: 1px solid #FF8C0033;
     transition: all linear 300ms;
+    border-radius: 6px;
 }
 
 .light-orange-border:hover{
@@ -226,7 +231,7 @@ margin-top: 56px;
 
 /* ---------------responsive------------ */
 
- @media (max-width:1024px) {
+ @media (max-width:1023.98px) {
 
 
     .gap-4xl{
@@ -234,17 +239,14 @@ margin-top: 56px;
     }
 
     .max-lg-py-2xxl{
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .amzon-counter-heading{
         font-size: 36px !important;
     }
 
-    .amzon-card-data{
-        font-size: 30px;
-    }
 
     .mt-xxl{
         margin-top: 36px;
@@ -268,7 +270,7 @@ margin-top: 56px;
     }
  }
 
- @media (max-width:768px) {
+ @media (max-width:767.98px) {
 
 
       .gap-4xl{
@@ -283,9 +285,6 @@ margin-top: 56px;
     font-size: 30px !important;
 }    
 
-.amzon-card-data{
-    font-size: 25px;
-}
 
 .brand-icon{
     width: 78px;
@@ -340,8 +339,8 @@ margin-top: 56px;
     }
 
       .max-lg-py-2xxl{
-        padding-top: 64px;
-        padding-bottom: 64px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
 
@@ -365,4 +364,10 @@ margin-top: 56px;
     font-size: 30px;
 }
 
+}
+
+@media (max-width:425px) {
+         .max-lg-cards-w-5xl{
+        width: 351px !important;
+    }
 }
