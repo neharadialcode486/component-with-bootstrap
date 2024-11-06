@@ -125,6 +125,23 @@ line-height: 120%;
     padding-top: 8.5px;
 }
 
+.line-height-2xl{
+    line-height: 1.5rem !important;
+}
+
+.headin-line-height{
+    line-height: 1;
+}
+
+.tracking-heading{
+    letter-spacing: 0.6px;
+}
+.text-tracking{
+    letter-spacing: 0.2px;
+}
+.timer-tracking{
+    letter-spacing: 0.9px;
+}
 /* ----------responsive------------ */
 
 
