@@ -394,7 +394,7 @@ p {
 }
 
 /* ===========responsive */
-@media (max-width:1024px) {
+@media (max-width:1023.99px) {
     .pricing-table-one {
         padding-top: 64px;
         padding-bottom: 64px;
@@ -411,7 +411,7 @@ p {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.99px) {
     .text-xl {
         font-size: 36px !important;
     }
@@ -432,7 +432,7 @@ p {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width:599.99px) {
     .text-xl {
         font-size: 30px !important;
     }
