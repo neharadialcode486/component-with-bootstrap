@@ -14,7 +14,8 @@ font-family: "Inter", sans-serif;
 
 .count-down-heading{
 font-size: 48px;
-line-height: 120%;
+line-height: 1;
+color: #242021;
 }
 
 .heading-text-parent{
@@ -35,15 +36,15 @@ line-height: 120%;
 }
 
 .btn{
-    /* width: 100%;
-    max-width: 122px; */
-    transition: all linear 300ms;
-    padding: 11.5px 21.24px;
+    transition: all 500ms linear !important;
+    padding: 10.5px 20.45px;
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
 }
 
 .btn:hover{
     color: #DA6015 !important;
-    background: #ffffff !important;
+   box-shadow: inset 0px 0px 1px 35px #fff;
     border: 1px solid #DA6015 !important; 
 }
 .fs-xl{
@@ -128,20 +129,16 @@ line-height: 120%;
 .line-height-2xl{
     line-height: 1.5rem;
 }
-
-.headin-line-height{
-    line-height: 1;
-}
-
-.tracking-heading{
-    letter-spacing: 0.6px;
-}
 .text-tracking{
     letter-spacing: 0.2px;
 }
 .timer-tracking{
     letter-spacing: 0.9px;
 }
+.lady-img{
+    max-width: 638px;
+    margin-left: 10px;
+  }
 /* ----------responsive------------ */
 
 
@@ -166,6 +163,7 @@ line-height: 120%;
 
     .count-down-heading{
         font-size: 36px;
+        line-height: 2.5rem;
     }
 
     .max-lg-w-full{
@@ -194,11 +192,15 @@ line-height: 120%;
     padding-left: 19px;
     padding-right: 19px;
 }
-
-
-   
+.lady-img{
+    max-width:unset;
+    margin-left: 0;
+}
 .fs-xl{
     font-size: 48px;
+}
+.btn{
+    margin-bottom: 20px;
 }
 }
 
@@ -223,17 +225,24 @@ line-height: 120%;
        .count-down-heading{
         font-size: 30px;
     }
-
+ .text-sm{
+    font-size: 14px;
+    line-height: 1.25rem
+ }
 }
 
 @media (max-width:576px) {
 
       .count-down-heading{
         font-size: 24px;
+        line-height: 2rem;
     }
 
     .count-down-heading{
     font-size: 24px;
+}
+.btn{
+    font-size: 14px !important;
 }
 
 .count-down-text{
