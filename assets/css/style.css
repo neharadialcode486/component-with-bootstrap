@@ -437,7 +437,7 @@ p {
     }
 }
 
-@media (max-width:599.99px) {
+@media (max-width:639.99px) {
     .text-xl {
         font-size: 30px !important;
     }
