@@ -51,9 +51,6 @@
     background: none;
     width: 73%;
 }
-.pl-11{
-    padding-left: 11px  !important;
-}
 
 .email::placeholder {
     color: #000;
@@ -65,10 +62,7 @@
 }
 
 .Search-btn {
-    padding-top: 5.5px;
-    padding-bottom: 5.5px;
-    padding-left: 14px;
-    padding-right: 14px;
+    padding: 5.5px 14px;
     border: 2px solid transparent;
     background: #3C278D;
     border-radius: 12px;
@@ -84,7 +78,7 @@
     border: 2px solid #3C278D;
 }
 
-.line {
+.bottom-line {
     height: 1px;
     background: #3C278D;
     margin-top: 40px !important;
@@ -103,13 +97,8 @@
 }
 
 @media (max-width:991px) {
-    .mt-50 {
-        margin-top: 50px;
-    }
-
     .container {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
+        padding: 0 20px !important;
     }
 
 }

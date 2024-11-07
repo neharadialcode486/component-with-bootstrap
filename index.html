@@ -16,7 +16,7 @@
         <div class="container">
             <div class="row  justify-content-md-between">
                 <div class="col-lg-3 col-md-6 mt-sm-5 mt-4 mt-md-0 d-flex flex-column ">
-                    <a href="/"
+                    <a href="#footer"
                         class="text-decoration-none bg-logo align-items-center d-flex justify-content-center mb-4">
                         <p class="fw-semibold leading-150 dark-blue m-0">Logo</p>
                     </a>
@@ -27,19 +27,19 @@
                 <div class="col-lg-2 col-6 mt-5 mt-md-0  d-flex  flex-column">
                     <p class="leading-150 fw-normal mb-3">Quick Links</p>
                     <ul class="d-flex flex-column gap-3 ps-0">
-                        <li><a href="/"
-                                class="leading-150 shade-gray transitions common-hover text-decoration-none ">Home</a>
+                        <li><a href="#footer"
+                                class="leading-150 shade-gray transitions common-hover text-decoration-none">Home</a>
                         </li>
-                        <li><a href="/"
-                                class="leading-150 shade-gray transitions common-hover text-decoration-none ">About</a>
+                        <li><a href="#footer"
+                                class="leading-150 shade-gray transitions common-hover text-decoration-none">About</a>
                         </li>
-                        <li><a href="/"
-                                class="leading-150 shade-gray transitions common-hover text-decoration-none ">Community</a>
+                        <li><a href="#footer"
+                                class="leading-150 shade-gray transitions common-hover text-decoration-none">Community</a>
                         </li>
-                        <li><a href="/"
-                                class="leading-150 shade-gray transitions common-hover text-decoration-none ">RoadMap</a>
+                        <li><a href="#footer"
+                                class="leading-150 shade-gray transitions common-hover text-decoration-none">RoadMap</a>
                         </li>
-                        <li><a href="/"
+                        <li><a href="#footer"
                                 class="leading-150 shade-gray transitions common-hover text-decoration-none mb-lg-0 mb-4">Faqs</a>
                         </li>
                     </ul>
@@ -48,20 +48,21 @@
                     <div>
                         <p class="leading-150 fw-normal mb-3 ">Links</p>
                         <ul class="d-flex flex-column gap-3 ps-0">
-                            <li><a class="leading-150 shade-gray text-decoration-none transitions common-hover "
+                            <li><a class="leading-150 shade-gray text-decoration-none transitions common-hover"
                                     href="">Terms &
                                     Conditions</a></li>
                             <li><a class="leading-150 shade-gray text-decoration-none transitions common-hover"
                                     href="">Privacy
                                     Policy</a></li>
-                            </ul>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 ps-lg-1 col-md-6 col-12 d-flex ">
                     <div class="max-sm-w w-100 mt-lg-0 mt-5">
                         <p class="leading-150 fw-normal mb-3 ">Get in Touch</p>
-                        <form  class="mail max-sm-w  d-flex py-1 pe-1 mb-3">
-                            <input type="email" placeholder="Type Your Mail" class="leading-150 email ms-2 me-0 border-0" required>
+                        <form class="mail max-sm-w  d-flex py-1 pe-1 mb-3">
+                            <input type="email" placeholder="Type Your Mail"
+                                class="leading-150 email ms-2 me-0 border-0" required>
                             <button class="Search-btn leading-150 text-white transitions leading-150">Search</button>
                         </form>
                         <p class="leading-150 text-black  d-flex text-decoration-none center">Follow
@@ -93,21 +94,19 @@
                 </div>
             </div>
         </div>
-        <div class="line mb-2 w-100"></div>
+        <div class="bottom-line mb-2 w-100"></div>
         <div class="container">
-            <p class="text-center shade-gray leading-150 mb-md-0 mb-sm-5 mb-4">© <span class="year"></span> Copyright company
-                name. All Right
-                Reserved. </p>
+            <p class="text-center shade-gray leading-150 mb-md-0 mb-sm-5 mb-4">© <span class="year"></span> Copyright company name. All Right Reserved. </p>
         </div>
-        <script>
-            const year = document.querySelector(".year");
-            const currentYear = new Date().getFullYear();
-            year.textContent = currentYear;
-        </script>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script>
+        const year = document.querySelector(".year");
+        const currentYear = new Date().getFullYear();
+        year.textContent = currentYear;
+    </script>
 </body>
 
 </html>
