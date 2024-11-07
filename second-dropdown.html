@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/drop-down.css">
+</head>
+
+<body class="bg-black">
+    <section class="min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="d-flex gap-5">
+            <!-- Dropdown 1 -->
+            <div class="dropdown">
+                <div class="dropdown-btn1">
+                    <button class="drop-btn1 border-0 bg-transparent">
+                        Featured
+                    </button>
+                    <svg class="group-hover:rotate-0 rotate-180 duration-300 ease-linear" width="12" height="8"
+                        viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41 7.41L6 2.83L10.59 7.41L12 6L6 0L0 6L1.41 7.41Z" fill="#2B2B2B" />
+                    </svg></div>
+                <ul class="dropdown-menu drop-menu1 p-0">
+                    <li><a class="dropdown-item1" href="#">Featured</a></li>
+                    <li><a class="dropdown-item1" href="#">New</a></li>
+                    <li><a class="dropdown-item1" href="#">Rating</a></li>
+                </ul>
+            </div>
+
+            <!-- Dropdown 2 -->
+            <div class="dropdown">
+                <div class="dropdown-btn2">
+                    <button class="drop-btn1 border-0 bg-transparent">
+                        Featured
+                    </button>
+                    <svg class="group-hover:rotate-0 rotate-180 duration-300 ease-linear" width="12" height="8"
+                        viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.41 7.41L6 2.83L10.59 7.41L12 6L6 0L0 6L1.41 7.41Z" fill="#2B2B2B" />
+                    </svg></div>
+                <ul class="dropdown-menu2">
+                    <li class="dropdown-item d-flex align-items-center gap-2"><img
+                            src="./assets/images/svg/right-click.svg" alt=""><a href="#">All</a></li>
+                    <li class="dropdown-item d-flex align-items-center gap-2"><img
+                            src="./assets/images/svg/right-click.svg" alt=""><a href="#">Done</a></li>
+                    <li class="dropdown-item d-flex align-items-center gap-2"><img
+                            src="./assets/images/svg/right-click.svg" alt=""><a href="#">Open</a></li>
+                    <li class="dropdown-item d-flex align-items-center gap-2"><img
+                            src="./assets/images/svg/right-click.svg" alt=""><a href="#">Close</a></li>
+                    <li class="dropdown-item d-flex align-items-center gap-2"><img
+                            src="./assets/images/svg/right-click.svg" alt=""><a href="#">In progress</a></li>
+                </ul>
+            </div>
+
+            <!-- Dropdown 3 -->
+            <div class="dropdown">
+                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdown3" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Advertisement
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdown3">
+                    <li><a class="dropdown-item text-white bg-custom-1" href="#">All</a></li>
+                    <li><a class="dropdown-item text-white bg-custom-2" href="#">Teststrasse 10</a></li>
+                    <li><a class="dropdown-item text-white bg-custom-3" href="#">Hohlstrasse 11</a></li>
+                    <li><a class="dropdown-item text-white bg-custom-4" href="#">Culmannste 64</a></li>
+                    <li><a class="dropdown-item text-white bg-custom-5" href="#">Lucernesti 96</a></li>
+                </ul>
+            </div>
+
+            <!-- Dropdown 4 -->
+            <div class="dropdown">
+                <button class="btn btn-light dropdown-toggle">
+                    More options
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdown4">
+                    <li><a class="dropdown-item" href="#">All</a></li>
+                    <li><a class="dropdown-item" href="#">Address</a></li>
+                    <li><a class="dropdown-item" href="#">Type</a></li>
+                    <li><a class="dropdown-item" href="#">Status</a></li>
+                    <li><a class="dropdown-item" href="#">Price</a></li>
+                    <li><a class="dropdown-item" href="#">Auction</a></li>
+                    <li><a class="dropdown-item" href="#">Rooms</a></li>
+                    <li><a class="dropdown-item" href="#">Square meters</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

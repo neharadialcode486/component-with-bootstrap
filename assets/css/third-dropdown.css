@@ -1,0 +1,77 @@
+/* Colors */
+.bg-dark-red {
+    background-color: #5E0612;
+}
+.bg-red {
+    background-color: #5E0612;
+}
+.border-red {
+    border-left: 3px solid #FF0000;
+}
+.bg-blue {
+    background-color: #4264CD;
+}
+.border-blue {
+    border-left: 3px solid #0044C7;
+}
+.bg-orange {
+    background-color: #B76100;
+}
+.border-orange {
+    border-left: 3px solid #FF9900;
+}
+.bg-teal {
+    background-color: #008F87;
+}
+.border-teal {
+    border-left: 3px solid #01DED1;
+}
+.button{
+    min-width: 174px;
+}
+.dropdown-menu{
+    max-width: 174px;
+}
+.dropdown-item-1{
+    max-width: 96px;
+    font-size: 12px;
+}
+.dropdown-item-2{
+    max-width:94px ;
+    font-size: 12px;
+}
+.dropdown-item-3{
+    max-width:94px ;
+    font-size: 12px;
+}
+.dropdown-item-4{
+    max-width:94px ;
+    font-size: 12px;
+}
+.dropdown-item-5{
+    max-width:94px ;
+    font-size: 12px;
+}
+/* Hover effect and rotation */
+.group-hover-show {
+    display: none;
+}
+.group:hover .group-hover-show {
+    display: block;
+}
+
+.arrow-icon {
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(180deg);
+}
+.group:hover .arrow-icon {
+    transform: rotate(0deg);
+}
+
+.btn-link:hover{
+    color: #858587 !important;
+}
+/* Additional Styles */
+.cursor-pointer {
+    cursor: pointer;
+}
