@@ -23,7 +23,7 @@
   margin-top: -1px;
 }
 
-.h-xxl {
+.counter-h-xxl {
   height: 140px;
 }
 
@@ -73,7 +73,7 @@
   width: 356px;
 }
 
-.gap-xl {
+.counter-card-gap {
   gap: 50px !important;
 }
 
@@ -114,9 +114,9 @@
   background: #076787;
 }
 
-.mt-xxl {
+/* .mt-xxl {
   margin-top: 56px;
-}
+} */
 
 .plaform-card {
   width: 268px;
@@ -149,7 +149,7 @@
   padding-bottom: 36px;
 }
 
-.first-card-section-mt-6xl {
+.first-card-section-mt-6xl{
   margin-top: 60px;
 }
 
@@ -157,7 +157,7 @@
   gap: 24px !important;
 }
 
-.gap-4xl {
+.first-counter-parent-gap-4xl {
   gap: 48px;
 }
 
@@ -171,7 +171,7 @@
   padding-bottom: 27px;
 }
 
-.gap-xl {
+.counter-card-gap {
   gap: 28px !important;
 }
 
@@ -185,7 +185,7 @@
   padding-bottom: 55px;
 }
 
-.px-4xl {
+.platform-box-one-px-4xl {
   padding-left: 42px;
   padding-right: 42px;
 }
@@ -212,7 +212,7 @@
   font-size: 40px;
 }
 
-.mt-6xl {
+.counter-cards-mt-6xl {
   margin-top: 60px;
 }
 
@@ -243,7 +243,7 @@
 
 @media (max-width: 1023.98px) {
 
-  .gap-4xl {
+  .first-counter-parent-gap-4xl {
     gap: 36px;
   }
 
@@ -256,9 +256,9 @@
     font-size: 36px !important;
   }
 
-  .mt-xxl {
+  /* .mt-xxl {
     margin-top: 36px;
-  }
+  } */
 
   .platfrom-heading {
     font-size: 30px;
@@ -276,7 +276,7 @@
     font-size: 36px;
   }
 
-  .sm-mt-1xl{
+  .plat-form-box-heading-sm-mt-1xl{
     margin-top: -12px !important;
   }
 
@@ -284,7 +284,7 @@
 
 @media (max-width: 767.98px) {
 
-  .gap-4xl {
+  .first-counter-parent-gap-4xl {
     gap: 28px;
   }
 
@@ -308,13 +308,13 @@
     min-width: 308px;
   }
 
-  .gap-xl {
+  .counter-card-gap {
     gap: 20px !important;
   }
-
+/* 
   .mt-xxl {
     margin-top: 26px;
-  }
+  } */
 
   .platfrom-heading {
     font-size: 24px;
@@ -324,7 +324,7 @@
     font-size: 36px;
   }
 
-  .mt-6xl {
+  .counter-cards-mt-6xl {
     margin-top: 40px;
   }
 
@@ -339,7 +339,7 @@
 
 @media (max-width: 576px) {
 
-      .sm-mt-1xl{
+      .plat-form-box-heading-sm-mt-1xl{
     margin-top: -1px !important;
   }
 
@@ -347,7 +347,7 @@
     height: 170px;
   }
 
-  .gap-4xl {
+  .first-counter-parent-gap-4xl {
     gap: 16px;
   }
 
@@ -368,7 +368,7 @@
     font-size: 30px;
   }
 
-  .mt-6xl {
+  .counter-cards-mt-6xl {
     margin-top: 24px;
   }
 
