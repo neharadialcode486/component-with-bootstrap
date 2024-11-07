@@ -109,3 +109,8 @@
         font-size: 12px;
     }
 }
+@media (max-width:426px) {
+    .absolute-img{
+        top: 48%;
+    }
+}
