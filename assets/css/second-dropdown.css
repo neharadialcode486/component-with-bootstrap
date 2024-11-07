@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", serif;
+}
+.group:hover .group-hover-block {
+    display: block !important;
+}
+
+.group:hover .arrow-icon {
+    transform: rotate(0deg) !important;
+}
+
+.group .arrow-icon {
+    transition: transform 0.3s linear;
+}
+
+.arrow-icon {
+    transform: rotate(180deg) !important;
+}
+.dropdown-item-custom{
+    font-size: 14px;
+    color:#858587 ;
+}
+.group .group-hover-block {
+    display: none;
+}
+.button{
+    min-width: 113px;
+    cursor: pointer;
+    padding: 2.5px 16px;
+    background: #FFEEEF !important;
+}
+.btn{
+    color: #5E0612;
+    font-size: 16px;
+}
+.btn:hover{
+    color: #5E0612;
+}
+.group-hover-block {
+    position: absolute;
+    z-index: 10;
+    padding-top: 0.25rem;
+    min-width: 156px;
+}
+.rounded{
+    border-radius: 4px !important;
+}
+.bg-light {
+    background-color: #FFEEEF;
+}
+
+.text-danger {
+    color: #5E0612;
+}
+
+.text-muted {
+    color: #858587;
+}

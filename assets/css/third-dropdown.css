@@ -1,6 +1,16 @@
-/* Colors */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: "Inter", serif;
+}
 .bg-dark-red {
     background-color: #5E0612;
+}
+.bg-skyblue{
+    background: #01DED1;
+}
+.border-skyblue{
+    border-left: 3px solid #008F87;
 }
 .bg-red {
     background-color: #5E0612;
@@ -28,9 +38,16 @@
 }
 .button{
     min-width: 174px;
+    padding: 11px 16px;
 }
 .dropdown-menu{
-    max-width: 174px;
+   padding-top: 4px;
+   background: transparent;
+}
+.dropdown-item-wrapper{
+    margin-top: 4px;
+    min-width: 174px;
+    background: white;
 }
 .dropdown-item-1{
     max-width: 96px;
@@ -39,20 +56,26 @@
 .dropdown-item-2{
     max-width:94px ;
     font-size: 12px;
+    padding: 6px !important;
 }
 .dropdown-item-3{
     max-width:94px ;
     font-size: 12px;
+    padding: 6px !important;
 }
 .dropdown-item-4{
     max-width:94px ;
     font-size: 12px;
+    padding: 6px !important;
 }
 .dropdown-item-5{
     max-width:94px ;
     font-size: 12px;
+    padding: 6px !important;
 }
-/* Hover effect and rotation */
+.link-parent{
+    padding: 6px 0px 6px 16px;
+}
 .group-hover-show {
     display: none;
 }
@@ -70,6 +93,7 @@
 
 .btn-link:hover{
     color: #858587 !important;
+    background: transparent !important;
 }
 /* Additional Styles */
 .cursor-pointer {
