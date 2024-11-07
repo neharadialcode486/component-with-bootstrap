@@ -16,27 +16,26 @@
   font-weight: 600;
 }
 
-.sec-img {
+.section-img {
   max-width: 455px;
 }
 
-.sec-text {
+.about-text {
   line-height: 150% !important;
   color: #989287;
   max-width: 545px;
   margin-bottom: 40px;
 }
 
-.button {
+.contact-button {
   background: linear-gradient(98.04deg, #4F7566 3.36%, #A2AF7A 100%);
-  font-size: 16px;
   border: 2px solid white;
   padding: 12px 23px;
   transition: all 400ms linear;
   border-radius: 8px;
 }
 
-.button:hover {
+.contact-button:hover {
   background: white;
   border-color: #4F7566;
   color: #4F7566 !important;
@@ -44,10 +43,9 @@
 
 @media (max-width:1140px) {
   .container {
-    padding-left: 20px !important;
-    padding-left: 20px !important;
+    padding:0 20px !important;
   }
-  .sec-img{
+  .section-img{
     margin-right: 8px;
   }
 }

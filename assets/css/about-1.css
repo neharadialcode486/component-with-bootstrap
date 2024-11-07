@@ -23,7 +23,7 @@
 }
 
 
-.front-btn {
+.footer-btn {
   border: 2px solid transparent;
   padding: 10px 55px;
   font-size: 16px;
@@ -33,7 +33,7 @@
   transition: all 400ms linear;
 }
 
-.front-btn:hover {
+.footer-btn:hover {
   background: white;
   color: #231754 !important;
   border: 2px solid #231754;
@@ -51,9 +51,4 @@
   .main-heading {
     font-size: 28px;
   }
-
-  .front {
-    padding: 7px 38px;
-  }
-
 }
