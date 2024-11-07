@@ -33,11 +33,11 @@
   line-height: 157%;
 }
 
-.h-3xl {
+.email-one-textarea-h-3xl {
   height: 130px !important;
 }
 
-.py-1xl {
+.email-one-input-py-1xl {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -47,7 +47,7 @@
   border-radius: 12px;
 }
 
-.max-w-4xl {
+.email-two-max-w-4xl {
   min-width: 146px !important;
 }
 
@@ -72,7 +72,7 @@
   height: 130px;
 }
 
-.mt-2xl {
+.email-one-label-mt-2xl {
   margin-top: 32px;
 }
 
@@ -197,7 +197,7 @@
   max-width: 606px;
 }
 
-.max-w-xxl {
+.email-two-text-max-w-xxl {
   max-width: 441px;
 }
 
@@ -264,11 +264,11 @@
   background: #3c278d;
 }
 
-.ml-start-2xl {
+.email-two-btn-ml-start-2xl {
   margin-left: 1.2rem;
 }
 
-.p-2xll {
+.email-two-card-p-2xll {
   padding: 16px;
 }
 
@@ -282,7 +282,7 @@
   color: #3c278d;
 }
 
-.h-1xl {
+.email-three-input-btn-h-1xl {
   height: 52px;
 }
 
@@ -290,11 +290,11 @@
   line-height: 119%;
 }
 
-.min-h-xxl {
+.email-three-input-textarea-min-h-xxl {
   min-height: 107px;
 }
 
-.min-w-1xl {
+.email-three-input-btn-min-w-1xl {
   min-width: 135px;
 }
 
@@ -323,7 +323,7 @@
     margin-bottom: 36px;
   }
 
-  .mt-2xl {
+  .email-one-label-mt-2xl {
     margin-top: 24px;
   }
 }
@@ -395,7 +395,7 @@
 }
 
 @media (max-width: 576px) {
-  .ml-start-2xl {
+  .email-two-btn-ml-start-2xl {
     margin-left: 4px !important;
   }
 
@@ -438,7 +438,7 @@
     padding-right: 16px !important;
   }
 
-  .mt-2xl {
+  .email-one-label-mt-2xl {
     margin-top: 16px;
   }
 
