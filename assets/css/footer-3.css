@@ -22,6 +22,9 @@ footer {
     padding-right: 12px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+
+}
+.top-spacing{
     margin-top: 79px;
 }
 
@@ -34,10 +37,12 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
-.letter-spacing{
+
+.letter-spacing {
     letter-spacing: 0.4px;
 }
-.letter-spacing-2{
+
+.letter-spacing-2 {
     letter-spacing: 0.09px;
 }
 
@@ -75,37 +80,52 @@ footer {
 .common-hover:hover {
     color: #38ADB5;
 }
-.main-heading{
+
+.main-heading {
     font-size: 24px;
 }
+
 .common-hover:hover {
     color: #38ADB5 !important;
 }
-.icon-hover path, rect{
+
+.icon-hover path,
+rect {
     transition: all 300ms linear;
 }
+
 .icon-hover:hover path {
-    fill:#38ADB5;
+    fill: #38ADB5;
 }
-.icon-hover:hover rect{
-    fill:#fff ;
+
+.icon-hover:hover rect {
+    fill: #fff;
 }
+
 
 @media (max-width:992px) {
-    .bg-cover {
-        background-size: cover;
-    }
-    .main-heading{
+    .main-heading {
         font-size: 20px;
     }
-    .container{
+
+    .top-spacing {
         margin-top: 48px !important;
     }
-    
-}
-@media (max-width:640px) {
 
-    .main-heading{
+}
+
+@media (max-width:640px) {
+    .main-heading {
         font-size: 18px;
+    }
+    .top-spacing {
+        margin-top: 24px !important;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .bg-cover {
+        background-size: cover !important;
     }
 }

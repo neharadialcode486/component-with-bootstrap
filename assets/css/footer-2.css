@@ -48,7 +48,8 @@
 .email {
     outline: none;
     background: none;
-    padding-right: 15px;
+    padding-right: 30px;
+    width: 100%;
 }
 .email::placeholder{
     color: #77808B;
@@ -58,7 +59,7 @@
     border-radius: 12px;
     padding-top: 11px;
     padding-bottom: 11px;
-    max-width: 255px;
+    width: 255px;
 }
 
 .transitions {
@@ -115,6 +116,9 @@
 @media (max-width:767px) {
     .mail-btn{
         margin-left: 0;
+    }
+    .about-text{
+        margin-bottom: 20px;
     }
     .top-bottom-space{
         padding-top:32px;
