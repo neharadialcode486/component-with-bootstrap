@@ -24,6 +24,7 @@
 .mb-1xl {
   margin-bottom: 31px;
 }
+
 .label-text {
   font-size: 16px;
   font-weight: 500;
@@ -34,10 +35,6 @@
 
 .h-3xl {
   height: 130px !important;
-}
-
-.input-h-sm {
-  height: 48px !important;
 }
 
 .py-1xl {
@@ -56,6 +53,7 @@
 
 .name-max-w {
   max-width: 559px;
+  height: 52px;
 }
 
 .input-text {
@@ -66,8 +64,8 @@
   color: #000000b2;
 }
 
-.input-text::placeholder{
-    color: #000000b2 !important;
+.input-text::placeholder {
+  color: #000000b2 !important;
 }
 
 .input-h {
@@ -113,32 +111,35 @@
 .send-btn {
   max-width: 109px;
   margin-right: auto;
-  padding: 12px 24px 12px 24px;
+  padding: 14px 24px 14px 24px;
   gap: 8px;
   border-radius: 12px;
   color: #ffffff;
   background: #3c278d;
-  /* margin-bottom: 44px; */
   margin-top: 36px;
   margin-left: 12px;
 }
 
-/* .mx-3xl{
-  margin-left: 33px;
-  margin-right: 33px;
-} */
-
 .fs-1xl {
   font-size: 36px;
+}
+
+.label-pb-1xl {
+  padding-bottom: 10px;
 }
 
 .input-box-border {
   border: 1px solid #00000070 !important;
 }
 
+.mb-xl-6xl {
+  margin-bottom: 68px;
+}
+
 .mt-1xl {
   margin-top: 31px !important;
 }
+
 .second-form-text {
   color: #000000b2;
   max-width: 441px;
@@ -146,7 +147,7 @@
 }
 
 .get-btn {
-  padding: 14px 24px 14px 24px;
+  padding: 12px 24px 12px 24px;
   color: #ffffff;
   background: #3c278d;
   border: none;
@@ -155,18 +156,22 @@
   font-size: 16px;
 }
 
-.third-form-input-py-xl{
+.third-form-input-py-xl {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.third-form-input-px-1xl{
-padding-left: 16px;
-padding-right: 16px;
+.third-form-input-px-1xl {
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
-.mt-xxl {
-  margin-top: 52px;
+.resize-none {
+  resize: none;
+}
+
+.tranform-y-4xl {
+  transform: translateY(-43px);
 }
 
 .third-heading-max-w {
@@ -244,19 +249,31 @@ padding-right: 16px;
   color: #3c278d;
 }
 
-.get-btn-mt-xl{
+.get-btn-mt-xl {
   margin-top: 28px;
 }
 
-.third-form-send-btn{
- border: none; 
-width:103px;
-padding: 12px 24px 12px 24px;
-border-radius: 12px;
-margin-top: 32px;
-margin-bottom: 46px; 
-color: #ffffff;
-background: #3c278d;
+.third-form-send-btn {
+  border: none;
+  width: 103px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 12px;
+  margin-top: 32px;
+  margin-bottom: 46px;
+  color: #ffffff;
+  background: #3c278d;
+}
+
+.ml-start-2xl {
+  margin-left: 1.2rem;
+}
+
+.p-2xll {
+  padding: 16px;
+}
+
+.third-form-send-btn {
+  padding: 10px 24px !important;
 }
 
 .third-form-send-btn:hover {
@@ -281,21 +298,22 @@ background: #3c278d;
   min-width: 135px;
 }
 
-.third-form-input-h{
+.third-form-input-h {
   height: 46px;
 }
 
-
-
 /* ------------------------responsive------------------- */
 @media (max-width: 1280px) {
-  .xl-form-max-w-2xl{
+
+  .xl-form-max-w-2xl {
     max-width: 984px !important;
   }
+
   .xl-mt-2xl {
     margin-top: 24px;
     margin-bottom: 24px;
   }
+
   .second-form-heading {
     font-size: 35px;
   }
@@ -304,43 +322,46 @@ background: #3c278d;
     margin-top: 36px;
     margin-bottom: 36px;
   }
+
+  .mt-2xl {
+    margin-top: 24px;
+  }
 }
 
 @media (max-width: 1024px) {
+
   .send-btn {
     max-width: 100%;
     margin-right: auto;
-    
   }
-  .mb-1xl{
+
+  .mb-1xl {
     margin-bottom: 30px;
   }
 
-  .md-mt-xl{
-  margin-top: 28px !important;
-}
+  .md-mt-xl {
+    margin-top: 28px !important;
+  }
 
-.gap-xl{
-  gap:1.5rem !important;
-}
-
+  .gap-xl {
+    gap: 1.5rem !important;
+  }
 }
 
 @media (max-width: 768px) {
+
+  .tranform-y-4xl {
+    transform: translateY(0px);
+  }
+
+  .flex-col-rever-lg {
+    flex-direction: column-reverse !important;
+  }
+
   .xl-mt-2xl {
     margin-top: 24px;
     margin-bottom: 24px;
   }
-
-  /* .send-btn {
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: 0 !important;
-  } */
-
-  /* .mt-xxl {
-    font-size: 35px;
-  } */
 
   .fs-2xl {
     font-size: 30px;
@@ -355,41 +376,77 @@ background: #3c278d;
   .mb-1xl {
     margin-bottom: 20px;
   }
+
   .mt-1xl {
     margin-top: 20px !important;
   }
+
   .mt-xxl {
     margin-top: 12px;
   }
-  .xl-form-max-w-2xl{
+
+  .xl-form-max-w-2xl {
     max-width: 728px !important;
+  }
+
+  .mb-xl-6xl {
+    margin-bottom: 24px;
   }
 }
 
 @media (max-width: 576px) {
+  .ml-start-2xl {
+    margin-left: 4px !important;
+  }
+
+  .second-form-text {
+    font-size: 14px !important;
+  }
+
+  .get-btn-mt-xl {
+    margin-top: 16px;
+  }
+
+  .mt-1xl-sm {
+    margin-top: 16px !important;
+  }
+
+  .third-form-send-btn {
+    margin-top: 20px;
+  }
+
+  .px-2xl {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   .my-3xl {
     margin-top: 24px;
     margin-bottom: 24px;
   }
+
   .w-sm-100 {
     width: 100%;
   }
+
   .third-form-name-w {
     width: 100% !important;
   }
+
   .px-xl {
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
-  .mt-2xl{
+
+  .mt-2xl {
     margin-top: 16px;
   }
 
-  .sm-mt-2xl{
+  .sm-mt-2xl {
     margin-top: 16px;
   }
 
-  .sm-center-text-area{
+  .sm-center-text-area {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -398,23 +455,27 @@ background: #3c278d;
     padding-right: 0 !important;
   }
 
-  .sm-px-0{
+  .sm-px-0 {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
 
-  .send-btn{
-margin-left: auto;
-margin-right: auto;
-   width: 204px !important;
+  .send-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 204px !important;
   }
 
-  .sm-mx-xl{
+  .sm-mx-xl {
     margin-left: 12px !important;
     margin-right: 12px !important;
   }
-  .third-form-send-btn{
+
+  .third-form-send-btn {
     margin-bottom: 20px !important;
   }
 
+  .md-mt-xl {
+    margin-top: 20px !important;
+  }
 }
