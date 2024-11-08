@@ -282,7 +282,7 @@
   color: #3c278d;
 }
 
-.email-three-input-btn-h-1xl {
+.email-three-input-buttotn-h {
   height: 52px;
 }
 
@@ -302,15 +302,15 @@
   height: 46px;
 }
 
-.email-three-text-area-py{
+.email-three-text-area-py {
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 /* ------------------------responsive------------------- */
 @media (max-width: 1279.99px) {
-
-  .email-one-parent-xl-my{
+  
+  .email-one-parent-xl-my {
     margin-top: 36px;
     margin-bottom: 36px;
   }
@@ -318,11 +318,6 @@
   .email-three-input-btn-min-w {
     max-width: 984px !important;
   }
-
-  /* .xl-mt-2xl {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  } */
 
   .second-form-heading {
     font-size: 35px;
@@ -337,13 +332,14 @@
     margin-top: 24px;
   }
 
-  .email-one-xl-ps{
+  .email-one-xl-ps {
     padding-left: 11px;
   }
 
 }
 
 @media (max-width: 1023.99px) {
+
   .send-btn {
     max-width: 100%;
     margin-right: auto;
@@ -360,11 +356,12 @@
   .gap-xl {
     gap: 1.5rem !important;
   }
+
 }
 
 @media (max-width: 767.99px) {
 
-   .email-one-parent-xl-my{
+  .email-one-parent-xl-my {
     margin-top: 24px;
     margin-bottom: 24px;
   }
@@ -405,11 +402,12 @@
   .third-form-heading-pb {
     margin-bottom: 24px;
   }
+
 }
 
 @media (max-width: 575.99px) {
 
-   .email-one-xl-ps{
+  .email-one-xl-ps {
     padding-left: 0;
   }
   .email-one-btn-ml-start {
@@ -459,10 +457,6 @@
     margin-top: 16px;
   }
 
-  /* .sm-mt-2xl {
-    margin-top: 16px;
-  } */
-
   .sm-center-text-area {
     display: flex;
     align-items: center;
@@ -495,4 +489,5 @@
   .email-one-md-mt {
     margin-top: 20px !important;
   }
+
 }
