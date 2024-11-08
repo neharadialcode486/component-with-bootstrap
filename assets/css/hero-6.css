@@ -50,7 +50,7 @@
     box-shadow: #46AD47 0px 7px 29px 0px;
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
     .hero-heading {
         font-size: 56px;
     }
@@ -60,13 +60,13 @@
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.98px) {
     .hero-heading {
         font-size: 52px;
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     .hero-heading {
         font-size: 48px;
     }
