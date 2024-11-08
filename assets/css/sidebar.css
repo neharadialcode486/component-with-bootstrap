@@ -30,7 +30,9 @@
     transition: all 0.3s linear;
   }
   
-  /* Rotate lines to form a cross */
+  .profile{
+    padding-top: 45px;
+  }
   .rotate .line1 {
     transform: translateY(8px) rotate(45deg);
   }
@@ -45,7 +47,7 @@
   
 
 .sidebar_parent {
-    padding: 40px 28px;
+    padding: 45px 20px;
     width: 240px;
     min-width: 200px;
     height: 100vh;
