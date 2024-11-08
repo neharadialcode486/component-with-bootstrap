@@ -17,11 +17,11 @@
   max-width: 439px;
 }
 
-.max-w-1139 {
+.first-form-text-area-w {
   max-width: 1139px !important;
 }
 
-.mb-1xl {
+.first-form-heading-mb {
   margin-bottom: 31px;
 }
 
@@ -33,11 +33,11 @@
   line-height: 157%;
 }
 
-.email-one-textarea-h-3xl {
+.email-one-textarea-height {
   height: 130px !important;
 }
 
-.email-one-input-py-1xl {
+.email-one-input-py {
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -47,7 +47,7 @@
   border-radius: 12px;
 }
 
-.email-two-max-w-4xl {
+.email-one-btn-max-w {
   min-width: 146px !important;
 }
 
@@ -72,7 +72,7 @@
   height: 130px;
 }
 
-.email-one-label-mt-2xl {
+.email-one-label-mt {
   margin-top: 32px;
 }
 
@@ -104,7 +104,7 @@
   width: 100%;
 }
 
-.p-1xl {
+.third-form-input-p {
   padding: 12px;
 }
 
@@ -124,7 +124,7 @@
   font-size: 36px;
 }
 
-.label-pb-1xl {
+.email-one-label-pb {
   padding-bottom: 10px;
 }
 
@@ -132,11 +132,11 @@
   border: 1px solid #00000070 !important;
 }
 
-.mb-xl-6xl {
+.third-form-heading-pb {
   margin-bottom: 68px;
 }
 
-.mt-1xl {
+.email-one-btn-mt {
   margin-top: 31px !important;
 }
 
@@ -249,7 +249,7 @@
   color: #3c278d;
 }
 
-.get-btn-mt-xl {
+.email-one-get-btn-sm-mt {
   margin-top: 28px;
 }
 
@@ -264,11 +264,11 @@
   background: #3c278d;
 }
 
-.email-two-btn-ml-start-2xl {
+.email-one-btn-ml-start {
   margin-left: 1.2rem;
 }
 
-.email-two-card-p-2xll {
+.email-one-white-card-p {
   padding: 16px;
 }
 
@@ -290,11 +290,11 @@
   line-height: 119%;
 }
 
-.email-three-input-textarea-min-h-xxl {
+.email-three-input-textarea-min-h {
   min-height: 107px;
 }
 
-.email-three-input-btn-min-w-1xl {
+.email-three-input-btn-min-w {
   min-width: 135px;
 }
 
@@ -302,44 +302,58 @@
   height: 46px;
 }
 
-/* ------------------------responsive------------------- */
-@media (max-width: 1280px) {
+.email-three-text-area-py{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
 
-  .xl-form-max-w-2xl {
+/* ------------------------responsive------------------- */
+@media (max-width: 1279.99px) {
+
+  .email-one-parent-xl-my{
+    margin-top: 36px;
+    margin-bottom: 36px;
+  }
+
+  .email-three-input-btn-min-w {
     max-width: 984px !important;
   }
 
-  .xl-mt-2xl {
+  /* .xl-mt-2xl {
     margin-top: 24px;
     margin-bottom: 24px;
-  }
+  } */
 
   .second-form-heading {
     font-size: 35px;
   }
 
-  .my-3xl {
+  .email-one-xl-my {
     margin-top: 36px;
     margin-bottom: 36px;
   }
 
-  .email-one-label-mt-2xl {
+  .email-one-label-mt {
     margin-top: 24px;
   }
+
+  .email-one-xl-ps{
+    padding-left: 11px;
+  }
+
 }
 
-@media (max-width: 1024px) {
-
+@media (max-width: 1023.99px) {
   .send-btn {
     max-width: 100%;
     margin-right: auto;
   }
 
-  .mb-1xl {
+  .first-form-heading-mb {
     margin-bottom: 30px;
   }
 
-  .md-mt-xl {
+  .email-one-md-mt {
     margin-top: 28px !important;
   }
 
@@ -348,7 +362,12 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.99px) {
+
+   .email-one-parent-xl-my{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
 
   .tranform-y-4xl {
     transform: translateY(0px);
@@ -358,44 +377,42 @@
     flex-direction: column-reverse !important;
   }
 
-  .xl-mt-2xl {
-    margin-top: 24px;
-    margin-bottom: 24px;
-  }
-
   .fs-2xl {
     font-size: 30px;
   }
 
   .send-btn {
     margin-top: 23px;
-    /* margin-bottom: 23px; */
     margin-left: 12px;
   }
 
-  .mb-1xl {
+  .first-form-heading-mb {
     margin-bottom: 20px;
   }
 
-  .mt-1xl {
+  .email-one-btn-mt {
     margin-top: 20px !important;
   }
 
-  .mt-xxl {
+  .email-one-heading-md-mt {
     margin-top: 12px;
   }
 
-  .xl-form-max-w-2xl {
+  .email-three-input-btn-min-w {
     max-width: 728px !important;
   }
 
-  .mb-xl-6xl {
+  .third-form-heading-pb {
     margin-bottom: 24px;
   }
 }
 
-@media (max-width: 576px) {
-  .email-two-btn-ml-start-2xl {
+@media (max-width: 575.99px) {
+
+   .email-one-xl-ps{
+    padding-left: 0;
+  }
+  .email-one-btn-ml-start {
     margin-left: 4px !important;
   }
 
@@ -403,11 +420,11 @@
     font-size: 14px !important;
   }
 
-  .get-btn-mt-xl {
+  .email-one-get-btn-sm-mt {
     margin-top: 16px;
   }
 
-  .mt-1xl-sm {
+  .email-one-sm-mt {
     margin-top: 16px !important;
   }
 
@@ -415,12 +432,12 @@
     margin-top: 20px;
   }
 
-  .px-2xl {
+  .email-one-sm-container-px {
     padding-left: 12px;
     padding-right: 12px;
   }
 
-  .my-3xl {
+  .email-one-xl-my {
     margin-top: 24px;
     margin-bottom: 24px;
   }
@@ -438,13 +455,13 @@
     padding-right: 16px !important;
   }
 
-  .email-one-label-mt-2xl {
+  .email-one-label-mt {
     margin-top: 16px;
   }
 
-  .sm-mt-2xl {
+  /* .sm-mt-2xl {
     margin-top: 16px;
-  }
+  } */
 
   .sm-center-text-area {
     display: flex;
@@ -455,7 +472,7 @@
     padding-right: 0 !important;
   }
 
-  .sm-px-0 {
+  .email-one-text-area-sm-px {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -466,7 +483,7 @@
     width: 204px !important;
   }
 
-  .sm-mx-xl {
+  .email-one-text-area-sm-mx {
     margin-left: 12px !important;
     margin-right: 12px !important;
   }
@@ -475,7 +492,7 @@
     margin-bottom: 20px !important;
   }
 
-  .md-mt-xl {
+  .email-one-md-mt {
     margin-top: 20px !important;
   }
 }
