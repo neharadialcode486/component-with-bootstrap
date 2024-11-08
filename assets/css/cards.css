@@ -357,9 +357,11 @@
     margin-left: 20px !important;
     margin-right: 20px !important;
   }
+
 }
 
 @media (max-width: 1023.99px) {
+
   .digital-heading {
     font-size: 40px;
   }
@@ -379,6 +381,7 @@
 }
 
 @media (max-width: 767.99px) {
+
   .forth-cards-parent-my {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -416,6 +419,7 @@
 }
 
 @media (max-width: 575.99px) {
+
   .fourth-cards-conatiner-mx {
     margin-left: 0px !important;
     margin-right: 0px !important;
@@ -446,8 +450,6 @@
     margin-top: 24px !important;
   }
 
- 
-
   .flex-col {
     flex-direction: column;
   }
@@ -455,7 +457,6 @@
   .forth-cards-para-sm-max-W {
     max-width: none;
   }
-
 
   .first-section-heading {
     font-size: 28px;
@@ -477,4 +478,5 @@
   .first-cards-sm-para-pt {
     padding-top: 12px !important;
   }
+  
 }
