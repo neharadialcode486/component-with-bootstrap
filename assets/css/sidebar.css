@@ -3,6 +3,10 @@
     cursor: pointer !important;
 }
 
+.font_inter{
+  font-family: "Inter", sans-serif;
+}
+
 .opacity-50 {
     opacity: 50% !important;
 }
