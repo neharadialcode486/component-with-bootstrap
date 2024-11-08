@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "bootstrap-dropdown"
-  }
+    "default": "bootstrap-dropdown",
+    "y": "bootstrap-dropdown"
+  },
+  "targets": {},
+  "etags": {}
 }
