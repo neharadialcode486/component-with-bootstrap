@@ -64,7 +64,7 @@ section {
     position: relative;
 }
 
-@media (max-width:1200px) {
+@media (max-width:1199.98px) {
     .section-img {
         position: unset !important;
         margin-left: auto;
@@ -84,7 +84,7 @@ section {
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     .section-img {
         width: 100%;
     }

@@ -22,7 +22,6 @@
 
 .multi-color-img:hover {
     scale: 1.1;
-
 }
 
 .main-heading {
@@ -50,10 +49,9 @@
     background: white;
     color: #231754 !important;
     border: 2px solid #231754;
-
 }
 
-@media (max-width:1199.99px) {
+@media (max-width:1199.98px) {
     .main-heading {
         margin-top: 36px;
     }
@@ -67,14 +65,14 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
     .main-heading {
         font-size: 36px;
     }
 
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     .main-heading {
         font-size: 28px;
         margin-top: 36px;

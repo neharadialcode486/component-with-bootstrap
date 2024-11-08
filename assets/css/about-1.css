@@ -5,12 +5,11 @@
 }
 
 .bg-img {
-  background-image: url(/assets/image/webp/sec-1-bg.webp);
+  background-image: url("/assets/image/webp/sec-1-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .main-heading {
@@ -22,8 +21,7 @@
   color: #474747;
 }
 
-
-.footer-btn {
+.about-btn {
   border: 2px solid transparent;
   padding: 10px 55px;
   font-size: 16px;
@@ -32,21 +30,19 @@
   transition: all 400ms linear;
 }
 
-.footer-btn:hover {
+.about-btn:hover {
   background: white;
   color: #231754 !important;
   border: 2px solid #231754;
-
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
   .main-heading {
     font-size: 36px;
   }
-
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
   .main-heading {
     font-size: 28px;
   }
