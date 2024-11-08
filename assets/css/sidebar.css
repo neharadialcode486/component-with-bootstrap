@@ -55,6 +55,9 @@
     z-index: 5;
     background-color: black;
 }
+.links-parent{
+  padding-top: 62px;
+}
 .nav_link{
   gap: 16px !important;
   cursor: pointer;
@@ -109,6 +112,9 @@
         z-index: 1;
     }
     .sidebar_logo svg{
-      width: 120px !important;
+      width: 140px !important;
+    }
+    .links-parent{
+      padding-top: 30px;
     }
 }
