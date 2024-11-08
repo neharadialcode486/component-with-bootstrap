@@ -28,7 +28,6 @@
   padding: 10px 55px;
   font-size: 16px;
   background: #3C278D;
-  transform: translateY(-4px);
   border-radius: 12px;
   transition: all 400ms linear;
 }

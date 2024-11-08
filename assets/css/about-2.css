@@ -4,7 +4,7 @@
     font-family: "Inter", sans-serif;
 }
 
-.container{
+.container {
     max-width: 1280px !important;
 }
 
@@ -22,7 +22,7 @@
 
 .multi-color-img:hover {
     scale: 1.1;
-    
+
 }
 
 .main-heading {
@@ -53,12 +53,7 @@
 
 }
 
-@media (max-width:1200px) {
-    .xl-mx-auto {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
+@media (max-width:1199.99px) {
     .main-heading {
         margin-top: 36px;
     }
@@ -84,5 +79,4 @@
         font-size: 28px;
         margin-top: 36px;
     }
-
 }
