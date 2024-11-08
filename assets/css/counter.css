@@ -19,11 +19,11 @@
   flex-direction: column;
 }
 
-.block-mt-1 {
+.first-counter-pata-mt {
   margin-top: -1px;
 }
 
-.counter-h-xxl {
+.first-counter-height {
   height: 140px;
 }
 
@@ -37,15 +37,14 @@
   margin-left: auto !important;
   margin-right: auto !important;
   line-height: 120%;
-  color: #0E0F13;
-
+  color: #0e0f13;
 }
 
 .text-orange {
   color: #ff8c00;
 }
 
-.amzon-card-data {
+.amazon-card-data {
   font-size: 40px;
   line-height: 120%;
 }
@@ -61,24 +60,20 @@
   backdrop-filter: blur(10px);
 }
 
-.w-3xxl {
+.first-counter-card-w {
   width: 308px;
 }
 
-.card-two-box-w-3xl {
+.second-counter-card-w {
   width: 322px;
 }
 
-.card-two-box-w-4xl {
+.third-counter-card-w {
   width: 356px;
 }
 
 .counter-card-gap {
   gap: 50px !important;
-}
-
-.amzon-box-3 {
-  min-width: 356px;
 }
 
 .text-darkgreen {
@@ -97,11 +92,6 @@
   font-size: 50px;
 }
 
-.platfrom-heading {
-  line-height: 110%;
-  font-size: 40px;
-}
-
 .bg-lightgreen {
   background-color: #85b6a6;
 }
@@ -114,21 +104,9 @@
   background: #076787;
 }
 
-/* .mt-xxl {
-  margin-top: 56px;
-} */
-
 .plaform-card {
   width: 268px;
   border-radius: 4px;
-}
-
-.amzon-box-2 {
-  min-width: 322px;
-}
-
-.amzon-box {
-  min-width: 308px;
 }
 
 .text-base {
@@ -139,17 +117,17 @@
   opacity: 70%;
 }
 
-.platform-box-px-2xl {
+.first-sec-counter-box-px {
   padding-left: 60px;
   padding-right: 60px;
 }
 
-.platform-box-py-1xl {
+.first-sec-counter-box-py {
   padding-top: 36px;
   padding-bottom: 36px;
 }
 
-.first-card-section-mt-6xl{
+.first-sec-counter-box-mt {
   margin-top: 60px;
 }
 
@@ -161,12 +139,12 @@
   gap: 48px;
 }
 
-.first-card-px-1xl {
+.first-section-counter-box-px {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.first-card-py-3xl {
+.first-section-counter-box-py {
   padding-top: 27px;
   padding-bottom: 27px;
 }
@@ -175,22 +153,22 @@
   gap: 28px !important;
 }
 
-.px-5xl {
+.first-section-amazon-px {
   padding-left: 55px;
   padding-right: 55px;
 }
 
-.py-5xl {
+.first-section-amazon-py {
   padding-top: 55px;
   padding-bottom: 55px;
 }
 
-.platform-box-one-px-4xl {
+.first-section-platform-box-px {
   padding-left: 42px;
   padding-right: 42px;
 }
 
-.py-3xxl {
+.first-section-platform-box-two-py {
   padding-top: 40.5px;
   padding-bottom: 40.5px;
 }
@@ -199,7 +177,7 @@
   background-color: #f5f8fa;
 }
 
-.py-8xl {
+.second-section-container-two-py {
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -212,7 +190,7 @@
   font-size: 40px;
 }
 
-.counter-cards-mt-6xl {
+.counter-cards-mt-base {
   margin-top: 60px;
 }
 
@@ -228,7 +206,7 @@
   font-size: 50px;
 }
 
-.pt-2xl {
+.first-counter-para-pt {
   padding-top: 12px;
 }
 
@@ -239,6 +217,7 @@
 .card-size-3xl {
   height: 207px;
 }
+
 /* ---------------responsive------------ */
 
 @media (max-width: 1023.98px) {
@@ -247,21 +226,13 @@
     gap: 36px;
   }
 
-  .max-lg-py-2xxl {
+  .first-counter-section-py {
     padding-top: 40px;
     padding-bottom: 40px;
   }
 
   .amzon-counter-heading {
     font-size: 36px !important;
-  }
-
-  /* .mt-xxl {
-    margin-top: 36px;
-  } */
-
-  .platfrom-heading {
-    font-size: 30px;
   }
 
   .fs-2xl {
@@ -276,7 +247,7 @@
     font-size: 36px;
   }
 
-  .plat-form-box-heading-sm-mt-1xl{
+  .plat-form-box-heading-sm-mt-para {
     margin-top: -12px !important;
   }
 
@@ -288,7 +259,7 @@
     gap: 28px;
   }
 
-  .max-lg-cards-w-5xl {
+  .platform-max-lg-cards-w {
     width: 356px !important;
   }
 
@@ -300,31 +271,15 @@
     width: 78px;
   }
 
-  .amzon-box-3 {
-    min-width: 308px;
-  }
-
-  .amzon-box-2 {
-    min-width: 308px;
-  }
-
   .counter-card-gap {
     gap: 20px !important;
-  }
-/* 
-  .mt-xxl {
-    margin-top: 26px;
-  } */
-
-  .platfrom-heading {
-    font-size: 24px;
   }
 
   .text-6xl {
     font-size: 36px;
   }
 
-  .counter-cards-mt-6xl {
+  .counter-cards-mt-base {
     margin-top: 40px;
   }
 
@@ -335,11 +290,12 @@
   .fs-4xl {
     font-size: 30px;
   }
+
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.99px) {
 
-      .plat-form-box-heading-sm-mt-1xl{
+  .plat-form-box-heading-sm-mt-para {
     margin-top: -1px !important;
   }
 
@@ -351,7 +307,7 @@
     gap: 16px;
   }
 
-  .max-lg-py-2xxl {
+  .first-counter-section-py {
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -368,18 +324,20 @@
     font-size: 30px;
   }
 
-  .counter-cards-mt-6xl {
+  .counter-cards-mt-base {
     margin-top: 24px;
   }
 
   .fs-2xl {
     font-size: 30px;
   }
+
 }
 
 @media (max-width: 425px) {
 
-  .max-lg-cards-w-5xl {
+  .platform-max-lg-cards-w {
     width: 351px !important;
   }
+
 }

@@ -1,63 +1,111 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Counter</title>
-    <link rel="stylesheet" href="/assets/css/counter.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/counter.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
-  <body class="font-inter">
   
-    <section class="min-vh-100 d-flex justify-content-center align-items-center max-lg-py-2xxl ">
-    <div class="container">
-      <div class="heading text-center">
-        <h1
-          class="amzon-counter-heading fw-bold mb-0">
-          Clients trust us with their <span class="text-orange">Amazon
-            strategy for a
-            reason.</span></h1>
+  <body class="font-inter">
+    <section
+      class="min-vh-100 d-flex justify-content-center align-items-center first-counter-section-py"
+    >
+      <div class="container">
+        <div class="heading text-center">
+          <h1 class="amzon-counter-heading fw-bold mb-0">
+            Clients trust us with their
+            <span class="text-orange">Amazon strategy for a reason.</span>
+          </h1>
+        </div>
+        <div
+          id="counterOne"
+          class="d-flex flex-wrap first-counter-parent-gap-4xl max-lg:gap-9 max-md:gap-7 max-sm:gap-4 justify-content-center align-items-center first-sec-counter-box-mt"
+        >
+          <div
+            class="d-flex first-section-counter-box-px first-section-counter-box-py light-orange-border text-center position-relative first-counter-card-w platform-max-lg-cards-w gap-1xl first-counter-height"
+          >
+            <img
+              class="pointer-events-none"
+              src="./assets/images/svg/brand-icon.svg"
+              alt="image"
+            />
+            <div class="d-flex flex-column">
+              <div class="d-flex">
+                <p class="fw-bold amazon-card-data count m-0" data-count="20">
+                  0
+                </p>
+                <span class="fw-bold amazon-card-data">+</span>
+              </div>
+              <p
+                class="text-base fw-bold opacity-7xl m-0 first-card-text-color"
+              >
+                BRANDS MANAGED
+              </p>
+            </div>
+          </div>
+          <div
+            class="gap-1xl d-flex first-section-counter-box-px first-section-counter-box-py light-orange-border text-center position-relative second-counter-card-w platform-max-lg-cards-w first-counter-height"
+          >
+            <img
+              class="pointer-events-none"
+              src="./assets/images/svg/language-icon.svg"
+              alt="image"
+            />
+            <div class="d-flex flex-column">
+              <div class="d-flex">
+                <span class="fw-bold amazon-card-data m-0">0</span>
+                <p class="fw-bold amazon-card-data count m-0" data-count="7">
+                  0
+                </p>
+              </div>
+              <p
+                class="text-base fw-bold opacity-7xl m-0 first-card-text-color"
+              >
+                LANGUAGES SPOKEN
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex first-section-counter-box-px first-section-counter-box-py light-orange-border text-center position-relative third-counter-card-w gap-1xl platform-max-lg-cards-w first-counter-height"
+          >
+            <img
+              class="pointer-events-none"
+              src="./assets/images/svg/profit-icon.svg"
+              alt="image"
+            />
+            <div class="d-flex flex-column">
+              <div class="d-flex">
+                <span class="fw-bold amazon-card-data">$</span>
+                <p
+                  class="fw-bold amazon-card-data count m-0"
+                  data-count="100000"
+                >
+                  0
+                </p>
+                <span class="fw-bold amazon-card-data">+</span>
+              </div>
+              <p
+                class="text-base fw-bold opacity-7xl d-flex grow m-0 first-card-text-color"
+              >
+                GAINED IN PROFIT
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="counterOne"
-        class="d-flex flex-wrap first-counter-parent-gap-4xl max-lg:gap-9 max-md:gap-7 max-sm:gap-4 justify-content-center align-items-center first-card-section-mt-6xl">
-        <div
-          class="d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative w-3xxl max-lg-cards-w-5xl gap-1xl counter-h-xxl">
-          <img class="pointer-events-none" src="./assets/images/svg/brand-icon.svg" alt="image">
-          <div class="d-flex flex-column">
-            <div class="d-flex">
-              <p class="fw-bold amzon-card-data count m-0" data-count="20">0</p>
-              <span class="fw-bold amzon-card-data ">+</span>
-            </div>
-            <p class="text-base fw-bold opacity-7xl m-0 first-card-text-color">BRANDS MANAGED</p>
-          </div>
-        </div>
-        <div
-          class="gap-1xl d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative card-two-box-w-3xl max-lg-cards-w-5xl counter-h-xxl">
-          <img class="pointer-events-none" src="./assets/images/svg/language-icon.svg" alt="image">
-          <div class="d-flex flex-column">
-            <div class="d-flex ">
-              <span class="fw-bold amzon-card-data m-0">0</span>
-              <p class="fw-bold amzon-card-data count m-0" data-count="7">0</p>
-            </div>
-            <p class="text-base fw-bold opacity-7xl m-0 first-card-text-color">LANGUAGES SPOKEN</p>
-          </div>
-        </div>
-        <div
-          class="d-flex first-card-px-1xl first-card-py-3xl light-orange-border text-center position-relative card-two-box-w-4xl gap-1xl max-lg-cards-w-5xl counter-h-xxl">
-          <img class="pointer-events-none" src="./assets/images/svg/profit-icon.svg" alt="image">
-          <div class="d-flex flex-column">
-            <div class="d-flex">
-              <span class="fw-bold amzon-card-data ">$</span>
-              <p class="fw-bold amzon-card-data count m-0" data-count="100000">0</p>
-              <span class="fw-bold amzon-card-data">+</span>
-            </div>
-            <p class="text-base fw-bold opacity-7xl d-flex grow m-0 first-card-text-color">GAINED IN PROFIT</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/assets/js/counter.js"></script>
   </body>
