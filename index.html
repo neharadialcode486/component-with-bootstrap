@@ -12,82 +12,86 @@
 
 <body class="font-inter">
   <section class="min-vh-100 d-flex justify-content-center align-items-center bg-off-black tab-1-section">
-    <div class="container container-pt-xxl">
+    <div class="container tab-1-container">
       <div class="text-center">
-        <div class="position-relative d-inline-block nos-box-p button-one cursor-pointer rounded-full">
-          <div class="bg-light-black text-white rounded-full text-sm fw-medium nos-btn-p d-flex align-items-center">
+        <div class="position-relative d-inline-block nos-box button-one cursor-pointer rounded-full">
+          <div class="bg-light-black text-white rounded-full fw-medium nos-btn d-flex align-items-center">
             Nos formations
           </div>
         </div>
       </div>
-      <div class="max-xl-overflow-x-auto">
+
+      <!-- Tab buttons -->
+      <div class="overflow-x-auto">
         <div
-          class="nav-tab-button-parent mx-auto d-flex justify-content-lg-between justify-content-center align-items-center  scroll-w-0">
+          class="nav-tab-button-parent mx-auto d-flex justify-content-lg-between justify-content-center align-items-center scroll-w-0">
           <div data-target="content1"
-            class="position-relative d-inline-block p-sm button-one rounded-lg tab active cursor-pointer">
-            <div class="bg-light-black light-green rounded-lg text-lg fw-bold tab-heading-btn-p-md tabHead active">
+            class="position-relative d-inline-block button-one rounded-lg tab active cursor-pointer">
+            <div class="bg-light-black light-green rounded-lg fw-bold tabHead active">
               Néophyte
             </div>
           </div>
-          <div data-target="content2" class="position-relative d-inline-block p-sm rounded-lg tab cursor-pointer">
-            <div class=" rounded-lg text-lg fw-bold tab-heading-btn-p-md tabHead text-white">
+          <div data-target="content2" class="position-relative d-inline-block rounded-lg tab cursor-pointer">
+            <div class=" rounded-lg fw-bold tabHead text-white">
               Rentable
             </div>
           </div>
-          <div data-target="content3" class="position-relative d-inline-block p-sm rounded-lg tab cursor-pointer">
-            <div class=" rounded-lg text-lg fw-bold tab-heading-btn-p-md tabHead text-white">
+          <div data-target="content3" class="position-relative d-inline-block rounded-lg tab cursor-pointer">
+            <div class=" rounded-lg fw-bold tab-heading-btn-p-md tabHead text-white">
               Expérimenté
             </div>
           </div>
-          <div data-target="content2" class="position-relative d-inline-block p-sm rounded-lg tab cursor-pointer">
-            <div class=" rounded-lg text-lg fw-bold tab-heading-btn-p-md tabHead text-white">
+          <div data-target="content2" class="position-relative d-inline-block rounded-lg tab cursor-pointer">
+            <div class=" rounded-lg fw-bold tabHead text-white">
               Malin
             </div>
           </div>
-          <div data-target="content3" class="position-relative d-inline-block p-sm rounded-lg tab cursor-pointer">
-            <div class=" rounded-lg text-lg fw-bold tab-heading-btn-p-md tabHead text-white w-7/">
+          <div data-target="content3" class="position-relative d-inline-block rounded-lg tab cursor-pointer">
+            <div class=" rounded-lg fw-bold tabHead text-white">
               Indépendant
             </div>
           </div>
         </div>
       </div>
-      <div class="content-parent-pt-xl content-parent-pb-xxl  max-lg-pb-xl">
+
+      <!-- tab contents -->
+      <div class="content-parent-pt-xl content-parent-pb-xxl tab-main-parent">
         <!-- Content 1 -->
         <div id="content1" class="tabsInfo position-relative rounded-3xl">
-          <div class="d-flex max-lg-d-flex-col justify-content-center gap-xxl">
-            <div class=" w-5-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc pr-md">
-              <img class="max-xl-w-full max-w-500" src="/assets/images/png/navtabs-img.png" alt="image">
+          <div class="d-flex flex-xl-row flex-column justify-content-center tab-content-parent">
+            <div class="col-xl-5 col-12 d-xl-block d-flex align-items-center justify-content-center pe-xl-3 pe-0">
+              <img class="tab1-img" src="/assets/images/png/navtabs-img.png" alt="image">
             </div>
             <div
-              class="w-7-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc max-lg-d-flex-col max-lg-pt max-w-764 mt-3xl">
-              <div class="accordionItem rounded-2xl w-100 max-w-700 border-light-black">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              class="col-xl-7 col-12 d-xl-block d-flex align-content-center justify-content-center flex-xl-row flex-column accordion-parent accordion-parent">
+              <div class="accordionItem rounded-2xl w-100 border-light-black">
+                <div class="accordionHeader  d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     Investisseur néophyte</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652 m-0">Dans ce module dédié aux débutants,
+                <div class="accordionInfo gray-text text-base fw-normal d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera m-0">Dans ce module dédié aux débutants,
                         on passe en revue les principes de bases de ce marché avec de nombreuses vidéos sur le bitcoin,
                         les stratégies d'investissement les plus efficaces et la psychologie à adopter pour réussir.</p>
-                      <p class="text-base fw-medium gray-text max-w-652 m-0">L'objectif est d'Acquérir les bases
+                      <p class="text-base fw-medium gray-text accordion-pera m-0">L'objectif est d'Acquérir les bases
                         pour bien débuter en Investissement!</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="accordionItem rounded-2xl w-100 max-w-700 mt-3xl border-light-black">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              <div class="accordionItem rounded-2xl w-100 accordion-item2 accordion-item2 border-light-black">
+                <div class="accordionHeader  d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     En savoir plus</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl py-2 d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652">Lorem ipsum dolor sit
+                <div class="accordionInfo gray-text text-base fw-normal py-2 d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Odio impedit nihil molestiae, provident
                         dolore aliquam numquam amet a quam quisquam.</p>
                     </div>
@@ -97,26 +101,27 @@
             </div>
           </div>
         </div>
+
         <!-- Content 2 -->
         <div id="content2" class="tabsInfo position-relative rounded-3xl d-none">
-          <div class="d-flex max-lg-d-flex-col justify-content-center gap-xxl">
-            <div class="w-5-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc   ">
-              <img class="w-100 max-w-500 max-h-330" src="/assets/images/png/navtabs-img.png" alt="image">
+          <div class="d-flex flex-xl-row flex-column justify-content-center tab-content-parent">
+            <div class="col-xl-5 col-12 d-xl-block d-flex align-items-center justify-content-center pe-xl-3 pe-0">
+              <img class="w-100 tab1-img max-h-330" src="/assets/images/png/navtabs-img.png" alt="image">
             </div>
             <div
-              class="w-7-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc max-lg-d-flex-col max-lg-pt max-w-764 mt-3xl">
-              <div class="accordionItem border-light-black rounded-2xl  w-100 max-w-700">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              class="col-xl-7 col-12 d-xl-block d-flex align-content-center justify-content-center flex-xl-row flex-column accordion-parent accordion-parent">
+              <div class="accordionItem border-light-black rounded-2xl w-100">
+                <div class="accordionHeader d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     Investisseur néophyte</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652">Lorem ipsum dolor sit
+                <div class="accordionInfo gray-text text-base fw-normal d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit.</p>
-                      <p class="text-base fw-medium gray-text max-w-652">L'objectif est
+                      <p class="text-base fw-medium gray-text accordion-pera">L'objectif est
                         d'Acquérir
                         les
                         bases pour bien débuter en Investissement !</p>
@@ -124,19 +129,19 @@
                   </div>
                 </div>
               </div>
-              <div class="accordionItem border-light-black rounded-2xl  w-100 max-w-700 mt-3xl">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              <div class="accordionItem border-light-black rounded-2xl w-100 accordion-item2">
+                <div class="accordionHeader d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     En savoir plus</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652">Lorem ipsum dolor sit
+                <div class="accordionInfo gray-text text-base fw-normal d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Odio impedit nihil molestiae, provident
                         dolore aliquam numquam amet a quam quisquam.</p>
-                      <p class="text-base fw-medium gray-text max-w-652">L'objectif est
+                      <p class="text-base fw-medium gray-text accordion-pera">L'objectif est
                         d'Acquérir
                         les
                         bases pour bien débuter en Investissement !</p>
@@ -147,43 +152,44 @@
             </div>
           </div>
         </div>
+
         <!-- Content 3 -->
         <div id="content3" class="tabsInfo position-relative rounded-3xl d-none">
-          <div class="d-flex max-lg-d-flex-col justify-content-center gap-xxl">
-            <div class=" w-5-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc   ">
-              <img class=" w-100 max-w-500 max-h-330" src="/assets/images/png/navtabs-img.png" alt="image">
+          <div class="d-flex flex-lg-row flex-column justify-content-center tab-content-parent">
+            <div class="col-xl-5 col-12 d-xl-block d-flex align-items-center justify-content-center pe-xl-3 pe-0">
+              <img class=" w-100 tab1-img max-h-330" src="/assets/images/png/navtabs-img.png" alt="image">
             </div>
             <div
-              class="w-7-12 max-lg-w-full max-lg-d-flex max-lg-aic max-lg-jcc max-lg-d-flex-col max-lg-pt max-w-764 mt-3xl">
-              <div class="accordionItem border-light-black rounded-2xl  w-100 max-w-700">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              class="col-xl-7 col-12 d-xl-block d-flex align-content-center justify-content-center flex-xl-row flex-column accordion-parent accordion-parent">
+              <div class="accordionItem border-light-black rounded-2xl w-100">
+                <div class="accordionHeader d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     En savoir plus</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652">Lorem ipsum dolor sit
+                <div class="accordionInfo gray-text text-base fw-normal d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera">Lorem ipsum dolor sit
                         amet consectetur adipisicing elit. Odio impedit nihil molestiae, provident
                         dolore aliquam numquam amet a quam quisquam.</p>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="accordionItem border-light-black rounded-2xl  w-100 max-w-700 mt-3xl">
-                <div class="accordionHeader cursor-pointer d-flex justify-content-between p-1xl align-items-center">
-                  <div class="accordionHead off-white-text text-lg">
+              <div class="accordionItem border-light-black rounded-2xl w-100 accordion-item2">
+                <div class="accordionHeader d-flex justify-content-between align-items-center">
+                  <div class="accordionHead off-white-text">
                     Investisseur néophyte</div>
                   <img src="./assets/images/svg/add.svg" alt="arrow" class="traniastion-all">
                 </div>
-                <div class="accordionInfo gray-text text-base fw-normal max-md-px-xl d-none max-w-786">
-                  <div class="p-sm position-relative d-inline-block button-one rounded-2xl mt-md">
-                    <div class="bg-light-black p-1xl rounded-2xl">
-                      <p class="text-base fw-medium gray-text max-w-652">Dans ce module dédié aux débutants,
+                <div class="accordionInfo gray-text text-base fw-normal d-none max-w-786">
+                  <div class="info-parent position-relative d-inline-block button-one rounded-2xl">
+                    <div class="bg-light-black accordion-pera-parent rounded-2xl">
+                      <p class="text-base fw-medium gray-text accordion-pera">Dans ce module dédié aux débutants,
                         on passe en revue les principes de bases de ce marché avec de nombreuses vidéos sur le bitcoin,
                         les stratégies d'investissement les plus efficaces et la psychologie à adopter pour réussir.</p>
-                      <p class="text-base fw-medium gray-text max-w-652">L'objectif est d'Acquérir les bases
+                      <p class="text-base fw-medium gray-text accordion-pera">L'objectif est d'Acquérir les bases
                         pour bien débuter en Investissement !</p>
                     </div>
                   </div>
@@ -192,6 +198,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
