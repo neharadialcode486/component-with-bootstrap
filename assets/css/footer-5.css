@@ -1,39 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
-    text-decoration: none ;
+    text-decoration: none;
     font-family: "Inter", sans-serif !important;
 }
-footer{
+
+footer {
     max-width: 1920px;
 }
+
 .container {
     max-width: 1320px !important;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 12px;
 }
-.light-gray{
+
+.light-gray {
     color: #A0A6B0;
 }
 
-.bg-color{
+.bg-color {
     background: #151619;
 }
-.common-hover:hover{
-    color: white;
-    cursor: pointer;
-}
-.transitions{
+
+.transitions {
     transition: all 300ms linear;
 }
-.common-hover:hover {
+
+.footer-links:hover {
     color: #fff;
 }
-.icon-hover path, rect{
+
+.icon-hover path,
+rect {
     transition: all 300ms linear;
 }
+
 .icon-hover:hover path {
     fill: black;
 }
-.icon-hover:hover rect{
-    fill:#fff ;
+
+.icon-hover:hover rect {
+    fill: #fff;
 }

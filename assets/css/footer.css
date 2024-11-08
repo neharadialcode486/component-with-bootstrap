@@ -46,22 +46,22 @@
     color: #4D4D4D;
 }
 
-.email {
+.input-parent {
     outline: none;
     background: none;
     width: 73%;
 }
 
-.email::placeholder {
+.input::placeholder {
     color: #000;
 }
 
-.mail {
+.input-parent {
     background: #EAE7F2;
     border-radius: 12px;
 }
 
-.Search-btn {
+.search-btn {
     padding: 5.5px 14px;
     border: 2px solid transparent;
     background: #3C278D;
@@ -72,7 +72,7 @@
     transition: all 400ms linear;
 }
 
-.mail-btn:hover {
+.search-btn:hover {
     background-color: #fff;
     color: #3C278D !important;
     border: 2px solid #3C278D;
@@ -88,7 +88,7 @@
     max-width: 327px;
 }
 
-.common-hover:hover {
+.footer-links:hover {
     color: #3C278D;
 }
 
@@ -96,7 +96,7 @@
     scale: 1.1;
 }
 
-@media (max-width:991px) {
+@media (max-width:991.98px) {
     .container {
         padding: 0 20px !important;
     }

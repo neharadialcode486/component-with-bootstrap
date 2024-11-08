@@ -18,7 +18,7 @@
                 <div class="col-lg-5 col-md-6 col-12 text-start">
                     <div>
                         <div class="footer-logo mb-4">
-                            <a href="#footer" class="w-100"><img src="./assets/image/svg/footer-2-logo.svg"
+                            <a href="#logo" class="w-100"><img src="./assets/image/svg/footer-2-logo.svg"
                                     alt="footer-logo"></a>
                         </div>
                         <p class="light-gray about-text">Lorem ipsum dolor sit amet consectetur.
@@ -68,13 +68,13 @@
                     <div class="d-flex flex-column text-start mt-0 mt-md-0 mt-sm-5">
                         <p class="fs-md leading-150 text-white fw-semibold mb-2">Service</p>
                         <ul class="d-flex flex-column gap-1 mt-1">
-                            <li class="mb-2"><a href="#footer" class="light-gray common-hover leading-150">Hero</a></li>
-                            <li class="mb-2"><a href="#footer" class="light-gray common-hover leading-150">Why DatingStars</a>
+                            <li class="mb-2"><a href="#hero" class="light-gray footer-links leading-150">Hero</a></li>
+                            <li class="mb-2"><a href="#datingstars" class="light-gray footer-links leading-150">Why DatingStars</a>
                             </li>
-                            <li class="mb-2"><a href="#footer" class="light-gray common-hover leading-150">Meet DatingStars
+                            <li class="mb-2"><a href="#mrrt-datingstar" class="light-gray footer-links leading-150">Meet DatingStars
                                     Talk</a></li>
-                            <li class="mb-2"><a href="#footer" class="light-gray common-hover leading-150">Contact Us</a></li>
-                            <li class="mb-2"><a href="#footer" class="light-gray common-hover leading-150">Testimonial</a>
+                            <li class="mb-2"><a href="#contact-us" class="light-gray footer-links leading-150">Contact Us</a></li>
+                            <li class="mb-2"><a href="#testimonial" class="light-gray footer-links leading-150">Testimonial</a>
                             </li>
                         </ul>
                     </div>
@@ -86,11 +86,11 @@
                         <div>
                             <form>
                                 <div class="d-flex flex-md-row flex-column mt-2">
-                                    <div class="mail justify-content-between d-flex ps-3">
+                                    <div class="input-parent justify-content-between d-flex ps-3">
                                         <input type="email" placeholder="Enter Your Email"
-                                            class="email border-0 light-blue" required />
+                                            class="input border-0 light-blue" required />
                                     </div>
-                                    <button type="submit" class="mail-btn transitions fw-semibold">Subscribe</button>
+                                    <button type="submit" class="subscribe-btn transitions fw-semibold">Subscribe</button>
                                 </div>
                             </form>
 
@@ -101,14 +101,14 @@
             <div class="bottom-line"></div>
             <div class="row justify-content-end">
                 <div class="col-xl-4 col-12 mb-xl-0">
-                    <p class="light-gray text-xl-start d-xl-block d-none text-center">© 2024 DatingStars. All rights
+                    <p class="light-gray text-xl-start d-xl-block d-none text-center">© <span class="year"></span> DatingStars. All rights
                         Reserved</p>
                 </div>
                 <div class="col-xl-8 col-12">
                     <div class="row justify-content-xl-end justify-content-center d-flex align-items-center">
                         <div class="col-md-4 col-12 text-xl-end text-center mb-3 mb-md-0">
                             <a href="/"
-                                class="light-gray common-hover d-flex align-items-center justify-content-md-center justify-content-start"><svg
+                                class="light-gray footer-links d-flex align-items-center justify-content-md-center justify-content-start"><svg
                                     class="me-2" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -119,7 +119,7 @@
                         </div>
                         <div class="col-md-4 col-12 text-xl-end text-center  mb-3 mb-md-0">
                             <a href="mailto:webmaster@example.com"
-                                class="light-gray common-hover gap-2 d-flex align-items-center justify-content-md-center justify-content-start"><svg
+                                class="light-gray footer-links gap-2 d-flex align-items-center justify-content-md-center justify-content-start"><svg
                                     width="30" height="30" viewBox="0 0 30 30" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -130,7 +130,7 @@
                         </div>
                         <div class="col-md-3  col-12 text-xl-end justify-content-xl-end text-center">
                             <a href="tel:+1386-688-3295" target="_blank"
-                                class="common-hover light-gray d-flex align-items-center justify-content-md-center justify-content-start"><svg
+                                class="footer-links light-gray d-flex align-items-center justify-content-md-center justify-content-start"><svg
                                     width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -142,7 +142,7 @@
                 </div>
             </div>
             <div>
-                <p class="light-gray d-xl-none mb-0 text-md-center border-0 mt-3">© 2024 DatingStars. All rights
+                <p class="light-gray d-xl-none mb-0 text-md-center border-0 mt-3">© <span class="year"></span> DatingStars. All rights
                     Reserved</p>
             </div>
         </div>
@@ -150,6 +150,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script>
+            const year = document.querySelector(".year");
+            const currentYear = new Date().getFullYear();
+            year.textContent = currentYear;
+        </script>
 </body>
 
 </html>
