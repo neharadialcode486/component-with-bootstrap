@@ -43,14 +43,16 @@ body {
 .opacity-75 {
   opacity: 70% !important;
 }
+
 .roadmap-content {
   max-width: 1032px;
   margin-top: 94px;
 }
+
 .roadmap-content::after {
   position: absolute;
   content: "";
-  background-image: url(../images/webp/roadmap-line-image.webp);
+  background-image: url("../images/webp/roadmap-line-image.webp");
   background-size: cover;
   top: 0;
   left: -15px;
@@ -60,15 +62,18 @@ body {
   height: 1477px;
   width: 5px;
 }
+
 .roadmap-year {
   font-size: 40px;
   text-align: start;
   padding-bottom: 22px;
   line-height: 48px;
 }
+
 .roadmap-text {
   font-size: 16px;
 }
+
 .roadmap-block {
   padding-left: 70px;
   background-repeat: no-repeat;
@@ -83,13 +88,14 @@ body {
   top: 0;
   left: -60px;
   background-position: center;
-  width: 90px;
-  height: 90px;
+size: 90px;
   z-index: 10;
 }
+
 .roadmap-block-2 {
   margin-top: 140px;
 }
+
 .roadmap-block-2::after {
   background-image: url("../images/webp/question-two.webp");
   position: absolute;
@@ -98,8 +104,7 @@ body {
   top: 0px;
   left: -60px;
   background-position: center;
-  width: 90px;
-  height: 90px;
+size: 90px;
   z-index: 10;
 }
 .roadmap-block-3 {
@@ -113,8 +118,7 @@ body {
   top: 0px;
   left: -60px;
   background-position: center;
-  width: 90px;
-  height: 90px;
+size: 90px;
   z-index: 10;
 }
 .roadmap-block-4 {
@@ -128,8 +132,7 @@ body {
   top: 144px;
   left: -60px;
   background-position: center;
-  width: 90px;
-  height: 90px;
+size: 90px;
   z-index: 10;
 }
 
@@ -145,23 +148,19 @@ body {
     padding: 128px 0px !important;
   }
   .roadmap-block-1::after {
-    width: 56px;
-    height: 56px;
+ size: 56px;
     left: -20px;
   }
   .roadmap-block-2::after {
-    width: 56px;
-    height: 56px;
+ size: 56px;
     left: -20px;
   }
   .roadmap-block-3::after {
-    width: 56px;
-    height: 56px;
+ size: 56px;
     left: -20px;
   }
   .roadmap-block-4::after {
-    width: 56px;
-    height: 56px;
+ size: 56px;
     left: -20px;
   }
   .roadmap-block-2 {
@@ -244,7 +243,7 @@ body {
     margin-top: 56px;
   }
 }
-@media (max-width: 515px) {
+@media (max-width: 515.98px) {
   .roadmap-section{
     padding: 40px 0 !important;
   }
@@ -302,7 +301,8 @@ body {
     margin-top: 40px;
   }
 }
-@media (max-width: 424px) {
+
+@media (max-width: 424.98px) {
   .roadmap-content::after {
     left: 25px;
     height: 1545px;

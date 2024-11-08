@@ -5,20 +5,15 @@ body {
 .container {
   margin-top: 61px;
   max-width: 1180px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 .roadmap-section {
-  padding-top: 48px;
-  padding-bottom: 85px;
-  padding-left: 8px;
-  padding-right: 16px;
+   padding: 48px 16px 85px 8px;
 }
 
 .roadmap-description {
   max-width: 934px;
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 0 12px;
   color: #000000b2;
 }
 .heading {
@@ -47,18 +42,17 @@ body {
   line-height: 2rem;
 }
 .step-circle {
-  height: 71px;
-  width: 71px;
+  size: 71px;
   border: 1px solid black;
   border-radius: 50%;
 }
-.small {
+.roadmap-pera {
   max-width: 429px;
   font-size: 16px;
   padding-top: 8px;
   color: #000000b2;
 }
-.small-3 {
+.roadmap-pera-3 {
   max-width: 448px;
   font-size: 16px;
   padding-top: 8px;
@@ -75,8 +69,7 @@ body {
 }
 
 .step-circle-small {
-  height: 50px;
-  width: 50px;
+ size: 50px;
   border: 1px solid black;
   border-radius: 50%;
 }
@@ -127,7 +120,7 @@ body {
     font-size: 30px;
     line-height: 2.25rem;
   }
-  .small , .small-3{
+  .roadmap-pera , .roadmap-pera-3{
     font-size: 14px;
   }
   }
