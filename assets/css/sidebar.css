@@ -1,6 +1,6 @@
 /* SIDEBAR CSS HERE========================================================================= */
 .cursor_pointer {
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .opacity-50 {
@@ -51,6 +51,7 @@
 }
 .nav_link{
   gap: 16px !important;
+  cursor: pointer;
 }
 
 .nav_link.active .nav_icon {
