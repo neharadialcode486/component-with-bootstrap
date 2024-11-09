@@ -24,6 +24,7 @@
   flex-direction: column;
   justify-content: space-around;
   cursor: pointer;
+  z-index: 80;
 }
 
 .line {
@@ -37,6 +38,7 @@
 
 .rotate .line1 {
   transform: translateY(8px) rotate(45deg);
+  background-color: white;
 }
 
 .rotate .line2 {
@@ -45,6 +47,7 @@
 
 .rotate .line3 {
   transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
 }
 
 /* ========sidebar========= */
@@ -129,8 +132,9 @@
     padding: 20px;
   }
 
-  .main_parent .sidebar-overlay {
-    background-color: rgba(154, 34, 34, 0.1);
+  .sidebar-overlay {
+    background-color: black;
+    opacity: 90%;
     height: 100%;
     left: 0;
     position: fixed;
@@ -138,6 +142,7 @@
     transition: all 0.3s ease-in-out;
     width: 100%;
     z-index: 1;
+    display: none;
   }
 
   .sidebar_logo svg {
